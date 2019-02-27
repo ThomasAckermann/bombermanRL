@@ -40,13 +40,13 @@ def main():
     # mp.set_start_method('spawn')
 
     # Initialize environment and agents
-    # world = BombeRLeWorld([
-    #         ('simple_agent', False),
-    #         ('simple_agent', False),
-    #         ('simple_agent', False),
-    #         ('simple_agent', False)
-    #     ])
-    world = ReplayWorld('replay')# ('Replay 2019-01-30 16:57:42')
+    world = BombeRLeWorld([
+            ('agent', False),
+            ('simple_agent', False),
+            ('simple_agent', False),
+            ('simple_agent', False)
+        ])
+    # world = ReplayWorld('replay')# ('Replay 2019-01-30 16:57:42')
     user_inputs = []
 
     # Start game logic thread
