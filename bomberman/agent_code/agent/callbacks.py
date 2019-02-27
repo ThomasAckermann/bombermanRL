@@ -5,7 +5,7 @@ def setup(agent):
     pass
 
 def act(agent):
-    self.next_action = 'RIGHT'
+    pass
 
 def reward_update(agent):
     pass
