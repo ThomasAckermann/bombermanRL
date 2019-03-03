@@ -1,164 +1,377 @@
-2019-02-27 17:05:11,614 [BombeRLeWorld] INFO: Initializing game world
-2019-02-27 17:05:11,674 [BombeRLeWorld] INFO: Starting process for agent <agent>
-2019-02-27 17:05:11,688 [BombeRLeWorld] INFO: STARTING ROUND #1
-2019-02-27 17:05:11,799 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-02-27 17:05:11,804 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:11,903 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-02-27 17:05:11,908 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:12,008 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-02-27 17:05:12,013 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:12,113 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-02-27 17:05:12,120 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:12,217 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-02-27 17:05:12,225 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:12,321 [BombeRLeWorld] INFO: STARTING STEP 6
-2019-02-27 17:05:12,323 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:12,425 [BombeRLeWorld] INFO: STARTING STEP 7
-2019-02-27 17:05:12,429 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:12,429 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (2, 11) and receives 1 point
-2019-02-27 17:05:12,530 [BombeRLeWorld] INFO: STARTING STEP 8
-2019-02-27 17:05:12,534 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:12,634 [BombeRLeWorld] INFO: STARTING STEP 9
-2019-02-27 17:05:12,639 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:12,739 [BombeRLeWorld] INFO: STARTING STEP 10
-2019-02-27 17:05:12,752 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:12,843 [BombeRLeWorld] INFO: STARTING STEP 11
-2019-02-27 17:05:12,848 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:12,948 [BombeRLeWorld] INFO: STARTING STEP 12
-2019-02-27 17:05:12,959 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:13,053 [BombeRLeWorld] INFO: STARTING STEP 13
-2019-02-27 17:05:13,060 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:13,158 [BombeRLeWorld] INFO: STARTING STEP 14
-2019-02-27 17:05:13,163 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:13,262 [BombeRLeWorld] INFO: STARTING STEP 15
-2019-02-27 17:05:13,266 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:13,266 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (4, 7) and receives 1 point
-2019-02-27 17:05:13,366 [BombeRLeWorld] INFO: STARTING STEP 16
-2019-02-27 17:05:13,370 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:13,471 [BombeRLeWorld] INFO: STARTING STEP 17
-2019-02-27 17:05:13,479 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:13,575 [BombeRLeWorld] INFO: STARTING STEP 18
-2019-02-27 17:05:13,579 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:13,680 [BombeRLeWorld] INFO: STARTING STEP 19
-2019-02-27 17:05:13,682 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:13,784 [BombeRLeWorld] INFO: STARTING STEP 20
-2019-02-27 17:05:13,789 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:13,889 [BombeRLeWorld] INFO: STARTING STEP 21
-2019-02-27 17:05:13,897 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:13,899 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (6, 5) and receives 1 point
-2019-02-27 17:05:13,994 [BombeRLeWorld] INFO: STARTING STEP 22
-2019-02-27 17:05:13,998 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,099 [BombeRLeWorld] INFO: STARTING STEP 23
-2019-02-27 17:05:14,108 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,203 [BombeRLeWorld] INFO: STARTING STEP 24
-2019-02-27 17:05:14,207 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,307 [BombeRLeWorld] INFO: STARTING STEP 25
-2019-02-27 17:05:14,315 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,412 [BombeRLeWorld] INFO: STARTING STEP 26
-2019-02-27 17:05:14,416 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,516 [BombeRLeWorld] INFO: STARTING STEP 27
-2019-02-27 17:05:14,520 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:14,623 [BombeRLeWorld] INFO: STARTING STEP 28
-2019-02-27 17:05:14,627 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:14,728 [BombeRLeWorld] INFO: STARTING STEP 29
-2019-02-27 17:05:14,733 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:14,734 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (10, 7) and receives 1 point
-2019-02-27 17:05:14,832 [BombeRLeWorld] INFO: STARTING STEP 30
-2019-02-27 17:05:14,838 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,936 [BombeRLeWorld] INFO: STARTING STEP 31
-2019-02-27 17:05:14,938 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:14,938 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (12, 7) and receives 1 point
-2019-02-27 17:05:15,044 [BombeRLeWorld] INFO: STARTING STEP 32
-2019-02-27 17:05:15,049 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:15,149 [BombeRLeWorld] INFO: STARTING STEP 33
-2019-02-27 17:05:15,153 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:15,254 [BombeRLeWorld] INFO: STARTING STEP 34
-2019-02-27 17:05:15,262 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:15,358 [BombeRLeWorld] INFO: STARTING STEP 35
-2019-02-27 17:05:15,363 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:15,464 [BombeRLeWorld] INFO: STARTING STEP 36
-2019-02-27 17:05:15,468 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:15,567 [BombeRLeWorld] INFO: STARTING STEP 37
-2019-02-27 17:05:15,569 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:15,569 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (12, 11) and receives 1 point
-2019-02-27 17:05:15,672 [BombeRLeWorld] INFO: STARTING STEP 38
-2019-02-27 17:05:15,676 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:15,777 [BombeRLeWorld] INFO: STARTING STEP 39
-2019-02-27 17:05:15,789 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:15,880 [BombeRLeWorld] INFO: STARTING STEP 40
-2019-02-27 17:05:15,882 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:15,986 [BombeRLeWorld] INFO: STARTING STEP 41
-2019-02-27 17:05:15,992 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:16,090 [BombeRLeWorld] INFO: STARTING STEP 42
-2019-02-27 17:05:16,095 [BombeRLeWorld] INFO: Agent <agent> chose action DOWN in 0.00s.
-2019-02-27 17:05:16,194 [BombeRLeWorld] INFO: STARTING STEP 43
-2019-02-27 17:05:16,196 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:16,196 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (10, 15) and receives 1 point
-2019-02-27 17:05:16,299 [BombeRLeWorld] INFO: STARTING STEP 44
-2019-02-27 17:05:16,306 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:16,404 [BombeRLeWorld] INFO: STARTING STEP 45
-2019-02-27 17:05:16,411 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:16,508 [BombeRLeWorld] INFO: STARTING STEP 46
-2019-02-27 17:05:16,513 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:16,613 [BombeRLeWorld] INFO: STARTING STEP 47
-2019-02-27 17:05:16,624 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:16,719 [BombeRLeWorld] INFO: STARTING STEP 48
-2019-02-27 17:05:16,724 [BombeRLeWorld] INFO: Agent <agent> chose action RIGHT in 0.00s.
-2019-02-27 17:05:16,823 [BombeRLeWorld] INFO: STARTING STEP 49
-2019-02-27 17:05:16,829 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:16,928 [BombeRLeWorld] INFO: STARTING STEP 50
-2019-02-27 17:05:16,932 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,032 [BombeRLeWorld] INFO: STARTING STEP 51
-2019-02-27 17:05:17,043 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,137 [BombeRLeWorld] INFO: STARTING STEP 52
-2019-02-27 17:05:17,142 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,242 [BombeRLeWorld] INFO: STARTING STEP 53
-2019-02-27 17:05:17,246 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,346 [BombeRLeWorld] INFO: STARTING STEP 54
-2019-02-27 17:05:17,350 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,457 [BombeRLeWorld] INFO: STARTING STEP 55
-2019-02-27 17:05:17,461 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,562 [BombeRLeWorld] INFO: STARTING STEP 56
-2019-02-27 17:05:17,571 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,666 [BombeRLeWorld] INFO: STARTING STEP 57
-2019-02-27 17:05:17,668 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,771 [BombeRLeWorld] INFO: STARTING STEP 58
-2019-02-27 17:05:17,775 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,876 [BombeRLeWorld] INFO: STARTING STEP 59
-2019-02-27 17:05:17,880 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,980 [BombeRLeWorld] INFO: STARTING STEP 60
-2019-02-27 17:05:17,985 [BombeRLeWorld] INFO: Agent <agent> chose action UP in 0.00s.
-2019-02-27 17:05:17,985 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (15, 3) and receives 1 point
-2019-02-27 17:05:18,085 [BombeRLeWorld] INFO: STARTING STEP 61
-2019-02-27 17:05:18,087 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,190 [BombeRLeWorld] INFO: STARTING STEP 62
-2019-02-27 17:05:18,192 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,294 [BombeRLeWorld] INFO: STARTING STEP 63
-2019-02-27 17:05:18,297 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,399 [BombeRLeWorld] INFO: STARTING STEP 64
-2019-02-27 17:05:18,403 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,503 [BombeRLeWorld] INFO: STARTING STEP 65
-2019-02-27 17:05:18,508 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,608 [BombeRLeWorld] INFO: STARTING STEP 66
-2019-02-27 17:05:18,612 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,713 [BombeRLeWorld] INFO: STARTING STEP 67
-2019-02-27 17:05:18,725 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,815 [BombeRLeWorld] INFO: STARTING STEP 68
-2019-02-27 17:05:18,820 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:18,919 [BombeRLeWorld] INFO: STARTING STEP 69
-2019-02-27 17:05:18,925 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:19,024 [BombeRLeWorld] INFO: STARTING STEP 70
-2019-02-27 17:05:19,028 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:19,129 [BombeRLeWorld] INFO: STARTING STEP 71
-2019-02-27 17:05:19,133 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:19,234 [BombeRLeWorld] INFO: STARTING STEP 72
-2019-02-27 17:05:19,238 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:19,338 [BombeRLeWorld] INFO: STARTING STEP 73
-2019-02-27 17:05:19,340 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:19,443 [BombeRLeWorld] INFO: STARTING STEP 74
-2019-02-27 17:05:19,453 [BombeRLeWorld] INFO: Agent <agent> chose action LEFT in 0.00s.
-2019-02-27 17:05:19,453 [BombeRLeWorld] INFO: Agent <agent> picked up coin at (1, 3) and receives 1 point
-2019-02-27 17:05:19,454 [BombeRLeWorld] INFO: One agent left alive with nothing to do, wrap up round
-2019-02-27 17:05:19,559 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2019-02-27 17:05:58,114 [BombeRLeWorld] WARNING: End-of-round requested while no round was running
-2019-02-27 17:05:58,114 [BombeRLeWorld] INFO: SHUT DOWN
+2019-03-03 18:59:14,757 [BombeRLeWorld] INFO: Initializing game world
+2019-03-03 18:59:14,855 [BombeRLeWorld] INFO: Starting process for agent <q_agent>
+2019-03-03 18:59:15,304 [BombeRLeWorld] INFO: STARTING ROUND #1
+2019-03-03 18:59:15,416 [BombeRLeWorld] INFO: STARTING STEP 1
+2019-03-03 18:59:15,436 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:15,522 [BombeRLeWorld] INFO: STARTING STEP 2
+2019-03-03 18:59:15,549 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:15,627 [BombeRLeWorld] INFO: STARTING STEP 3
+2019-03-03 18:59:15,637 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:15,733 [BombeRLeWorld] INFO: STARTING STEP 4
+2019-03-03 18:59:15,763 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:15,838 [BombeRLeWorld] INFO: STARTING STEP 5
+2019-03-03 18:59:15,856 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:15,943 [BombeRLeWorld] INFO: STARTING STEP 6
+2019-03-03 18:59:15,970 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:16,047 [BombeRLeWorld] INFO: STARTING STEP 7
+2019-03-03 18:59:16,057 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:16,152 [BombeRLeWorld] INFO: STARTING STEP 8
+2019-03-03 18:59:16,175 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:16,256 [BombeRLeWorld] INFO: STARTING STEP 9
+2019-03-03 18:59:16,269 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:16,360 [BombeRLeWorld] INFO: STARTING STEP 10
+2019-03-03 18:59:16,376 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:16,464 [BombeRLeWorld] INFO: STARTING STEP 11
+2019-03-03 18:59:16,500 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:16,568 [BombeRLeWorld] INFO: STARTING STEP 12
+2019-03-03 18:59:16,590 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:16,673 [BombeRLeWorld] INFO: STARTING STEP 13
+2019-03-03 18:59:16,700 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:16,778 [BombeRLeWorld] INFO: STARTING STEP 14
+2019-03-03 18:59:16,787 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:16,883 [BombeRLeWorld] INFO: STARTING STEP 15
+2019-03-03 18:59:16,908 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:16,988 [BombeRLeWorld] INFO: STARTING STEP 16
+2019-03-03 18:59:17,003 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:17,095 [BombeRLeWorld] INFO: STARTING STEP 17
+2019-03-03 18:59:17,117 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:17,199 [BombeRLeWorld] INFO: STARTING STEP 18
+2019-03-03 18:59:17,211 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:17,304 [BombeRLeWorld] INFO: STARTING STEP 19
+2019-03-03 18:59:17,326 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:17,407 [BombeRLeWorld] INFO: STARTING STEP 20
+2019-03-03 18:59:17,423 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:17,509 [BombeRLeWorld] INFO: STARTING STEP 21
+2019-03-03 18:59:17,536 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:17,614 [BombeRLeWorld] INFO: STARTING STEP 22
+2019-03-03 18:59:17,625 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:17,719 [BombeRLeWorld] INFO: STARTING STEP 23
+2019-03-03 18:59:17,737 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:17,823 [BombeRLeWorld] INFO: STARTING STEP 24
+2019-03-03 18:59:17,856 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:17,927 [BombeRLeWorld] INFO: STARTING STEP 25
+2019-03-03 18:59:17,947 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:18,032 [BombeRLeWorld] INFO: STARTING STEP 26
+2019-03-03 18:59:18,048 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:18,135 [BombeRLeWorld] INFO: STARTING STEP 27
+2019-03-03 18:59:18,152 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:18,240 [BombeRLeWorld] INFO: STARTING STEP 28
+2019-03-03 18:59:18,265 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:18,344 [BombeRLeWorld] INFO: STARTING STEP 29
+2019-03-03 18:59:18,357 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:18,448 [BombeRLeWorld] INFO: STARTING STEP 30
+2019-03-03 18:59:18,482 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:18,554 [BombeRLeWorld] INFO: STARTING STEP 31
+2019-03-03 18:59:18,568 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:18,659 [BombeRLeWorld] INFO: STARTING STEP 32
+2019-03-03 18:59:18,686 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:18,764 [BombeRLeWorld] INFO: STARTING STEP 33
+2019-03-03 18:59:18,773 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:18,868 [BombeRLeWorld] INFO: STARTING STEP 34
+2019-03-03 18:59:18,895 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:18,972 [BombeRLeWorld] INFO: STARTING STEP 35
+2019-03-03 18:59:18,994 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:19,088 [BombeRLeWorld] INFO: STARTING STEP 36
+2019-03-03 18:59:19,107 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:19,192 [BombeRLeWorld] INFO: STARTING STEP 37
+2019-03-03 18:59:19,208 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:19,297 [BombeRLeWorld] INFO: STARTING STEP 38
+2019-03-03 18:59:19,311 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:19,400 [BombeRLeWorld] INFO: STARTING STEP 39
+2019-03-03 18:59:19,415 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:19,505 [BombeRLeWorld] INFO: STARTING STEP 40
+2019-03-03 18:59:19,517 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:19,610 [BombeRLeWorld] INFO: STARTING STEP 41
+2019-03-03 18:59:19,637 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:19,714 [BombeRLeWorld] INFO: STARTING STEP 42
+2019-03-03 18:59:19,734 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:19,817 [BombeRLeWorld] INFO: STARTING STEP 43
+2019-03-03 18:59:19,832 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:19,922 [BombeRLeWorld] INFO: STARTING STEP 44
+2019-03-03 18:59:19,951 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:20,032 [BombeRLeWorld] INFO: STARTING STEP 45
+2019-03-03 18:59:20,058 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:20,137 [BombeRLeWorld] INFO: STARTING STEP 46
+2019-03-03 18:59:20,174 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.02s.
+2019-03-03 18:59:20,241 [BombeRLeWorld] INFO: STARTING STEP 47
+2019-03-03 18:59:20,272 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:20,273 [BombeRLeWorld] INFO: Agent <q_agent> picked up coin at (13, 3) and receives 1 point
+2019-03-03 18:59:20,346 [BombeRLeWorld] INFO: STARTING STEP 48
+2019-03-03 18:59:20,369 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:20,451 [BombeRLeWorld] INFO: STARTING STEP 49
+2019-03-03 18:59:20,471 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:20,560 [BombeRLeWorld] INFO: STARTING STEP 50
+2019-03-03 18:59:20,587 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:20,665 [BombeRLeWorld] INFO: STARTING STEP 51
+2019-03-03 18:59:20,689 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:20,769 [BombeRLeWorld] INFO: STARTING STEP 52
+2019-03-03 18:59:20,785 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:20,873 [BombeRLeWorld] INFO: STARTING STEP 53
+2019-03-03 18:59:20,903 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:20,979 [BombeRLeWorld] INFO: STARTING STEP 54
+2019-03-03 18:59:21,008 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:21,084 [BombeRLeWorld] INFO: STARTING STEP 55
+2019-03-03 18:59:21,102 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:21,189 [BombeRLeWorld] INFO: STARTING STEP 56
+2019-03-03 18:59:21,232 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:21,293 [BombeRLeWorld] INFO: STARTING STEP 57
+2019-03-03 18:59:21,309 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:21,397 [BombeRLeWorld] INFO: STARTING STEP 58
+2019-03-03 18:59:21,413 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:21,503 [BombeRLeWorld] INFO: STARTING STEP 59
+2019-03-03 18:59:21,530 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:21,613 [BombeRLeWorld] INFO: STARTING STEP 60
+2019-03-03 18:59:21,641 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:21,719 [BombeRLeWorld] INFO: STARTING STEP 61
+2019-03-03 18:59:21,754 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:21,823 [BombeRLeWorld] INFO: STARTING STEP 62
+2019-03-03 18:59:21,853 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:21,931 [BombeRLeWorld] INFO: STARTING STEP 63
+2019-03-03 18:59:21,947 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:22,036 [BombeRLeWorld] INFO: STARTING STEP 64
+2019-03-03 18:59:22,066 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:22,144 [BombeRLeWorld] INFO: STARTING STEP 65
+2019-03-03 18:59:22,160 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:22,247 [BombeRLeWorld] INFO: STARTING STEP 66
+2019-03-03 18:59:22,257 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:22,352 [BombeRLeWorld] INFO: STARTING STEP 67
+2019-03-03 18:59:22,375 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:22,456 [BombeRLeWorld] INFO: STARTING STEP 68
+2019-03-03 18:59:22,470 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:22,562 [BombeRLeWorld] INFO: STARTING STEP 69
+2019-03-03 18:59:22,584 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:22,672 [BombeRLeWorld] INFO: STARTING STEP 70
+2019-03-03 18:59:22,686 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:22,777 [BombeRLeWorld] INFO: STARTING STEP 71
+2019-03-03 18:59:22,794 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:22,882 [BombeRLeWorld] INFO: STARTING STEP 72
+2019-03-03 18:59:22,898 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:22,986 [BombeRLeWorld] INFO: STARTING STEP 73
+2019-03-03 18:59:23,009 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:23,090 [BombeRLeWorld] INFO: STARTING STEP 74
+2019-03-03 18:59:23,105 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:23,195 [BombeRLeWorld] INFO: STARTING STEP 75
+2019-03-03 18:59:23,219 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:23,300 [BombeRLeWorld] INFO: STARTING STEP 76
+2019-03-03 18:59:23,314 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:23,406 [BombeRLeWorld] INFO: STARTING STEP 77
+2019-03-03 18:59:23,426 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:23,511 [BombeRLeWorld] INFO: STARTING STEP 78
+2019-03-03 18:59:23,524 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:23,614 [BombeRLeWorld] INFO: STARTING STEP 79
+2019-03-03 18:59:23,640 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:23,718 [BombeRLeWorld] INFO: STARTING STEP 80
+2019-03-03 18:59:23,731 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:23,823 [BombeRLeWorld] INFO: STARTING STEP 81
+2019-03-03 18:59:23,845 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:23,927 [BombeRLeWorld] INFO: STARTING STEP 82
+2019-03-03 18:59:23,942 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:24,031 [BombeRLeWorld] INFO: STARTING STEP 83
+2019-03-03 18:59:24,051 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:24,135 [BombeRLeWorld] INFO: STARTING STEP 84
+2019-03-03 18:59:24,145 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:24,240 [BombeRLeWorld] INFO: STARTING STEP 85
+2019-03-03 18:59:24,255 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:24,345 [BombeRLeWorld] INFO: STARTING STEP 86
+2019-03-03 18:59:24,377 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.02s.
+2019-03-03 18:59:24,449 [BombeRLeWorld] INFO: STARTING STEP 87
+2019-03-03 18:59:24,475 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:24,553 [BombeRLeWorld] INFO: STARTING STEP 88
+2019-03-03 18:59:24,579 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:24,657 [BombeRLeWorld] INFO: STARTING STEP 89
+2019-03-03 18:59:24,672 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:24,760 [BombeRLeWorld] INFO: STARTING STEP 90
+2019-03-03 18:59:24,791 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:24,869 [BombeRLeWorld] INFO: STARTING STEP 91
+2019-03-03 18:59:24,889 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:24,972 [BombeRLeWorld] INFO: STARTING STEP 92
+2019-03-03 18:59:25,004 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:25,077 [BombeRLeWorld] INFO: STARTING STEP 93
+2019-03-03 18:59:25,088 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:25,182 [BombeRLeWorld] INFO: STARTING STEP 94
+2019-03-03 18:59:25,219 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:25,285 [BombeRLeWorld] INFO: STARTING STEP 95
+2019-03-03 18:59:25,304 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:25,389 [BombeRLeWorld] INFO: STARTING STEP 96
+2019-03-03 18:59:25,423 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.02s.
+2019-03-03 18:59:25,494 [BombeRLeWorld] INFO: STARTING STEP 97
+2019-03-03 18:59:25,509 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:25,598 [BombeRLeWorld] INFO: STARTING STEP 98
+2019-03-03 18:59:25,623 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:25,703 [BombeRLeWorld] INFO: STARTING STEP 99
+2019-03-03 18:59:25,716 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:25,808 [BombeRLeWorld] INFO: STARTING STEP 100
+2019-03-03 18:59:25,840 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:25,912 [BombeRLeWorld] INFO: STARTING STEP 101
+2019-03-03 18:59:25,922 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:26,017 [BombeRLeWorld] INFO: STARTING STEP 102
+2019-03-03 18:59:26,037 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:26,121 [BombeRLeWorld] INFO: STARTING STEP 103
+2019-03-03 18:59:26,135 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:26,223 [BombeRLeWorld] INFO: STARTING STEP 104
+2019-03-03 18:59:26,241 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:26,328 [BombeRLeWorld] INFO: STARTING STEP 105
+2019-03-03 18:59:26,344 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:26,433 [BombeRLeWorld] INFO: STARTING STEP 106
+2019-03-03 18:59:26,459 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:26,535 [BombeRLeWorld] INFO: STARTING STEP 107
+2019-03-03 18:59:26,548 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:26,640 [BombeRLeWorld] INFO: STARTING STEP 108
+2019-03-03 18:59:26,655 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:26,744 [BombeRLeWorld] INFO: STARTING STEP 109
+2019-03-03 18:59:26,757 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:26,848 [BombeRLeWorld] INFO: STARTING STEP 110
+2019-03-03 18:59:26,868 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:26,953 [BombeRLeWorld] INFO: STARTING STEP 111
+2019-03-03 18:59:26,993 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.02s.
+2019-03-03 18:59:27,057 [BombeRLeWorld] INFO: STARTING STEP 112
+2019-03-03 18:59:27,077 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:27,161 [BombeRLeWorld] INFO: STARTING STEP 113
+2019-03-03 18:59:27,183 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:27,265 [BombeRLeWorld] INFO: STARTING STEP 114
+2019-03-03 18:59:27,283 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:27,369 [BombeRLeWorld] INFO: STARTING STEP 115
+2019-03-03 18:59:27,394 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:27,474 [BombeRLeWorld] INFO: STARTING STEP 116
+2019-03-03 18:59:27,501 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:27,579 [BombeRLeWorld] INFO: STARTING STEP 117
+2019-03-03 18:59:27,595 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:27,684 [BombeRLeWorld] INFO: STARTING STEP 118
+2019-03-03 18:59:27,694 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:27,789 [BombeRLeWorld] INFO: STARTING STEP 119
+2019-03-03 18:59:27,825 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:27,893 [BombeRLeWorld] INFO: STARTING STEP 120
+2019-03-03 18:59:27,912 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:28,002 [BombeRLeWorld] INFO: STARTING STEP 121
+2019-03-03 18:59:28,032 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:28,107 [BombeRLeWorld] INFO: STARTING STEP 122
+2019-03-03 18:59:28,121 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:28,212 [BombeRLeWorld] INFO: STARTING STEP 123
+2019-03-03 18:59:28,227 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:28,316 [BombeRLeWorld] INFO: STARTING STEP 124
+2019-03-03 18:59:28,327 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:28,421 [BombeRLeWorld] INFO: STARTING STEP 125
+2019-03-03 18:59:28,461 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:28,530 [BombeRLeWorld] INFO: STARTING STEP 126
+2019-03-03 18:59:28,541 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:28,635 [BombeRLeWorld] INFO: STARTING STEP 127
+2019-03-03 18:59:28,667 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:28,740 [BombeRLeWorld] INFO: STARTING STEP 128
+2019-03-03 18:59:28,752 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:28,844 [BombeRLeWorld] INFO: STARTING STEP 129
+2019-03-03 18:59:28,870 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:28,949 [BombeRLeWorld] INFO: STARTING STEP 130
+2019-03-03 18:59:28,958 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:29,054 [BombeRLeWorld] INFO: STARTING STEP 131
+2019-03-03 18:59:29,085 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:29,159 [BombeRLeWorld] INFO: STARTING STEP 132
+2019-03-03 18:59:29,173 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:29,264 [BombeRLeWorld] INFO: STARTING STEP 133
+2019-03-03 18:59:29,285 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:29,370 [BombeRLeWorld] INFO: STARTING STEP 134
+2019-03-03 18:59:29,381 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:29,474 [BombeRLeWorld] INFO: STARTING STEP 135
+2019-03-03 18:59:29,500 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:29,579 [BombeRLeWorld] INFO: STARTING STEP 136
+2019-03-03 18:59:29,596 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:29,682 [BombeRLeWorld] INFO: STARTING STEP 137
+2019-03-03 18:59:29,701 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:29,787 [BombeRLeWorld] INFO: STARTING STEP 138
+2019-03-03 18:59:29,798 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:29,890 [BombeRLeWorld] INFO: STARTING STEP 139
+2019-03-03 18:59:29,910 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:29,995 [BombeRLeWorld] INFO: STARTING STEP 140
+2019-03-03 18:59:30,005 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:30,099 [BombeRLeWorld] INFO: STARTING STEP 141
+2019-03-03 18:59:30,128 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:30,203 [BombeRLeWorld] INFO: STARTING STEP 142
+2019-03-03 18:59:30,217 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:30,308 [BombeRLeWorld] INFO: STARTING STEP 143
+2019-03-03 18:59:30,331 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:30,412 [BombeRLeWorld] INFO: STARTING STEP 144
+2019-03-03 18:59:30,425 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:30,517 [BombeRLeWorld] INFO: STARTING STEP 145
+2019-03-03 18:59:30,539 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:30,621 [BombeRLeWorld] INFO: STARTING STEP 146
+2019-03-03 18:59:30,631 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:30,734 [BombeRLeWorld] INFO: STARTING STEP 147
+2019-03-03 18:59:30,755 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:30,839 [BombeRLeWorld] INFO: STARTING STEP 148
+2019-03-03 18:59:30,854 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:30,944 [BombeRLeWorld] INFO: STARTING STEP 149
+2019-03-03 18:59:30,965 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:31,047 [BombeRLeWorld] INFO: STARTING STEP 150
+2019-03-03 18:59:31,058 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:31,153 [BombeRLeWorld] INFO: STARTING STEP 151
+2019-03-03 18:59:31,173 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:31,257 [BombeRLeWorld] INFO: STARTING STEP 152
+2019-03-03 18:59:31,270 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:31,364 [BombeRLeWorld] INFO: STARTING STEP 153
+2019-03-03 18:59:31,380 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:31,469 [BombeRLeWorld] INFO: STARTING STEP 154
+2019-03-03 18:59:31,485 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:31,574 [BombeRLeWorld] INFO: STARTING STEP 155
+2019-03-03 18:59:31,587 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:31,678 [BombeRLeWorld] INFO: STARTING STEP 156
+2019-03-03 18:59:31,713 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:31,786 [BombeRLeWorld] INFO: STARTING STEP 157
+2019-03-03 18:59:31,802 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:31,891 [BombeRLeWorld] INFO: STARTING STEP 158
+2019-03-03 18:59:31,918 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:31,995 [BombeRLeWorld] INFO: STARTING STEP 159
+2019-03-03 18:59:32,005 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:32,101 [BombeRLeWorld] INFO: STARTING STEP 160
+2019-03-03 18:59:32,129 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:32,214 [BombeRLeWorld] INFO: STARTING STEP 161
+2019-03-03 18:59:32,232 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.01s.
+2019-03-03 18:59:32,319 [BombeRLeWorld] INFO: STARTING STEP 162
+2019-03-03 18:59:32,336 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:32,424 [BombeRLeWorld] INFO: STARTING STEP 163
+2019-03-03 18:59:32,445 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:32,529 [BombeRLeWorld] INFO: STARTING STEP 164
+2019-03-03 18:59:32,541 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:32,634 [BombeRLeWorld] INFO: STARTING STEP 165
+2019-03-03 18:59:32,660 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:32,745 [BombeRLeWorld] INFO: STARTING STEP 166
+2019-03-03 18:59:32,764 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:32,850 [BombeRLeWorld] INFO: STARTING STEP 167
+2019-03-03 18:59:32,872 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.00s.
+2019-03-03 18:59:32,955 [BombeRLeWorld] INFO: STARTING STEP 168
+2019-03-03 18:59:32,981 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:33,059 [BombeRLeWorld] INFO: STARTING STEP 169
+2019-03-03 18:59:33,078 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:33,164 [BombeRLeWorld] INFO: STARTING STEP 170
+2019-03-03 18:59:33,194 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:33,268 [BombeRLeWorld] INFO: STARTING STEP 171
+2019-03-03 18:59:33,304 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:33,373 [BombeRLeWorld] INFO: STARTING STEP 172
+2019-03-03 18:59:33,391 [BombeRLeWorld] INFO: Agent <q_agent> chose action UP in 0.00s.
+2019-03-03 18:59:33,477 [BombeRLeWorld] INFO: STARTING STEP 173
+2019-03-03 18:59:33,494 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:33,583 [BombeRLeWorld] INFO: STARTING STEP 174
+2019-03-03 18:59:33,604 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.01s.
+2019-03-03 18:59:33,688 [BombeRLeWorld] INFO: STARTING STEP 175
+2019-03-03 18:59:33,702 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:33,791 [BombeRLeWorld] INFO: STARTING STEP 176
+2019-03-03 18:59:33,828 [BombeRLeWorld] INFO: Agent <q_agent> chose action LEFT in 0.01s.
+2019-03-03 18:59:33,899 [BombeRLeWorld] INFO: STARTING STEP 177
+2019-03-03 18:59:33,919 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:34,001 [BombeRLeWorld] INFO: STARTING STEP 178
+2019-03-03 18:59:34,025 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:34,107 [BombeRLeWorld] INFO: STARTING STEP 179
+2019-03-03 18:59:34,122 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:34,210 [BombeRLeWorld] INFO: STARTING STEP 180
+2019-03-03 18:59:34,239 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:34,314 [BombeRLeWorld] INFO: STARTING STEP 181
+2019-03-03 18:59:34,334 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:34,419 [BombeRLeWorld] INFO: STARTING STEP 182
+2019-03-03 18:59:34,456 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.00s.
+2019-03-03 18:59:34,524 [BombeRLeWorld] INFO: STARTING STEP 183
+2019-03-03 18:59:34,539 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:34,628 [BombeRLeWorld] INFO: STARTING STEP 184
+2019-03-03 18:59:34,643 [BombeRLeWorld] INFO: Agent <q_agent> chose action RIGHT in 0.01s.
+2019-03-03 18:59:34,644 [BombeRLeWorld] INFO: Agent <q_agent> picked up coin at (9, 1) and receives 1 point
+2019-03-03 18:59:34,767 [BombeRLeWorld] INFO: STARTING STEP 185
+2019-03-03 18:59:34,782 [BombeRLeWorld] INFO: Agent <q_agent> chose action DOWN in 0.00s.
+2019-03-03 18:59:34,868 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2019-03-03 18:59:34,872 [BombeRLeWorld] INFO: SHUT DOWN

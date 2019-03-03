@@ -41,12 +41,12 @@ def main():
 
     # Initialize environment and agents
     world = BombeRLeWorld([
-            ('agent', False)
+            ('q_agent', True)
             # ('agent', False)
             # ('simple_agent', False)
             # ('simple_agent', False)
         ])
-    # world = ReplayWorld('replay')# ('Replay 2019-01-30 16:57:42')
+    #world = ReplayWorld('replay_1')# ('Replay 2019-01-30 16:57:42')
     user_inputs = []
 
     # Start game logic thread
