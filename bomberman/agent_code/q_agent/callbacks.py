@@ -3,27 +3,32 @@ from time import sleep
 # from tempfile import * 
 from scipy.optimize import curve_fit
 
-def func(X, a, b, c, d):
-    (x,y,z) = X
-    return a + b*x + c*y + d*z
-
+def func(X, a, b, c, d, e, f):
+    (x,y,z,u,v) = X
+    return a + b*x + c*y + d*z + e*u + f*v
 
 def positions(self):
     agent = self.game_state['self']
-    agent_pos = (agent[0], agent[1])
-    coins = self.game_state['coins']
+    agent_pos = np.array([agent[0], agent[1]])
+    coins = np.array(self.game_state['coins'])
     dist = np.array([])   
     for i in range(len(coins)):
-        dist = np.append(dist, np.linalg.norm(np.array(coins[i]) - np.array(agent_pos)))
-    coin = coins[np.argmin(dist)] 
-    return agent_pos, coin
+        dist = np.append(dist, np.linalg.norm(agent_pos - coins[i]))
+    coin = coins[np.argmin(dist)]
+    mean_coin = []
+    for i in range(len(coins)):
+        mean_coin.append(coins[i]/dist[i]**2)
+    mean_coin = np.sum(mean_coin, axis=0)
+    mean_coin = -1 * (agent_pos - mean_coin)/ np.linalg.norm(agent_pos - mean_coin) 
+    print(mean_coin)
+    return agent_pos, np.array(coin), mean_coin
 
 def difference(self):
-    agent_pos, coin = positions(self) 
+    agent_pos, coin, mean_coin = positions(self) 
     arena = self.game_state['arena']
-    diff = np.linalg.norm(np.array(agent_pos) - np.array(coin))
-    direction = (np.array(agent_pos) - np.array(coin)) / diff
-    return np.array([diff, *direction])
+    diff = np.linalg.norm(agent_pos - coin)
+    direction = (agent_pos - coin) / diff
+    return np.array([diff, *direction, *mean_coin])
 
 def q_function(theta_q, features):
     f = theta_q[:,0]
@@ -47,7 +52,7 @@ def act(self):
     p_value = sigmoid(4*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
     p_value = p_value / np.sum(p_value)
     print(p_value)
-    indices = np.arange(len(q_value))# [q_value == np.max(q_value)]
+    indices = np.arange(len(q_value))#[q_value == np.max(q_value)]
     chosen_action = int(np.random.choice(indices, p=p_value))
     print(chosen_action)
     q_data = np.load('agent_code/q_agent/q_data.npy')
@@ -68,10 +73,10 @@ def reward_update(self):
     r = features[0] - last_event[1]
       
    
-    rewards = {0:-1+features[1], 
-            1:-1-features[1], 
-            2:-1+features[2], 
-            3:-1-features[2], 
+    rewards = {0:-1+features[1] + 0.5*features[3], 
+            1:-1-features[1] - 0.5*features[3], 
+            2:-1+features[2] + 0.5*features[4], 
+            3:-1-features[2] - 0.5*features[4], 
             4:-1, 
             5:-1,
             6:-10,
@@ -92,13 +97,16 @@ def reward_update(self):
             }
     
     reward = np.sum([rewards[item] for item in self.events])
+
     q_next = np.max(q_function(theta_q, features)) 
     q_update = last_event[0] + alpha * (reward + gamma * q_next - last_event[0]) 
+
     history[-1][0] = q_update
     np.save('agent_code/q_agent/q_data.npy', history)
     chosen_action = int(last_event[-1])
     regression_data = history[history[:,-1]==chosen_action][:,:-1]
     popt,cov = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])  
+
     # print(len(history))
     if len(history) <= 200:
         pass
