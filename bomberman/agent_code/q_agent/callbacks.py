@@ -35,13 +35,16 @@ def setup(self):
     np.random.seed()
     pass
 
+def sigmoid(x):
+    return 1/(1+ np.exp(-1 * x))
+
 def act(self): 
     # diff = difference(self)
     features = difference(self)
     theta_q = np.load('agent_code/q_agent/theta_q.npy')
     action = {0:'UP', 1:'DOWN', 2:'RIGHT', 3:'LEFT'}
     q_value = q_function(theta_q, features)
-    p_value = 0.5 + q_value / (np.sum(q_value)*2)
+    p_value = sigmoid(4*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
     p_value = p_value / np.sum(p_value)
     print(p_value)
     indices = np.arange(len(q_value))# [q_value == np.max(q_value)]
@@ -85,7 +88,7 @@ def reward_update(self):
 
             14:0,
             15:0,
-            16:0
+            16:20
             }
     
     reward = np.sum([rewards[item] for item in self.events])
