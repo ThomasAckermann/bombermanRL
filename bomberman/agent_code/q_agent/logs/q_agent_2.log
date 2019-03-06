@@ -1,0 +1,3 @@
+2019-03-06 19:29:38,121 [q_agent_2_wrapper] INFO: Import agent code from "agent_code/q_agent/callbacks.py"
+2019-03-06 19:29:38,394 [q_agent_2_wrapper] INFO: Initialize agent code
+2019-03-06 19:29:38,401 [q_agent_2_wrapper] INFO: STARTING ROUND #1

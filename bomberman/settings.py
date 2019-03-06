@@ -9,15 +9,15 @@ settings = {
     # Display
     'width': 1000,
     'height': 600,
-    'gui': True,
+    'gui': False,
     'fps': 15,
 
     # Main loop
     'update_interval': 0.1, # 0.33,
     'turn_based': False,
-    'n_rounds': 7,
+    'n_rounds': 40,
     'save_replay': True,
-    'make_video_from_replay': True,
+    'make_video_from_replay': False,
 
     # Game properties
     'cols': 17,

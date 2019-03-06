@@ -3,9 +3,9 @@ from time import sleep
 # from tempfile import * 
 from scipy.optimize import curve_fit
 
-def func(X, a, b, c, d, e, f):
-    (x,y,z,u,v) = X
-    return a + b*x + c*y + d*z + e*u + f*v
+def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8):
+    (x_1, x_2, x_3, x_4, x_5, x_6, x_7) = X
+    return a_1 + a_2*x_1 + a_3*x_2 + a_4*x_3 + a_5*x_4 + a_6*x_5 + a_7*x_6 + a_8*x_7 
 
 def positions(self):
     agent = self.game_state['self']
@@ -17,10 +17,12 @@ def positions(self):
     coin = coins[np.argmin(dist)]
     mean_coin = []
     for i in range(len(coins)):
-        mean_coin.append(coins[i]/dist[i]**2)
+        mean_coin.append((agent_pos - coins[i])/dist[i]**(3/2))
     mean_coin = np.sum(mean_coin, axis=0)
-    mean_coin = -1 * (agent_pos - mean_coin)/ np.linalg.norm(agent_pos - mean_coin) 
-    print(mean_coin)
+    if np.linalg.norm(mean_coin) != 0: 
+        mean_coin = (mean_coin)/ np.linalg.norm(mean_coin) 
+    # mean_coin[1] = -1 * mean_coin[1]
+    # print(mean_coin)
     return agent_pos, np.array(coin), mean_coin
 
 def difference(self):
@@ -30,11 +32,23 @@ def difference(self):
     direction = (agent_pos - coin) / diff
     return np.array([diff, *direction, *mean_coin])
 
+
+def check_even_odd (self):
+    agent = self.game_state['self']
+    return (np.array([agent[0], agent[1]]) + 1) % 2
+   
+
+
 def q_function(theta_q, features):
     f = theta_q[:,0]
     for i in range(len(features)):
         f = f + theta_q[:, i+1] * features[i] 
     return f
+
+def build_features (self):
+    features = difference(self)
+    features = np.append(features, check_even_odd(self))
+    return features
 
 def setup(self):
     np.random.seed()
@@ -45,27 +59,31 @@ def sigmoid(x):
 
 def act(self): 
     # diff = difference(self)
-    features = difference(self)
+    features = build_features(self) 
+    
+    # print(features)
     theta_q = np.load('agent_code/q_agent/theta_q.npy')
     action = {0:'UP', 1:'DOWN', 2:'RIGHT', 3:'LEFT'}
     q_value = q_function(theta_q, features)
-    p_value = sigmoid(4*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
+    p_value = sigmoid(8*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
     p_value = p_value / np.sum(p_value)
-    print(p_value)
+    # print(p_value)
     indices = np.arange(len(q_value))#[q_value == np.max(q_value)]
     chosen_action = int(np.random.choice(indices, p=p_value))
-    print(chosen_action)
+    # print(chosen_action)
     q_data = np.load('agent_code/q_agent/q_data.npy')
     q_data = np.append(q_data, [np.array([q_value[chosen_action], *features, chosen_action])], axis=0)
     np.save('agent_code/q_agent/q_data.npy', q_data)
     self.next_action = action[chosen_action] 
+    if len(self.game_state['coins'])==1:
+        print(self.game_state['step']) 
     return None
 
 def reward_update(self):
-    alpha = 0.05
-    gamma = 0.03
-    features = difference(self)
-    
+    alpha = 0.04
+    gamma = 0.1
+    features = build_features(self)
+
     history = np.load('agent_code/q_agent/q_data.npy')
     theta_q = np.load('agent_code/q_agent/theta_q.npy')    
   
@@ -73,13 +91,13 @@ def reward_update(self):
     r = features[0] - last_event[1]
       
    
-    rewards = {0:-1+features[1] + 0.5*features[3], 
-            1:-1-features[1] - 0.5*features[3], 
-            2:-1+features[2] + 0.5*features[4], 
-            3:-1-features[2] - 0.5*features[4], 
+    rewards = {0:-2 + features[1] + 0.2*features[3] + 0.2*features[5]  , 
+            1:-2 - features[1] - 0.2*features[3] + 0.2*features[5], 
+            2:-2 + features[2] + 0.2*features[4] + 0.2*features[6], 
+            3:-2 - features[2] - 0.2*features[4] + 0.2*features[6], 
             4:-1, 
             5:-1,
-            6:-10,
+            6:-5 - 5*features[5] - 5*features[6],
             
             7:0,
             8:0, 
@@ -120,7 +138,9 @@ def reward_update(self):
 
 
 def end_of_episode(self):
-    print('END')
+    #print(self.game_state['step'])
+    
+    #print('END')
     return None
 
 
