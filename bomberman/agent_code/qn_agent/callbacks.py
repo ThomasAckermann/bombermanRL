@@ -34,7 +34,7 @@ def difference(self):
     agent_pos, coin, mean_coin = positions(self) 
     arena = self.game_state['arena']
     diff = np.linalg.norm(agent_pos - coin)
-    direction = (agent_pos - coin) / diff
+    direction = (agent_pos - coin) / diff if diff != 0 else agent_pos - coin
     return np.array([diff, *direction, *mean_coin])
 
 
@@ -85,10 +85,18 @@ def act(self):
     return None
 
 def reward_update(self):
+    # print('1')
     global moves
+    # print('2')
     features = build_features(self)
-    history = np.load('agent_code/qn_agent/q_data.npy') 
-    last_event = history[0] 
+    # print('3')
+
+    history = np.load('agent_code/qn_agent/q_data.npy')
+    # print('4')
+
+    last_event = history[-1] 
+    # print('5')
+
 
     rewards = {0:-2 + features[1] + 0.2*features[3] + 0.2*features[5]  , 
             1:-2 - features[1] - 0.2*features[3] + 0.2*features[5], 
@@ -112,44 +120,69 @@ def reward_update(self):
             15:0,
             16:20
             }
-    
+    # print('6')
+
     reward = np.sum([rewards[item] for item in self.events])
+    # print('7', moves)
     moves = np.append(moves, [last_event[0], reward, *features])
+    #print([last_event[0], reward, *features])
+    try:
+        with open('test_reward_q.txt', 'a') as f:
+            #print(q_value)
+            f.write(str(reward)[:] + '\n')
+            #f.write(str(p_value)[1:-1] + '\n')
+            pass
+    except:
+        pass
+    # print('8', moves)
     moves = np.reshape(moves, (int(len(moves.flat)/(2+len(features))), 2+len(features)))
+    # print(moves)
+    # print("reshape okay")
     return None
 
 
 def end_of_episode(self):
     global moves
+    #print(moves)
+    #print(np.shape(moves))
     theta_q = np.load('agent_code/qn_agent/theta_q.npy')     
     history = np.load('agent_code/qn_agent/q_data.npy') 
    
     alpha = 0.04 
-    gamma = 0.1
+    gamma = 0.4
     n = 5
-    print('Begin Calculations')
+    # print('Begin Calculations')
     for t in range(len(moves)):
         if (t >= len(moves) - n):
             n = len(moves) - t - 1
         q_next = np.max(q_function(theta_q, moves[t + n, 2:])) 
-        y_t = np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]) + gamma**n *q_next
+        y_t = np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]) + gamma**n * q_next
+        try:
+            with open('test_reward_qnn.txt', 'a') as f:
+                #print(q_value)
+                f.write(str(np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]))[:] + '\n')
+                #f.write(str(p_value)[1:-1] + '\n')
+                pass
+        except:
+            pass
+
         q_update = history[t, 1] + alpha * (y_t - history[t, 1])   
         history[t, 1] = q_update
         chosen_action = int(history[t, 0])
         regression_data = history[history[:,0]==chosen_action][:,1:]
-        popt,coyv = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])  
-        theta_q[chosen_action] = np.array([*popt])
+        popt,cov = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])
+        if len(history) <= 1200:
+            pass
+        else: 
+            theta_q[chosen_action] = np.array([*popt])
 
     np.save('agent_code/qn_agent/theta_q.npy', theta_q)
     np.save('agent_code/qn_agent/q_data.npy', history)
-    
- 
-    #if len(history) <= 200:
-    #    pass
-    #else:
      
     # print(self.events)    
     print('END')
+    moves = np.array([[]])
+
     
     return None
 
