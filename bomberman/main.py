@@ -44,7 +44,7 @@ def main():
             #('useless_agent', False),
             #('q_agent', True),
             #('q_agent', True),
-            ('qn_agent', True)
+            ('q_bomb_agent', True)
         ])
     # world = ReplayWorld('replay_3')# ('Replay 2019-01-30 16:57:42')
     user_inputs = []

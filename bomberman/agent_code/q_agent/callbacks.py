@@ -65,9 +65,19 @@ def act(self):
     theta_q = np.load('agent_code/q_agent/theta_q.npy')
     action = {0:'UP', 1:'DOWN', 2:'RIGHT', 3:'LEFT'}
     q_value = q_function(theta_q, features)
+    
+    # eps = 0.01#  1 / (1 + len(q_data))**0.3
+    # e = np.random.uniform(0,1)
+    # if e < eps:
+    #     chosen_action = int(np.random.choice([0,1,2,3]))
+    # else:
+    #     chosen_action = int(np.argmax(q_value))
+ 
+    
+    
     p_value = sigmoid(8*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
     p_value = p_value / np.sum(p_value)
-    # print(p_value)
+    print(p_value)
     indices = np.arange(len(q_value))#[q_value == np.max(q_value)]
     chosen_action = int(np.random.choice(indices, p=p_value))
     # print(chosen_action)
@@ -75,8 +85,8 @@ def act(self):
     q_data = np.append(q_data, [np.array([q_value[chosen_action], *features, chosen_action])], axis=0)
     np.save('agent_code/q_agent/q_data.npy', q_data)
     self.next_action = action[chosen_action] 
-    if len(self.game_state['coins'])==1:
-        print(self.game_state['step']) 
+    # if len(self.game_state['coins'])==1:
+        # print(self.game_state['step']) 
     return None
 
 def reward_update(self):
@@ -117,8 +127,9 @@ def reward_update(self):
     reward = np.sum([rewards[item] for item in self.events])
 
     q_next = np.max(q_function(theta_q, features)) 
-    q_update = last_event[0] + alpha * (reward + gamma * q_next - last_event[0]) 
-
+    y_t = reward + gamma * q_next
+    q_update = last_event[0] + alpha * (y_t - last_event[0]) 
+    # print('Q: ', y_t)
     history[-1][0] = q_update
     np.save('agent_code/q_agent/q_data.npy', history)
     chosen_action = int(last_event[-1])
