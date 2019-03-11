@@ -6,7 +6,7 @@ from scipy.optimize import curve_fit
 
 
 moves = np.array([[]])
-eps = 0.1
+
 
 def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13):
     (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12) = X

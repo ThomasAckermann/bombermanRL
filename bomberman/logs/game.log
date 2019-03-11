@@ -1,316 +1,863 @@
-2019-03-11 01:05:13,283 [BombeRLeWorld] INFO: Initializing game world
-2019-03-11 01:05:13,320 [BombeRLeWorld] INFO: Starting process for agent <q_bomb_agent>
-2019-03-11 01:05:13,524 [BombeRLeWorld] INFO: STARTING ROUND #1
-2019-03-11 01:05:13,628 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:13,633 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:13,730 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:13,736 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:13,835 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:13,843 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:13,940 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:13,947 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,042 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-03-11 01:05:14,048 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,146 [BombeRLeWorld] INFO: STARTING STEP 6
-2019-03-11 01:05:14,154 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,253 [BombeRLeWorld] INFO: STARTING STEP 7
-2019-03-11 01:05:14,259 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,355 [BombeRLeWorld] INFO: STARTING STEP 8
-2019-03-11 01:05:14,361 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,456 [BombeRLeWorld] INFO: STARTING STEP 9
-2019-03-11 01:05:14,462 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,560 [BombeRLeWorld] INFO: STARTING STEP 10
-2019-03-11 01:05:14,570 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,661 [BombeRLeWorld] INFO: STARTING STEP 11
-2019-03-11 01:05:14,667 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,764 [BombeRLeWorld] INFO: STARTING STEP 12
-2019-03-11 01:05:14,771 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,869 [BombeRLeWorld] INFO: STARTING STEP 13
-2019-03-11 01:05:14,877 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:14,974 [BombeRLeWorld] INFO: STARTING STEP 14
-2019-03-11 01:05:14,981 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,074 [BombeRLeWorld] INFO: STARTING STEP 15
-2019-03-11 01:05:15,080 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,176 [BombeRLeWorld] INFO: STARTING STEP 16
-2019-03-11 01:05:15,183 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,277 [BombeRLeWorld] INFO: STARTING STEP 17
-2019-03-11 01:05:15,284 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,378 [BombeRLeWorld] INFO: STARTING STEP 18
-2019-03-11 01:05:15,384 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,480 [BombeRLeWorld] INFO: STARTING STEP 19
-2019-03-11 01:05:15,488 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,581 [BombeRLeWorld] INFO: STARTING STEP 20
-2019-03-11 01:05:15,588 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,691 [BombeRLeWorld] INFO: STARTING STEP 21
-2019-03-11 01:05:15,698 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,791 [BombeRLeWorld] INFO: STARTING STEP 22
-2019-03-11 01:05:15,797 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,895 [BombeRLeWorld] INFO: STARTING STEP 23
-2019-03-11 01:05:15,902 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:15,996 [BombeRLeWorld] INFO: STARTING STEP 24
-2019-03-11 01:05:16,004 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,098 [BombeRLeWorld] INFO: STARTING STEP 25
-2019-03-11 01:05:16,104 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,199 [BombeRLeWorld] INFO: STARTING STEP 26
-2019-03-11 01:05:16,207 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,301 [BombeRLeWorld] INFO: STARTING STEP 27
-2019-03-11 01:05:16,308 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,404 [BombeRLeWorld] INFO: STARTING STEP 28
-2019-03-11 01:05:16,424 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,506 [BombeRLeWorld] INFO: STARTING STEP 29
-2019-03-11 01:05:16,513 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,610 [BombeRLeWorld] INFO: STARTING STEP 30
-2019-03-11 01:05:16,616 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,715 [BombeRLeWorld] INFO: STARTING STEP 31
-2019-03-11 01:05:16,723 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,815 [BombeRLeWorld] INFO: STARTING STEP 32
-2019-03-11 01:05:16,822 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:16,920 [BombeRLeWorld] INFO: STARTING STEP 33
-2019-03-11 01:05:16,928 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,023 [BombeRLeWorld] INFO: STARTING STEP 34
-2019-03-11 01:05:17,030 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,132 [BombeRLeWorld] INFO: STARTING STEP 35
-2019-03-11 01:05:17,138 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,233 [BombeRLeWorld] INFO: STARTING STEP 36
-2019-03-11 01:05:17,240 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,336 [BombeRLeWorld] INFO: STARTING STEP 37
-2019-03-11 01:05:17,341 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,436 [BombeRLeWorld] INFO: STARTING STEP 38
-2019-03-11 01:05:17,444 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,540 [BombeRLeWorld] INFO: STARTING STEP 39
-2019-03-11 01:05:17,547 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,645 [BombeRLeWorld] INFO: STARTING STEP 40
-2019-03-11 01:05:17,651 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,746 [BombeRLeWorld] INFO: STARTING STEP 41
-2019-03-11 01:05:17,754 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,855 [BombeRLeWorld] INFO: STARTING STEP 42
-2019-03-11 01:05:17,860 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:17,956 [BombeRLeWorld] INFO: STARTING STEP 43
-2019-03-11 01:05:17,964 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,061 [BombeRLeWorld] INFO: STARTING STEP 44
-2019-03-11 01:05:18,067 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,165 [BombeRLeWorld] INFO: STARTING STEP 45
-2019-03-11 01:05:18,177 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,268 [BombeRLeWorld] INFO: STARTING STEP 46
-2019-03-11 01:05:18,275 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,370 [BombeRLeWorld] INFO: STARTING STEP 47
-2019-03-11 01:05:18,376 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,474 [BombeRLeWorld] INFO: STARTING STEP 48
-2019-03-11 01:05:18,481 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,578 [BombeRLeWorld] INFO: STARTING STEP 49
-2019-03-11 01:05:18,584 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,680 [BombeRLeWorld] INFO: STARTING STEP 50
-2019-03-11 01:05:18,686 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,785 [BombeRLeWorld] INFO: STARTING STEP 51
-2019-03-11 01:05:18,793 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,888 [BombeRLeWorld] INFO: STARTING STEP 52
-2019-03-11 01:05:18,895 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:18,992 [BombeRLeWorld] INFO: STARTING STEP 53
-2019-03-11 01:05:18,999 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,096 [BombeRLeWorld] INFO: STARTING STEP 54
-2019-03-11 01:05:19,103 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,201 [BombeRLeWorld] INFO: STARTING STEP 55
-2019-03-11 01:05:19,209 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,301 [BombeRLeWorld] INFO: STARTING STEP 56
-2019-03-11 01:05:19,308 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,405 [BombeRLeWorld] INFO: STARTING STEP 57
-2019-03-11 01:05:19,412 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,506 [BombeRLeWorld] INFO: STARTING STEP 58
-2019-03-11 01:05:19,514 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,608 [BombeRLeWorld] INFO: STARTING STEP 59
-2019-03-11 01:05:19,619 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,711 [BombeRLeWorld] INFO: STARTING STEP 60
-2019-03-11 01:05:19,717 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,815 [BombeRLeWorld] INFO: STARTING STEP 61
-2019-03-11 01:05:19,822 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:19,917 [BombeRLeWorld] INFO: STARTING STEP 62
-2019-03-11 01:05:19,925 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,020 [BombeRLeWorld] INFO: STARTING STEP 63
-2019-03-11 01:05:20,027 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,124 [BombeRLeWorld] INFO: STARTING STEP 64
-2019-03-11 01:05:20,132 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,226 [BombeRLeWorld] INFO: STARTING STEP 65
-2019-03-11 01:05:20,234 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,326 [BombeRLeWorld] INFO: STARTING STEP 66
-2019-03-11 01:05:20,332 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,429 [BombeRLeWorld] INFO: STARTING STEP 67
-2019-03-11 01:05:20,436 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,530 [BombeRLeWorld] INFO: STARTING STEP 68
-2019-03-11 01:05:20,536 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,634 [BombeRLeWorld] INFO: STARTING STEP 69
-2019-03-11 01:05:20,641 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,744 [BombeRLeWorld] INFO: STARTING STEP 70
-2019-03-11 01:05:20,750 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,845 [BombeRLeWorld] INFO: STARTING STEP 71
-2019-03-11 01:05:20,851 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:20,945 [BombeRLeWorld] INFO: STARTING STEP 72
-2019-03-11 01:05:20,951 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,048 [BombeRLeWorld] INFO: STARTING STEP 73
-2019-03-11 01:05:21,056 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,148 [BombeRLeWorld] INFO: STARTING STEP 74
-2019-03-11 01:05:21,155 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,250 [BombeRLeWorld] INFO: STARTING STEP 75
-2019-03-11 01:05:21,257 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,352 [BombeRLeWorld] INFO: STARTING STEP 76
-2019-03-11 01:05:21,358 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,456 [BombeRLeWorld] INFO: STARTING STEP 77
-2019-03-11 01:05:21,464 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,560 [BombeRLeWorld] INFO: STARTING STEP 78
-2019-03-11 01:05:21,567 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,662 [BombeRLeWorld] INFO: STARTING STEP 79
-2019-03-11 01:05:21,668 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,765 [BombeRLeWorld] INFO: STARTING STEP 80
-2019-03-11 01:05:21,773 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,869 [BombeRLeWorld] INFO: STARTING STEP 81
-2019-03-11 01:05:21,875 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:21,974 [BombeRLeWorld] INFO: STARTING STEP 82
-2019-03-11 01:05:21,980 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,074 [BombeRLeWorld] INFO: STARTING STEP 83
-2019-03-11 01:05:22,082 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,179 [BombeRLeWorld] INFO: STARTING STEP 84
-2019-03-11 01:05:22,189 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,280 [BombeRLeWorld] INFO: STARTING STEP 85
-2019-03-11 01:05:22,287 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,382 [BombeRLeWorld] INFO: STARTING STEP 86
-2019-03-11 01:05:22,388 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,483 [BombeRLeWorld] INFO: STARTING STEP 87
-2019-03-11 01:05:22,489 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,584 [BombeRLeWorld] INFO: STARTING STEP 88
-2019-03-11 01:05:22,590 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,685 [BombeRLeWorld] INFO: STARTING STEP 89
-2019-03-11 01:05:22,691 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,786 [BombeRLeWorld] INFO: STARTING STEP 90
-2019-03-11 01:05:22,792 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:22,890 [BombeRLeWorld] INFO: STARTING STEP 91
-2019-03-11 01:05:22,898 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,000 [BombeRLeWorld] INFO: STARTING STEP 92
-2019-03-11 01:05:23,007 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,103 [BombeRLeWorld] INFO: STARTING STEP 93
-2019-03-11 01:05:23,110 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,207 [BombeRLeWorld] INFO: STARTING STEP 94
-2019-03-11 01:05:23,214 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,309 [BombeRLeWorld] INFO: STARTING STEP 95
-2019-03-11 01:05:23,315 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,410 [BombeRLeWorld] INFO: STARTING STEP 96
-2019-03-11 01:05:23,415 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
-2019-03-11 01:05:23,417 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,435 [BombeRLeWorld] INFO: STARTING ROUND #2
-2019-03-11 01:05:23,512 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:23,517 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,615 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:23,622 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,706 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
-2019-03-11 01:05:23,722 [BombeRLeWorld] INFO: STARTING ROUND #3
-2019-03-11 01:05:23,822 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:23,827 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:23,924 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:23,931 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,025 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:24,033 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,135 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:24,141 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,238 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-03-11 01:05:24,244 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,341 [BombeRLeWorld] INFO: STARTING STEP 6
-2019-03-11 01:05:24,347 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,444 [BombeRLeWorld] INFO: STARTING STEP 7
-2019-03-11 01:05:24,454 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,546 [BombeRLeWorld] INFO: STARTING STEP 8
-2019-03-11 01:05:24,553 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,631 [BombeRLeWorld] INFO: WRAPPING UP ROUND #3
-2019-03-11 01:05:24,647 [BombeRLeWorld] INFO: STARTING ROUND #4
-2019-03-11 01:05:24,751 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:24,756 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,856 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:24,863 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:24,960 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:24,968 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,062 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:25,068 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,165 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-03-11 01:05:25,173 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,231 [BombeRLeWorld] INFO: WRAPPING UP ROUND #4
-2019-03-11 01:05:25,246 [BombeRLeWorld] INFO: STARTING ROUND #5
-2019-03-11 01:05:25,269 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:25,275 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,374 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:25,381 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,474 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:25,483 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,575 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:25,582 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,590 [BombeRLeWorld] INFO: WRAPPING UP ROUND #5
-2019-03-11 01:05:25,604 [BombeRLeWorld] INFO: STARTING ROUND #6
-2019-03-11 01:05:25,677 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:25,683 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,781 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:25,789 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:25,868 [BombeRLeWorld] INFO: WRAPPING UP ROUND #6
-2019-03-11 01:05:25,883 [BombeRLeWorld] INFO: STARTING ROUND #7
-2019-03-11 01:05:25,986 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:25,991 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,090 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:26,098 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,191 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:26,199 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,296 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:26,302 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,398 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-03-11 01:05:26,404 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,503 [BombeRLeWorld] INFO: STARTING STEP 6
-2019-03-11 01:05:26,510 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,605 [BombeRLeWorld] INFO: STARTING STEP 7
-2019-03-11 01:05:26,616 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,705 [BombeRLeWorld] INFO: STARTING STEP 8
-2019-03-11 01:05:26,712 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,808 [BombeRLeWorld] INFO: STARTING STEP 9
-2019-03-11 01:05:26,815 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:26,909 [BombeRLeWorld] INFO: STARTING STEP 10
-2019-03-11 01:05:26,917 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,011 [BombeRLeWorld] INFO: STARTING STEP 11
-2019-03-11 01:05:27,018 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,034 [BombeRLeWorld] INFO: WRAPPING UP ROUND #7
-2019-03-11 01:05:27,049 [BombeRLeWorld] INFO: STARTING ROUND #8
-2019-03-11 01:05:27,113 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:27,118 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,216 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:27,222 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,320 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:27,328 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,425 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:27,433 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,525 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-03-11 01:05:27,533 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,628 [BombeRLeWorld] INFO: STARTING STEP 6
-2019-03-11 01:05:27,636 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,637 [BombeRLeWorld] INFO: WRAPPING UP ROUND #8
-2019-03-11 01:05:27,651 [BombeRLeWorld] INFO: STARTING ROUND #9
-2019-03-11 01:05:27,738 [BombeRLeWorld] INFO: STARTING STEP 1
-2019-03-11 01:05:27,744 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,843 [BombeRLeWorld] INFO: STARTING STEP 2
-2019-03-11 01:05:27,851 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:27,947 [BombeRLeWorld] INFO: STARTING STEP 3
-2019-03-11 01:05:27,955 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,048 [BombeRLeWorld] INFO: STARTING STEP 4
-2019-03-11 01:05:28,060 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,151 [BombeRLeWorld] INFO: STARTING STEP 5
-2019-03-11 01:05:28,158 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,251 [BombeRLeWorld] INFO: STARTING STEP 6
-2019-03-11 01:05:28,258 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,354 [BombeRLeWorld] INFO: STARTING STEP 7
-2019-03-11 01:05:28,361 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,461 [BombeRLeWorld] INFO: STARTING STEP 8
-2019-03-11 01:05:28,468 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,565 [BombeRLeWorld] INFO: STARTING STEP 9
-2019-03-11 01:05:28,572 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,665 [BombeRLeWorld] INFO: STARTING STEP 10
-2019-03-11 01:05:28,672 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,767 [BombeRLeWorld] INFO: STARTING STEP 11
-2019-03-11 01:05:28,774 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,867 [BombeRLeWorld] INFO: STARTING STEP 12
-2019-03-11 01:05:28,874 [BombeRLeWorld] INFO: Agent <q_bomb_agent> chose action WAIT in 0.00s.
-2019-03-11 01:05:28,971 [BombeRLeWorld] INFO: WRAPPING UP ROUND #9
-2019-03-11 01:05:28,971 [BombeRLeWorld] INFO: STARTING STEP 13
-2019-03-11 01:05:28,992 [BombeRLeWorld] INFO: STARTING ROUND #10
-2019-03-11 01:05:31,018 [BombeRLeWorld] INFO: WRAPPING UP ROUND #10
-2019-03-11 01:05:33,979 [BombeRLeWorld] WARNING: Interrupting agent <q_bomb_agent>
+2019-03-11 21:52:53,718 [BombeRLeWorld] INFO: Initializing game world
+2019-03-11 21:52:53,781 [BombeRLeWorld] INFO: Starting process for agent <useless_agent>
+2019-03-11 21:52:53,797 [BombeRLeWorld] INFO: Starting process for agent <nn_agent>
+2019-03-11 21:52:54,107 [BombeRLeWorld] INFO: STARTING ROUND #1
+2019-03-11 21:52:54,220 [BombeRLeWorld] INFO: STARTING STEP 1
+2019-03-11 21:52:54,243 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,243 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:52:54,243 [BombeRLeWorld] INFO: Agent <nn_agent> drops bomb at (1, 15)
+2019-03-11 21:52:54,322 [BombeRLeWorld] INFO: STARTING STEP 2
+2019-03-11 21:52:54,330 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,330 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:52:54,426 [BombeRLeWorld] INFO: STARTING STEP 3
+2019-03-11 21:52:54,441 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,442 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:52:54,531 [BombeRLeWorld] INFO: STARTING STEP 4
+2019-03-11 21:52:54,540 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,540 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.00s.
+2019-03-11 21:52:54,642 [BombeRLeWorld] INFO: STARTING STEP 5
+2019-03-11 21:52:54,664 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:52:54,665 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,746 [BombeRLeWorld] INFO: STARTING STEP 6
+2019-03-11 21:52:54,753 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,753 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.00s.
+2019-03-11 21:52:54,753 [BombeRLeWorld] INFO: Agent <nn_agent>'s bomb at (1, 15) explodes
+2019-03-11 21:52:54,754 [BombeRLeWorld] INFO: Agent <nn_agent> blown up by own bomb
+2019-03-11 21:52:54,850 [BombeRLeWorld] INFO: STARTING STEP 7
+2019-03-11 21:52:54,860 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:54,955 [BombeRLeWorld] INFO: STARTING STEP 8
+2019-03-11 21:52:54,959 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,066 [BombeRLeWorld] INFO: STARTING STEP 9
+2019-03-11 21:52:55,069 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,171 [BombeRLeWorld] INFO: STARTING STEP 10
+2019-03-11 21:52:55,175 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,275 [BombeRLeWorld] INFO: STARTING STEP 11
+2019-03-11 21:52:55,277 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,379 [BombeRLeWorld] INFO: STARTING STEP 12
+2019-03-11 21:52:55,405 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,486 [BombeRLeWorld] INFO: STARTING STEP 13
+2019-03-11 21:52:55,491 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,598 [BombeRLeWorld] INFO: STARTING STEP 14
+2019-03-11 21:52:55,610 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,702 [BombeRLeWorld] INFO: STARTING STEP 15
+2019-03-11 21:52:55,707 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,806 [BombeRLeWorld] INFO: STARTING STEP 16
+2019-03-11 21:52:55,810 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:55,914 [BombeRLeWorld] INFO: STARTING STEP 17
+2019-03-11 21:52:55,918 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,017 [BombeRLeWorld] INFO: STARTING STEP 18
+2019-03-11 21:52:56,019 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,123 [BombeRLeWorld] INFO: STARTING STEP 19
+2019-03-11 21:52:56,124 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,227 [BombeRLeWorld] INFO: STARTING STEP 20
+2019-03-11 21:52:56,229 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,338 [BombeRLeWorld] INFO: STARTING STEP 21
+2019-03-11 21:52:56,347 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,444 [BombeRLeWorld] INFO: STARTING STEP 22
+2019-03-11 21:52:56,446 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,549 [BombeRLeWorld] INFO: STARTING STEP 23
+2019-03-11 21:52:56,553 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,653 [BombeRLeWorld] INFO: STARTING STEP 24
+2019-03-11 21:52:56,657 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,761 [BombeRLeWorld] INFO: STARTING STEP 25
+2019-03-11 21:52:56,763 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,869 [BombeRLeWorld] INFO: STARTING STEP 26
+2019-03-11 21:52:56,873 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:56,973 [BombeRLeWorld] INFO: STARTING STEP 27
+2019-03-11 21:52:56,977 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,078 [BombeRLeWorld] INFO: STARTING STEP 28
+2019-03-11 21:52:57,083 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,182 [BombeRLeWorld] INFO: STARTING STEP 29
+2019-03-11 21:52:57,188 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,287 [BombeRLeWorld] INFO: STARTING STEP 30
+2019-03-11 21:52:57,296 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,392 [BombeRLeWorld] INFO: STARTING STEP 31
+2019-03-11 21:52:57,394 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,496 [BombeRLeWorld] INFO: STARTING STEP 32
+2019-03-11 21:52:57,498 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,601 [BombeRLeWorld] INFO: STARTING STEP 33
+2019-03-11 21:52:57,603 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,706 [BombeRLeWorld] INFO: STARTING STEP 34
+2019-03-11 21:52:57,710 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,811 [BombeRLeWorld] INFO: STARTING STEP 35
+2019-03-11 21:52:57,812 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:57,916 [BombeRLeWorld] INFO: STARTING STEP 36
+2019-03-11 21:52:57,918 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,021 [BombeRLeWorld] INFO: STARTING STEP 37
+2019-03-11 21:52:58,026 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,125 [BombeRLeWorld] INFO: STARTING STEP 38
+2019-03-11 21:52:58,130 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,230 [BombeRLeWorld] INFO: STARTING STEP 39
+2019-03-11 21:52:58,239 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,334 [BombeRLeWorld] INFO: STARTING STEP 40
+2019-03-11 21:52:58,340 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,439 [BombeRLeWorld] INFO: STARTING STEP 41
+2019-03-11 21:52:58,444 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,544 [BombeRLeWorld] INFO: STARTING STEP 42
+2019-03-11 21:52:58,546 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,649 [BombeRLeWorld] INFO: STARTING STEP 43
+2019-03-11 21:52:58,651 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,757 [BombeRLeWorld] INFO: STARTING STEP 44
+2019-03-11 21:52:58,759 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,862 [BombeRLeWorld] INFO: STARTING STEP 45
+2019-03-11 21:52:58,864 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:58,971 [BombeRLeWorld] INFO: STARTING STEP 46
+2019-03-11 21:52:58,985 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,074 [BombeRLeWorld] INFO: STARTING STEP 47
+2019-03-11 21:52:59,076 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,180 [BombeRLeWorld] INFO: STARTING STEP 48
+2019-03-11 21:52:59,189 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,285 [BombeRLeWorld] INFO: STARTING STEP 49
+2019-03-11 21:52:59,294 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,389 [BombeRLeWorld] INFO: STARTING STEP 50
+2019-03-11 21:52:59,391 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,494 [BombeRLeWorld] INFO: STARTING STEP 51
+2019-03-11 21:52:59,496 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,598 [BombeRLeWorld] INFO: STARTING STEP 52
+2019-03-11 21:52:59,603 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,703 [BombeRLeWorld] INFO: STARTING STEP 53
+2019-03-11 21:52:59,705 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,807 [BombeRLeWorld] INFO: STARTING STEP 54
+2019-03-11 21:52:59,812 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:52:59,912 [BombeRLeWorld] INFO: STARTING STEP 55
+2019-03-11 21:52:59,916 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,017 [BombeRLeWorld] INFO: STARTING STEP 56
+2019-03-11 21:53:00,023 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,129 [BombeRLeWorld] INFO: STARTING STEP 57
+2019-03-11 21:53:00,141 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,232 [BombeRLeWorld] INFO: STARTING STEP 58
+2019-03-11 21:53:00,237 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,336 [BombeRLeWorld] INFO: STARTING STEP 59
+2019-03-11 21:53:00,339 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,442 [BombeRLeWorld] INFO: STARTING STEP 60
+2019-03-11 21:53:00,444 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,544 [BombeRLeWorld] INFO: STARTING STEP 61
+2019-03-11 21:53:00,546 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,648 [BombeRLeWorld] INFO: STARTING STEP 62
+2019-03-11 21:53:00,652 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,752 [BombeRLeWorld] INFO: STARTING STEP 63
+2019-03-11 21:53:00,757 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,855 [BombeRLeWorld] INFO: STARTING STEP 64
+2019-03-11 21:53:00,857 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:00,960 [BombeRLeWorld] INFO: STARTING STEP 65
+2019-03-11 21:53:00,962 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,065 [BombeRLeWorld] INFO: STARTING STEP 66
+2019-03-11 21:53:01,091 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,170 [BombeRLeWorld] INFO: STARTING STEP 67
+2019-03-11 21:53:01,171 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,274 [BombeRLeWorld] INFO: STARTING STEP 68
+2019-03-11 21:53:01,280 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,378 [BombeRLeWorld] INFO: STARTING STEP 69
+2019-03-11 21:53:01,380 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,491 [BombeRLeWorld] INFO: STARTING STEP 70
+2019-03-11 21:53:01,497 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,595 [BombeRLeWorld] INFO: STARTING STEP 71
+2019-03-11 21:53:01,600 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,700 [BombeRLeWorld] INFO: STARTING STEP 72
+2019-03-11 21:53:01,701 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,824 [BombeRLeWorld] INFO: STARTING STEP 73
+2019-03-11 21:53:01,834 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:01,928 [BombeRLeWorld] INFO: STARTING STEP 74
+2019-03-11 21:53:01,932 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,032 [BombeRLeWorld] INFO: STARTING STEP 75
+2019-03-11 21:53:02,036 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,136 [BombeRLeWorld] INFO: STARTING STEP 76
+2019-03-11 21:53:02,138 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,241 [BombeRLeWorld] INFO: STARTING STEP 77
+2019-03-11 21:53:02,243 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,343 [BombeRLeWorld] INFO: STARTING STEP 78
+2019-03-11 21:53:02,345 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,448 [BombeRLeWorld] INFO: STARTING STEP 79
+2019-03-11 21:53:02,453 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,552 [BombeRLeWorld] INFO: STARTING STEP 80
+2019-03-11 21:53:02,574 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,656 [BombeRLeWorld] INFO: STARTING STEP 81
+2019-03-11 21:53:02,658 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,761 [BombeRLeWorld] INFO: STARTING STEP 82
+2019-03-11 21:53:02,770 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,866 [BombeRLeWorld] INFO: STARTING STEP 83
+2019-03-11 21:53:02,871 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:02,973 [BombeRLeWorld] INFO: STARTING STEP 84
+2019-03-11 21:53:02,989 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,078 [BombeRLeWorld] INFO: STARTING STEP 85
+2019-03-11 21:53:03,082 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,183 [BombeRLeWorld] INFO: STARTING STEP 86
+2019-03-11 21:53:03,206 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,291 [BombeRLeWorld] INFO: STARTING STEP 87
+2019-03-11 21:53:03,293 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,396 [BombeRLeWorld] INFO: STARTING STEP 88
+2019-03-11 21:53:03,400 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,500 [BombeRLeWorld] INFO: STARTING STEP 89
+2019-03-11 21:53:03,508 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,605 [BombeRLeWorld] INFO: STARTING STEP 90
+2019-03-11 21:53:03,609 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,710 [BombeRLeWorld] INFO: STARTING STEP 91
+2019-03-11 21:53:03,714 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,814 [BombeRLeWorld] INFO: STARTING STEP 92
+2019-03-11 21:53:03,818 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:03,917 [BombeRLeWorld] INFO: STARTING STEP 93
+2019-03-11 21:53:03,923 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,022 [BombeRLeWorld] INFO: STARTING STEP 94
+2019-03-11 21:53:04,024 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,127 [BombeRLeWorld] INFO: STARTING STEP 95
+2019-03-11 21:53:04,129 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,231 [BombeRLeWorld] INFO: STARTING STEP 96
+2019-03-11 21:53:04,252 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,336 [BombeRLeWorld] INFO: STARTING STEP 97
+2019-03-11 21:53:04,338 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,443 [BombeRLeWorld] INFO: STARTING STEP 98
+2019-03-11 21:53:04,461 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,547 [BombeRLeWorld] INFO: STARTING STEP 99
+2019-03-11 21:53:04,549 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,653 [BombeRLeWorld] INFO: STARTING STEP 100
+2019-03-11 21:53:04,664 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,757 [BombeRLeWorld] INFO: STARTING STEP 101
+2019-03-11 21:53:04,761 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,862 [BombeRLeWorld] INFO: STARTING STEP 102
+2019-03-11 21:53:04,874 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:04,965 [BombeRLeWorld] INFO: STARTING STEP 103
+2019-03-11 21:53:05,067 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,067 [BombeRLeWorld] INFO: STARTING STEP 104
+2019-03-11 21:53:05,079 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,175 [BombeRLeWorld] INFO: STARTING STEP 105
+2019-03-11 21:53:05,201 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,289 [BombeRLeWorld] INFO: STARTING STEP 106
+2019-03-11 21:53:05,293 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,393 [BombeRLeWorld] INFO: STARTING STEP 107
+2019-03-11 21:53:05,403 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,499 [BombeRLeWorld] INFO: STARTING STEP 108
+2019-03-11 21:53:05,501 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,603 [BombeRLeWorld] INFO: STARTING STEP 109
+2019-03-11 21:53:05,605 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,709 [BombeRLeWorld] INFO: STARTING STEP 110
+2019-03-11 21:53:05,714 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,811 [BombeRLeWorld] INFO: STARTING STEP 111
+2019-03-11 21:53:05,816 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:05,916 [BombeRLeWorld] INFO: STARTING STEP 112
+2019-03-11 21:53:05,921 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,021 [BombeRLeWorld] INFO: STARTING STEP 113
+2019-03-11 21:53:06,025 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,126 [BombeRLeWorld] INFO: STARTING STEP 114
+2019-03-11 21:53:06,143 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,232 [BombeRLeWorld] INFO: STARTING STEP 115
+2019-03-11 21:53:06,244 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,339 [BombeRLeWorld] INFO: STARTING STEP 116
+2019-03-11 21:53:06,341 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,443 [BombeRLeWorld] INFO: STARTING STEP 117
+2019-03-11 21:53:06,445 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,548 [BombeRLeWorld] INFO: STARTING STEP 118
+2019-03-11 21:53:06,554 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,651 [BombeRLeWorld] INFO: STARTING STEP 119
+2019-03-11 21:53:06,654 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,756 [BombeRLeWorld] INFO: STARTING STEP 120
+2019-03-11 21:53:06,761 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,861 [BombeRLeWorld] INFO: STARTING STEP 121
+2019-03-11 21:53:06,883 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:06,965 [BombeRLeWorld] INFO: STARTING STEP 122
+2019-03-11 21:53:06,970 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,080 [BombeRLeWorld] INFO: STARTING STEP 123
+2019-03-11 21:53:07,086 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,184 [BombeRLeWorld] INFO: STARTING STEP 124
+2019-03-11 21:53:07,186 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,291 [BombeRLeWorld] INFO: STARTING STEP 125
+2019-03-11 21:53:07,295 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,395 [BombeRLeWorld] INFO: STARTING STEP 126
+2019-03-11 21:53:07,399 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,500 [BombeRLeWorld] INFO: STARTING STEP 127
+2019-03-11 21:53:07,502 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,604 [BombeRLeWorld] INFO: STARTING STEP 128
+2019-03-11 21:53:07,609 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,709 [BombeRLeWorld] INFO: STARTING STEP 129
+2019-03-11 21:53:07,711 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,817 [BombeRLeWorld] INFO: STARTING STEP 130
+2019-03-11 21:53:07,819 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:07,922 [BombeRLeWorld] INFO: STARTING STEP 131
+2019-03-11 21:53:07,923 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,027 [BombeRLeWorld] INFO: STARTING STEP 132
+2019-03-11 21:53:08,028 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,131 [BombeRLeWorld] INFO: STARTING STEP 133
+2019-03-11 21:53:08,135 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,233 [BombeRLeWorld] INFO: STARTING STEP 134
+2019-03-11 21:53:08,238 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,338 [BombeRLeWorld] INFO: STARTING STEP 135
+2019-03-11 21:53:08,342 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,443 [BombeRLeWorld] INFO: STARTING STEP 136
+2019-03-11 21:53:08,445 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,548 [BombeRLeWorld] INFO: STARTING STEP 137
+2019-03-11 21:53:08,552 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,652 [BombeRLeWorld] INFO: STARTING STEP 138
+2019-03-11 21:53:08,654 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,755 [BombeRLeWorld] INFO: STARTING STEP 139
+2019-03-11 21:53:08,777 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,859 [BombeRLeWorld] INFO: STARTING STEP 140
+2019-03-11 21:53:08,864 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:08,963 [BombeRLeWorld] INFO: STARTING STEP 141
+2019-03-11 21:53:08,983 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,068 [BombeRLeWorld] INFO: STARTING STEP 142
+2019-03-11 21:53:09,073 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,173 [BombeRLeWorld] INFO: STARTING STEP 143
+2019-03-11 21:53:09,181 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,278 [BombeRLeWorld] INFO: STARTING STEP 144
+2019-03-11 21:53:09,280 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,384 [BombeRLeWorld] INFO: STARTING STEP 145
+2019-03-11 21:53:09,389 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,488 [BombeRLeWorld] INFO: STARTING STEP 146
+2019-03-11 21:53:09,492 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,593 [BombeRLeWorld] INFO: STARTING STEP 147
+2019-03-11 21:53:09,597 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,714 [BombeRLeWorld] INFO: STARTING STEP 148
+2019-03-11 21:53:09,728 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,826 [BombeRLeWorld] INFO: STARTING STEP 149
+2019-03-11 21:53:09,849 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:09,924 [BombeRLeWorld] INFO: STARTING STEP 150
+2019-03-11 21:53:09,951 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,034 [BombeRLeWorld] INFO: STARTING STEP 151
+2019-03-11 21:53:10,051 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,139 [BombeRLeWorld] INFO: STARTING STEP 152
+2019-03-11 21:53:10,144 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,254 [BombeRLeWorld] INFO: STARTING STEP 153
+2019-03-11 21:53:10,267 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,359 [BombeRLeWorld] INFO: STARTING STEP 154
+2019-03-11 21:53:10,361 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,464 [BombeRLeWorld] INFO: STARTING STEP 155
+2019-03-11 21:53:10,465 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,568 [BombeRLeWorld] INFO: STARTING STEP 156
+2019-03-11 21:53:10,589 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,673 [BombeRLeWorld] INFO: STARTING STEP 157
+2019-03-11 21:53:10,678 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,779 [BombeRLeWorld] INFO: STARTING STEP 158
+2019-03-11 21:53:10,794 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,883 [BombeRLeWorld] INFO: STARTING STEP 159
+2019-03-11 21:53:10,885 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:10,993 [BombeRLeWorld] INFO: STARTING STEP 160
+2019-03-11 21:53:11,023 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,097 [BombeRLeWorld] INFO: STARTING STEP 161
+2019-03-11 21:53:11,112 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,201 [BombeRLeWorld] INFO: STARTING STEP 162
+2019-03-11 21:53:11,206 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,309 [BombeRLeWorld] INFO: STARTING STEP 163
+2019-03-11 21:53:11,312 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,414 [BombeRLeWorld] INFO: STARTING STEP 164
+2019-03-11 21:53:11,418 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,518 [BombeRLeWorld] INFO: STARTING STEP 165
+2019-03-11 21:53:11,520 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,624 [BombeRLeWorld] INFO: STARTING STEP 166
+2019-03-11 21:53:11,626 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,729 [BombeRLeWorld] INFO: STARTING STEP 167
+2019-03-11 21:53:11,733 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,833 [BombeRLeWorld] INFO: STARTING STEP 168
+2019-03-11 21:53:11,849 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:11,938 [BombeRLeWorld] INFO: STARTING STEP 169
+2019-03-11 21:53:11,942 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,046 [BombeRLeWorld] INFO: STARTING STEP 170
+2019-03-11 21:53:12,050 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,153 [BombeRLeWorld] INFO: STARTING STEP 171
+2019-03-11 21:53:12,156 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,260 [BombeRLeWorld] INFO: STARTING STEP 172
+2019-03-11 21:53:12,263 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,365 [BombeRLeWorld] INFO: STARTING STEP 173
+2019-03-11 21:53:12,384 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,469 [BombeRLeWorld] INFO: STARTING STEP 174
+2019-03-11 21:53:12,471 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,576 [BombeRLeWorld] INFO: STARTING STEP 175
+2019-03-11 21:53:12,590 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,680 [BombeRLeWorld] INFO: STARTING STEP 176
+2019-03-11 21:53:12,684 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,785 [BombeRLeWorld] INFO: STARTING STEP 177
+2019-03-11 21:53:12,803 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,887 [BombeRLeWorld] INFO: STARTING STEP 178
+2019-03-11 21:53:12,891 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:12,992 [BombeRLeWorld] INFO: STARTING STEP 179
+2019-03-11 21:53:12,996 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,097 [BombeRLeWorld] INFO: STARTING STEP 180
+2019-03-11 21:53:13,099 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,201 [BombeRLeWorld] INFO: STARTING STEP 181
+2019-03-11 21:53:13,204 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,312 [BombeRLeWorld] INFO: STARTING STEP 182
+2019-03-11 21:53:13,349 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,422 [BombeRLeWorld] INFO: STARTING STEP 183
+2019-03-11 21:53:13,429 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,527 [BombeRLeWorld] INFO: STARTING STEP 184
+2019-03-11 21:53:13,543 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,632 [BombeRLeWorld] INFO: STARTING STEP 185
+2019-03-11 21:53:13,649 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,733 [BombeRLeWorld] INFO: STARTING STEP 186
+2019-03-11 21:53:13,737 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,840 [BombeRLeWorld] INFO: STARTING STEP 187
+2019-03-11 21:53:13,854 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:13,944 [BombeRLeWorld] INFO: STARTING STEP 188
+2019-03-11 21:53:13,948 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,049 [BombeRLeWorld] INFO: STARTING STEP 189
+2019-03-11 21:53:14,051 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,158 [BombeRLeWorld] INFO: STARTING STEP 190
+2019-03-11 21:53:14,170 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,264 [BombeRLeWorld] INFO: STARTING STEP 191
+2019-03-11 21:53:14,269 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,370 [BombeRLeWorld] INFO: STARTING STEP 192
+2019-03-11 21:53:14,374 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,474 [BombeRLeWorld] INFO: STARTING STEP 193
+2019-03-11 21:53:14,479 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,582 [BombeRLeWorld] INFO: STARTING STEP 194
+2019-03-11 21:53:14,587 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,690 [BombeRLeWorld] INFO: STARTING STEP 195
+2019-03-11 21:53:14,697 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,808 [BombeRLeWorld] INFO: STARTING STEP 196
+2019-03-11 21:53:14,813 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:14,913 [BombeRLeWorld] INFO: STARTING STEP 197
+2019-03-11 21:53:14,922 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,018 [BombeRLeWorld] INFO: STARTING STEP 198
+2019-03-11 21:53:15,019 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,122 [BombeRLeWorld] INFO: STARTING STEP 199
+2019-03-11 21:53:15,128 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,226 [BombeRLeWorld] INFO: STARTING STEP 200
+2019-03-11 21:53:15,228 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,331 [BombeRLeWorld] INFO: STARTING STEP 201
+2019-03-11 21:53:15,332 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,436 [BombeRLeWorld] INFO: STARTING STEP 202
+2019-03-11 21:53:15,439 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,541 [BombeRLeWorld] INFO: STARTING STEP 203
+2019-03-11 21:53:15,542 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,645 [BombeRLeWorld] INFO: STARTING STEP 204
+2019-03-11 21:53:15,647 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,750 [BombeRLeWorld] INFO: STARTING STEP 205
+2019-03-11 21:53:15,754 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,855 [BombeRLeWorld] INFO: STARTING STEP 206
+2019-03-11 21:53:15,862 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:15,960 [BombeRLeWorld] INFO: STARTING STEP 207
+2019-03-11 21:53:15,962 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,065 [BombeRLeWorld] INFO: STARTING STEP 208
+2019-03-11 21:53:16,070 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,170 [BombeRLeWorld] INFO: STARTING STEP 209
+2019-03-11 21:53:16,172 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,274 [BombeRLeWorld] INFO: STARTING STEP 210
+2019-03-11 21:53:16,279 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,378 [BombeRLeWorld] INFO: STARTING STEP 211
+2019-03-11 21:53:16,381 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,484 [BombeRLeWorld] INFO: STARTING STEP 212
+2019-03-11 21:53:16,485 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,590 [BombeRLeWorld] INFO: STARTING STEP 213
+2019-03-11 21:53:16,594 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,695 [BombeRLeWorld] INFO: STARTING STEP 214
+2019-03-11 21:53:16,697 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,800 [BombeRLeWorld] INFO: STARTING STEP 215
+2019-03-11 21:53:16,810 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:16,904 [BombeRLeWorld] INFO: STARTING STEP 216
+2019-03-11 21:53:16,908 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,009 [BombeRLeWorld] INFO: STARTING STEP 217
+2019-03-11 21:53:17,015 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,114 [BombeRLeWorld] INFO: STARTING STEP 218
+2019-03-11 21:53:17,116 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,219 [BombeRLeWorld] INFO: STARTING STEP 219
+2019-03-11 21:53:17,224 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,324 [BombeRLeWorld] INFO: STARTING STEP 220
+2019-03-11 21:53:17,326 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,429 [BombeRLeWorld] INFO: STARTING STEP 221
+2019-03-11 21:53:17,431 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,534 [BombeRLeWorld] INFO: STARTING STEP 222
+2019-03-11 21:53:17,535 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,638 [BombeRLeWorld] INFO: STARTING STEP 223
+2019-03-11 21:53:17,644 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,743 [BombeRLeWorld] INFO: STARTING STEP 224
+2019-03-11 21:53:17,748 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,847 [BombeRLeWorld] INFO: STARTING STEP 225
+2019-03-11 21:53:17,849 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:17,952 [BombeRLeWorld] INFO: STARTING STEP 226
+2019-03-11 21:53:17,957 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,054 [BombeRLeWorld] INFO: STARTING STEP 227
+2019-03-11 21:53:18,058 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,159 [BombeRLeWorld] INFO: STARTING STEP 228
+2019-03-11 21:53:18,169 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,263 [BombeRLeWorld] INFO: STARTING STEP 229
+2019-03-11 21:53:18,267 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,366 [BombeRLeWorld] INFO: STARTING STEP 230
+2019-03-11 21:53:18,377 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,474 [BombeRLeWorld] INFO: STARTING STEP 231
+2019-03-11 21:53:18,478 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,578 [BombeRLeWorld] INFO: STARTING STEP 232
+2019-03-11 21:53:18,586 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,683 [BombeRLeWorld] INFO: STARTING STEP 233
+2019-03-11 21:53:18,685 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,787 [BombeRLeWorld] INFO: STARTING STEP 234
+2019-03-11 21:53:18,788 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,891 [BombeRLeWorld] INFO: STARTING STEP 235
+2019-03-11 21:53:18,895 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:18,993 [BombeRLeWorld] INFO: STARTING STEP 236
+2019-03-11 21:53:18,999 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,098 [BombeRLeWorld] INFO: STARTING STEP 237
+2019-03-11 21:53:19,103 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,202 [BombeRLeWorld] INFO: STARTING STEP 238
+2019-03-11 21:53:19,207 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,307 [BombeRLeWorld] INFO: STARTING STEP 239
+2019-03-11 21:53:19,321 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,420 [BombeRLeWorld] INFO: STARTING STEP 240
+2019-03-11 21:53:19,425 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,524 [BombeRLeWorld] INFO: STARTING STEP 241
+2019-03-11 21:53:19,538 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,629 [BombeRLeWorld] INFO: STARTING STEP 242
+2019-03-11 21:53:19,633 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,733 [BombeRLeWorld] INFO: STARTING STEP 243
+2019-03-11 21:53:19,740 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,842 [BombeRLeWorld] INFO: STARTING STEP 244
+2019-03-11 21:53:19,847 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:19,947 [BombeRLeWorld] INFO: STARTING STEP 245
+2019-03-11 21:53:19,953 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,051 [BombeRLeWorld] INFO: STARTING STEP 246
+2019-03-11 21:53:20,053 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,156 [BombeRLeWorld] INFO: STARTING STEP 247
+2019-03-11 21:53:20,157 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,260 [BombeRLeWorld] INFO: STARTING STEP 248
+2019-03-11 21:53:20,268 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,365 [BombeRLeWorld] INFO: STARTING STEP 249
+2019-03-11 21:53:20,368 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,469 [BombeRLeWorld] INFO: STARTING STEP 250
+2019-03-11 21:53:20,471 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,573 [BombeRLeWorld] INFO: STARTING STEP 251
+2019-03-11 21:53:20,578 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,678 [BombeRLeWorld] INFO: STARTING STEP 252
+2019-03-11 21:53:20,690 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,781 [BombeRLeWorld] INFO: STARTING STEP 253
+2019-03-11 21:53:20,786 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,885 [BombeRLeWorld] INFO: STARTING STEP 254
+2019-03-11 21:53:20,901 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:20,988 [BombeRLeWorld] INFO: STARTING STEP 255
+2019-03-11 21:53:20,992 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,097 [BombeRLeWorld] INFO: STARTING STEP 256
+2019-03-11 21:53:21,102 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,201 [BombeRLeWorld] INFO: STARTING STEP 257
+2019-03-11 21:53:21,203 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,305 [BombeRLeWorld] INFO: STARTING STEP 258
+2019-03-11 21:53:21,307 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,410 [BombeRLeWorld] INFO: STARTING STEP 259
+2019-03-11 21:53:21,412 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,514 [BombeRLeWorld] INFO: STARTING STEP 260
+2019-03-11 21:53:21,521 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,619 [BombeRLeWorld] INFO: STARTING STEP 261
+2019-03-11 21:53:21,624 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,723 [BombeRLeWorld] INFO: STARTING STEP 262
+2019-03-11 21:53:21,725 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,834 [BombeRLeWorld] INFO: STARTING STEP 263
+2019-03-11 21:53:21,844 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:21,944 [BombeRLeWorld] INFO: STARTING STEP 264
+2019-03-11 21:53:21,951 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,050 [BombeRLeWorld] INFO: STARTING STEP 265
+2019-03-11 21:53:22,063 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,155 [BombeRLeWorld] INFO: STARTING STEP 266
+2019-03-11 21:53:22,162 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,256 [BombeRLeWorld] INFO: STARTING STEP 267
+2019-03-11 21:53:22,262 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,360 [BombeRLeWorld] INFO: STARTING STEP 268
+2019-03-11 21:53:22,364 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,464 [BombeRLeWorld] INFO: STARTING STEP 269
+2019-03-11 21:53:22,470 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,570 [BombeRLeWorld] INFO: STARTING STEP 270
+2019-03-11 21:53:22,573 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,675 [BombeRLeWorld] INFO: STARTING STEP 271
+2019-03-11 21:53:22,679 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,780 [BombeRLeWorld] INFO: STARTING STEP 272
+2019-03-11 21:53:22,784 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,883 [BombeRLeWorld] INFO: STARTING STEP 273
+2019-03-11 21:53:22,888 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:22,986 [BombeRLeWorld] INFO: STARTING STEP 274
+2019-03-11 21:53:23,006 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,091 [BombeRLeWorld] INFO: STARTING STEP 275
+2019-03-11 21:53:23,096 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,196 [BombeRLeWorld] INFO: STARTING STEP 276
+2019-03-11 21:53:23,203 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,299 [BombeRLeWorld] INFO: STARTING STEP 277
+2019-03-11 21:53:23,301 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,404 [BombeRLeWorld] INFO: STARTING STEP 278
+2019-03-11 21:53:23,406 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,509 [BombeRLeWorld] INFO: STARTING STEP 279
+2019-03-11 21:53:23,514 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,614 [BombeRLeWorld] INFO: STARTING STEP 280
+2019-03-11 21:53:23,619 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,721 [BombeRLeWorld] INFO: STARTING STEP 281
+2019-03-11 21:53:23,723 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,824 [BombeRLeWorld] INFO: STARTING STEP 282
+2019-03-11 21:53:23,826 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:23,928 [BombeRLeWorld] INFO: STARTING STEP 283
+2019-03-11 21:53:23,931 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,033 [BombeRLeWorld] INFO: STARTING STEP 284
+2019-03-11 21:53:24,034 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,136 [BombeRLeWorld] INFO: STARTING STEP 285
+2019-03-11 21:53:24,141 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,240 [BombeRLeWorld] INFO: STARTING STEP 286
+2019-03-11 21:53:24,242 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,349 [BombeRLeWorld] INFO: STARTING STEP 287
+2019-03-11 21:53:24,363 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,453 [BombeRLeWorld] INFO: STARTING STEP 288
+2019-03-11 21:53:24,458 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,558 [BombeRLeWorld] INFO: STARTING STEP 289
+2019-03-11 21:53:24,563 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,663 [BombeRLeWorld] INFO: STARTING STEP 290
+2019-03-11 21:53:24,667 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,768 [BombeRLeWorld] INFO: STARTING STEP 291
+2019-03-11 21:53:24,773 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,873 [BombeRLeWorld] INFO: STARTING STEP 292
+2019-03-11 21:53:24,874 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:24,977 [BombeRLeWorld] INFO: STARTING STEP 293
+2019-03-11 21:53:24,979 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,081 [BombeRLeWorld] INFO: STARTING STEP 294
+2019-03-11 21:53:25,085 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,187 [BombeRLeWorld] INFO: STARTING STEP 295
+2019-03-11 21:53:25,189 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,293 [BombeRLeWorld] INFO: STARTING STEP 296
+2019-03-11 21:53:25,302 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,395 [BombeRLeWorld] INFO: STARTING STEP 297
+2019-03-11 21:53:25,404 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,506 [BombeRLeWorld] INFO: STARTING STEP 298
+2019-03-11 21:53:25,511 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,613 [BombeRLeWorld] INFO: STARTING STEP 299
+2019-03-11 21:53:25,619 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,717 [BombeRLeWorld] INFO: STARTING STEP 300
+2019-03-11 21:53:25,721 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,821 [BombeRLeWorld] INFO: STARTING STEP 301
+2019-03-11 21:53:25,826 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:25,925 [BombeRLeWorld] INFO: STARTING STEP 302
+2019-03-11 21:53:25,927 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,031 [BombeRLeWorld] INFO: STARTING STEP 303
+2019-03-11 21:53:26,043 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,138 [BombeRLeWorld] INFO: STARTING STEP 304
+2019-03-11 21:53:26,151 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,242 [BombeRLeWorld] INFO: STARTING STEP 305
+2019-03-11 21:53:26,245 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,354 [BombeRLeWorld] INFO: STARTING STEP 306
+2019-03-11 21:53:26,356 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,458 [BombeRLeWorld] INFO: STARTING STEP 307
+2019-03-11 21:53:26,460 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,562 [BombeRLeWorld] INFO: STARTING STEP 308
+2019-03-11 21:53:26,564 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,667 [BombeRLeWorld] INFO: STARTING STEP 309
+2019-03-11 21:53:26,671 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,772 [BombeRLeWorld] INFO: STARTING STEP 310
+2019-03-11 21:53:26,774 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,877 [BombeRLeWorld] INFO: STARTING STEP 311
+2019-03-11 21:53:26,882 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:26,982 [BombeRLeWorld] INFO: STARTING STEP 312
+2019-03-11 21:53:26,984 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,086 [BombeRLeWorld] INFO: STARTING STEP 313
+2019-03-11 21:53:27,091 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,191 [BombeRLeWorld] INFO: STARTING STEP 314
+2019-03-11 21:53:27,195 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,296 [BombeRLeWorld] INFO: STARTING STEP 315
+2019-03-11 21:53:27,306 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,404 [BombeRLeWorld] INFO: STARTING STEP 316
+2019-03-11 21:53:27,406 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,508 [BombeRLeWorld] INFO: STARTING STEP 317
+2019-03-11 21:53:27,511 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,613 [BombeRLeWorld] INFO: STARTING STEP 318
+2019-03-11 21:53:27,614 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,718 [BombeRLeWorld] INFO: STARTING STEP 319
+2019-03-11 21:53:27,719 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,834 [BombeRLeWorld] INFO: STARTING STEP 320
+2019-03-11 21:53:27,846 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:27,938 [BombeRLeWorld] INFO: STARTING STEP 321
+2019-03-11 21:53:27,940 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,049 [BombeRLeWorld] INFO: STARTING STEP 322
+2019-03-11 21:53:28,054 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,154 [BombeRLeWorld] INFO: STARTING STEP 323
+2019-03-11 21:53:28,158 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,259 [BombeRLeWorld] INFO: STARTING STEP 324
+2019-03-11 21:53:28,263 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,363 [BombeRLeWorld] INFO: STARTING STEP 325
+2019-03-11 21:53:28,366 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,467 [BombeRLeWorld] INFO: STARTING STEP 326
+2019-03-11 21:53:28,469 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,573 [BombeRLeWorld] INFO: STARTING STEP 327
+2019-03-11 21:53:28,579 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,685 [BombeRLeWorld] INFO: STARTING STEP 328
+2019-03-11 21:53:28,694 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,790 [BombeRLeWorld] INFO: STARTING STEP 329
+2019-03-11 21:53:28,792 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:28,895 [BombeRLeWorld] INFO: STARTING STEP 330
+2019-03-11 21:53:28,897 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,000 [BombeRLeWorld] INFO: STARTING STEP 331
+2019-03-11 21:53:29,001 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,111 [BombeRLeWorld] INFO: STARTING STEP 332
+2019-03-11 21:53:29,116 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,215 [BombeRLeWorld] INFO: STARTING STEP 333
+2019-03-11 21:53:29,220 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,319 [BombeRLeWorld] INFO: STARTING STEP 334
+2019-03-11 21:53:29,324 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,423 [BombeRLeWorld] INFO: STARTING STEP 335
+2019-03-11 21:53:29,427 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,528 [BombeRLeWorld] INFO: STARTING STEP 336
+2019-03-11 21:53:29,535 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,633 [BombeRLeWorld] INFO: STARTING STEP 337
+2019-03-11 21:53:29,635 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,737 [BombeRLeWorld] INFO: STARTING STEP 338
+2019-03-11 21:53:29,739 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,842 [BombeRLeWorld] INFO: STARTING STEP 339
+2019-03-11 21:53:29,846 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:29,946 [BombeRLeWorld] INFO: STARTING STEP 340
+2019-03-11 21:53:29,948 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,050 [BombeRLeWorld] INFO: STARTING STEP 341
+2019-03-11 21:53:30,051 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,154 [BombeRLeWorld] INFO: STARTING STEP 342
+2019-03-11 21:53:30,159 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,259 [BombeRLeWorld] INFO: STARTING STEP 343
+2019-03-11 21:53:30,267 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,364 [BombeRLeWorld] INFO: STARTING STEP 344
+2019-03-11 21:53:30,366 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,466 [BombeRLeWorld] INFO: STARTING STEP 345
+2019-03-11 21:53:30,472 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,571 [BombeRLeWorld] INFO: STARTING STEP 346
+2019-03-11 21:53:30,573 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,674 [BombeRLeWorld] INFO: STARTING STEP 347
+2019-03-11 21:53:30,679 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,778 [BombeRLeWorld] INFO: STARTING STEP 348
+2019-03-11 21:53:30,780 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,884 [BombeRLeWorld] INFO: STARTING STEP 349
+2019-03-11 21:53:30,885 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:30,991 [BombeRLeWorld] INFO: STARTING STEP 350
+2019-03-11 21:53:30,995 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,095 [BombeRLeWorld] INFO: STARTING STEP 351
+2019-03-11 21:53:31,097 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,199 [BombeRLeWorld] INFO: STARTING STEP 352
+2019-03-11 21:53:31,201 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,304 [BombeRLeWorld] INFO: STARTING STEP 353
+2019-03-11 21:53:31,306 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,409 [BombeRLeWorld] INFO: STARTING STEP 354
+2019-03-11 21:53:31,418 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,513 [BombeRLeWorld] INFO: STARTING STEP 355
+2019-03-11 21:53:31,515 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,618 [BombeRLeWorld] INFO: STARTING STEP 356
+2019-03-11 21:53:31,623 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,722 [BombeRLeWorld] INFO: STARTING STEP 357
+2019-03-11 21:53:31,727 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,827 [BombeRLeWorld] INFO: STARTING STEP 358
+2019-03-11 21:53:31,829 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:31,932 [BombeRLeWorld] INFO: STARTING STEP 359
+2019-03-11 21:53:31,934 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,037 [BombeRLeWorld] INFO: STARTING STEP 360
+2019-03-11 21:53:32,038 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,141 [BombeRLeWorld] INFO: STARTING STEP 361
+2019-03-11 21:53:32,143 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,245 [BombeRLeWorld] INFO: STARTING STEP 362
+2019-03-11 21:53:32,246 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,350 [BombeRLeWorld] INFO: STARTING STEP 363
+2019-03-11 21:53:32,358 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,454 [BombeRLeWorld] INFO: STARTING STEP 364
+2019-03-11 21:53:32,456 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,559 [BombeRLeWorld] INFO: STARTING STEP 365
+2019-03-11 21:53:32,564 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,663 [BombeRLeWorld] INFO: STARTING STEP 366
+2019-03-11 21:53:32,665 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,767 [BombeRLeWorld] INFO: STARTING STEP 367
+2019-03-11 21:53:32,769 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,878 [BombeRLeWorld] INFO: STARTING STEP 368
+2019-03-11 21:53:32,883 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:32,983 [BombeRLeWorld] INFO: STARTING STEP 369
+2019-03-11 21:53:32,985 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,088 [BombeRLeWorld] INFO: STARTING STEP 370
+2019-03-11 21:53:33,090 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,193 [BombeRLeWorld] INFO: STARTING STEP 371
+2019-03-11 21:53:33,194 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,302 [BombeRLeWorld] INFO: STARTING STEP 372
+2019-03-11 21:53:33,309 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,406 [BombeRLeWorld] INFO: STARTING STEP 373
+2019-03-11 21:53:33,408 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,510 [BombeRLeWorld] INFO: STARTING STEP 374
+2019-03-11 21:53:33,512 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,618 [BombeRLeWorld] INFO: STARTING STEP 375
+2019-03-11 21:53:33,620 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,723 [BombeRLeWorld] INFO: STARTING STEP 376
+2019-03-11 21:53:33,727 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,826 [BombeRLeWorld] INFO: STARTING STEP 377
+2019-03-11 21:53:33,828 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:33,930 [BombeRLeWorld] INFO: STARTING STEP 378
+2019-03-11 21:53:33,933 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,036 [BombeRLeWorld] INFO: STARTING STEP 379
+2019-03-11 21:53:34,046 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,140 [BombeRLeWorld] INFO: STARTING STEP 380
+2019-03-11 21:53:34,146 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,244 [BombeRLeWorld] INFO: STARTING STEP 381
+2019-03-11 21:53:34,249 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,349 [BombeRLeWorld] INFO: STARTING STEP 382
+2019-03-11 21:53:34,355 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,453 [BombeRLeWorld] INFO: STARTING STEP 383
+2019-03-11 21:53:34,455 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,557 [BombeRLeWorld] INFO: STARTING STEP 384
+2019-03-11 21:53:34,561 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,662 [BombeRLeWorld] INFO: STARTING STEP 385
+2019-03-11 21:53:34,663 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,767 [BombeRLeWorld] INFO: STARTING STEP 386
+2019-03-11 21:53:34,769 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,871 [BombeRLeWorld] INFO: STARTING STEP 387
+2019-03-11 21:53:34,873 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:34,975 [BombeRLeWorld] INFO: STARTING STEP 388
+2019-03-11 21:53:34,987 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,080 [BombeRLeWorld] INFO: STARTING STEP 389
+2019-03-11 21:53:35,086 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,186 [BombeRLeWorld] INFO: STARTING STEP 390
+2019-03-11 21:53:35,201 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,299 [BombeRLeWorld] INFO: STARTING STEP 391
+2019-03-11 21:53:35,304 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,404 [BombeRLeWorld] INFO: STARTING STEP 392
+2019-03-11 21:53:35,413 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,508 [BombeRLeWorld] INFO: STARTING STEP 393
+2019-03-11 21:53:35,517 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,613 [BombeRLeWorld] INFO: STARTING STEP 394
+2019-03-11 21:53:35,627 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,718 [BombeRLeWorld] INFO: STARTING STEP 395
+2019-03-11 21:53:35,733 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,822 [BombeRLeWorld] INFO: STARTING STEP 396
+2019-03-11 21:53:35,832 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:35,927 [BombeRLeWorld] INFO: STARTING STEP 397
+2019-03-11 21:53:35,936 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:36,031 [BombeRLeWorld] INFO: STARTING STEP 398
+2019-03-11 21:53:36,034 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:36,137 [BombeRLeWorld] INFO: STARTING STEP 399
+2019-03-11 21:53:36,153 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:36,248 [BombeRLeWorld] INFO: STARTING STEP 400
+2019-03-11 21:53:36,254 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:53:36,255 [BombeRLeWorld] INFO: Maximum number of steps reached, wrap up round
+2019-03-11 21:53:36,372 [BombeRLeWorld] INFO: WRAPPING UP ROUND #1
+2019-03-11 21:53:36,377 [BombeRLeWorld] INFO: Agent <nn_agent> loses 1 point for being slowest (avg. 0.006s)
+2019-03-11 21:54:11,636 [BombeRLeWorld] INFO: STARTING ROUND #2
+2019-03-11 21:54:11,678 [BombeRLeWorld] INFO: STARTING STEP 1
+2019-03-11 21:54:11,690 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:54:11,690 [BombeRLeWorld] INFO: Agent <nn_agent> drops bomb at (1, 15)
+2019-03-11 21:54:11,691 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:11,783 [BombeRLeWorld] INFO: STARTING STEP 2
+2019-03-11 21:54:11,809 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:54:11,810 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:11,888 [BombeRLeWorld] INFO: STARTING STEP 3
+2019-03-11 21:54:11,894 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.00s.
+2019-03-11 21:54:11,895 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:11,999 [BombeRLeWorld] INFO: STARTING STEP 4
+2019-03-11 21:54:12,009 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,009 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.00s.
+2019-03-11 21:54:12,105 [BombeRLeWorld] INFO: STARTING STEP 5
+2019-03-11 21:54:12,117 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,117 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.01s.
+2019-03-11 21:54:12,210 [BombeRLeWorld] INFO: STARTING STEP 6
+2019-03-11 21:54:12,221 [BombeRLeWorld] INFO: Agent <nn_agent> chose action BOMB in 0.00s.
+2019-03-11 21:54:12,221 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,222 [BombeRLeWorld] INFO: Agent <nn_agent>'s bomb at (1, 15) explodes
+2019-03-11 21:54:12,222 [BombeRLeWorld] INFO: Agent <nn_agent> blown up by own bomb
+2019-03-11 21:54:12,313 [BombeRLeWorld] INFO: STARTING STEP 7
+2019-03-11 21:54:12,315 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,418 [BombeRLeWorld] INFO: STARTING STEP 8
+2019-03-11 21:54:12,420 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,529 [BombeRLeWorld] INFO: STARTING STEP 9
+2019-03-11 21:54:12,536 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,633 [BombeRLeWorld] INFO: STARTING STEP 10
+2019-03-11 21:54:12,635 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,737 [BombeRLeWorld] INFO: STARTING STEP 11
+2019-03-11 21:54:12,741 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,841 [BombeRLeWorld] INFO: STARTING STEP 12
+2019-03-11 21:54:12,843 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:12,951 [BombeRLeWorld] INFO: STARTING STEP 13
+2019-03-11 21:54:12,953 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:13,056 [BombeRLeWorld] INFO: STARTING STEP 14
+2019-03-11 21:54:13,066 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:13,160 [BombeRLeWorld] INFO: STARTING STEP 15
+2019-03-11 21:54:13,162 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:13,265 [BombeRLeWorld] INFO: STARTING STEP 16
+2019-03-11 21:54:13,271 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:13,369 [BombeRLeWorld] INFO: STARTING STEP 17
+2019-03-11 21:54:13,371 [BombeRLeWorld] INFO: Agent <useless_agent> chose action WAIT in 0.00s.
+2019-03-11 21:54:13,453 [BombeRLeWorld] INFO: WRAPPING UP ROUND #2
+2019-03-11 21:54:13,455 [BombeRLeWorld] INFO: Agent <nn_agent> loses 1 point for being slowest (avg. 0.005s)
+2019-03-11 21:54:13,455 [BombeRLeWorld] INFO: SHUT DOWN
