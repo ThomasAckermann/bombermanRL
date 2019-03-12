@@ -8,9 +8,9 @@ from scipy.optimize import curve_fit
 moves = np.array([[]])
 
 
-def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13):
-    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12) = X
-    return a_1 + a_2*x_1 + a_3*x_2 + a_4*x_3 + a_5*x_4 + a_6*x_5 + a_7*x_6 + a_8*x_7 + a_9*x_8 + a_10*x_9 + a_11*x_10 + a_12*x_11 + a_13*x_12
+def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15):
+    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14) = X
+    return a_1 + a_2*x_1 + a_3*x_2 + a_4*x_3 + a_5*x_4 + a_6*x_5 + a_7*x_6 + a_8*x_7 + a_9*x_8 + a_10*x_9 + a_11*x_10 + a_12*x_11 + a_13*x_12 + a_14*x_13 + a_15*x_14
 
 def positions(self):
     agent = self.game_state['self']
@@ -93,7 +93,11 @@ def bomb_difference(self):
             dist = np.append(dist, np.linalg.norm(agent_pos - bombs[i])) 
         bomb = bombs[np.argmin(dist)]  
     diff = np.linalg.norm(agent_pos - bomb)
-    return np.array([diff])
+    if diff != 0 :
+        direction = (agent_pos - bomb) / diff
+    else:
+        direction = np.array([0,0]) 
+    return np.array([diff, *direction])
 
 def explosion_radius(self):
     agent = self.game_state['self']
@@ -218,17 +222,24 @@ def reward_update(self):
     global moves
     features = build_features(self)
     history = np.load('agent_code/qn_agent/q_data.npy')
-    last_event = history[-1] 
-    
+    last_event = history[-1]
+    last_move = last_event[0]
+    spacken = 0
+    if len(history) >= 1:
+        second_to_last_move = history[-2][0]
+        if (second_to_last_move == 0 and last_move == 1) or (second_to_last_move == 1 and last_move == 0) or (second_to_last_move == 2 and last_move == 3) or (second_to_last_move == 3 and last_move == 2):
+            spacken = 2
+        
+        
     delta_dist = features[0] - last_event[2]
     delta_bd = features[10] - last_event[12]
 
-    rewards = {0:-3 - 1.5*features[1]*delta_dist + 0.2*features[3] + 0.5*features[8] + 1*delta_bd - 3*features[11],
-            1:-3 + 1.5*features[1]*delta_dist - 0.2*features[3] - 0.5*features[8] + 1*delta_bd - 3*features[11],
-            2:-3 - 1.5*features[2]*delta_dist + 0.2*features[4] + 0.5*features[9] + 1*delta_bd - 3*features[11],
-            3:-3 + 1.5*features[2]*delta_dist - 0.2*features[4] - 0.5*features[9] + 1*delta_bd - 3*features[11],
+    rewards = {0:-4.5 - spacken - 1.5*features[1]*delta_dist + 0.2*features[3] + 0.5*features[8] + 1*delta_bd - 3*features[13] + 1.5*features[11],
+            1:-4.5 - spacken + 1.5*features[1]*delta_dist - 0.2*features[3] - 0.5*features[8] + 1*delta_bd - 3*features[13] - 1.5*features[11],
+            2:-4.5 - spacken - 1.5*features[2]*delta_dist + 0.2*features[4] + 0.5*features[9] + 1*delta_bd - 3*features[13] + 1.5*features[12],
+            3:-4.5 -spacken + 1.5*features[2]*delta_dist - 0.2*features[4] - 0.5*features[9] + 1*delta_bd - 3*features[13] - 1.5*features[12],
             4:-7 - 10*features[11], 
-            5:-1,
+            5:-5,
             6:-5 - 1.5*features[5] - 1.5*features[6] - 1.5*features[8] - 1.5*features[9],
             
             7:-5,
