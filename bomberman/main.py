@@ -41,10 +41,10 @@ def main():
 
     # Initialize environment and agents
     world = BombeRLeWorld([
-            ('useless_agent', False),
+            #('useless_agent', False),
             #('q_agent', True),
             # ('q_agent', True),
-            ('nn_agent', True)
+            ('qn_agent', True)
         ])
     # world = ReplayWorld('replay_3')# ('Replay 2019-01-30 16:57:42')
     user_inputs = []
@@ -54,6 +54,8 @@ def main():
     t.daemon = True
     t.start()
 
+    start_time = time()
+    print(start_time)
     # Run one or more games
     for i in range(s.n_rounds):
         if not world.running:
@@ -108,6 +110,9 @@ def main():
                     last_frame = time()
 
     world.end()
+    end_time = time()
+    print(end_time)
+    print('Duration =', end_time - start_time, 's =', (end_time - start_time)/60, 'min')
 
 
 if __name__ == '__main__':

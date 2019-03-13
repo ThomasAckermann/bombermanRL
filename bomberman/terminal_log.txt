@@ -1,0 +1,2449 @@
+Last login: Tue Mar 12 11:46:02 on console
+Carls-MBP:~ Carl$ cd Documents/GitHub/ml_project
+Carls-MBP:ml_project Carl$ cd bomberman/
+Carls-MBP:bomberman Carl$ ls
+README.md		items.py		settings.py
+__pycache__		logs			test_reward_q.txt
+agent_code		main.py			test_reward_qn.txt
+agents.py		q_data.npy		test_reward_qnn.txt
+assets			replays			theta_q.npy
+environment.py		screenshots
+Carls-MBP:bomberman Carl$ cd agent_code/nn_agent/
+Carls-MBP:nn_agent Carl$ open callbacks.py -t
+Carls-MBP:nn_agent Carl$ cd ..
+Carls-MBP:agent_code Carl$ ls
+agent		q_agent		qn_agent	simple_agent	user_agent
+nn_agent	q_bomb_agent	random_agent	useless_agent
+Carls-MBP:agent_code Carl$ cd use
+useless_agent/ user_agent/    
+Carls-MBP:agent_code Carl$ cd useless_agent/
+Carls-MBP:useless_agent Carl$ open -t callbacks.py 
+Carls-MBP:useless_agent Carl$ cd ../..
+Carls-MBP:bomberman Carl$ open -t main.py 
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 16:50:03.732 python[1918:84675] 16:50:03.692 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Process nn_agent:
+Traceback (most recent call last):
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agents.py", line 56, in run
+    self.code = importlib.import_module('agent_code.' + self.agent_dir + '.callbacks')
+  File "/Users/Carl/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agent_code/nn_agent/callbacks.py", line 175
+    '''
+    return None
+       
+              ^
+SyntaxError: EOF while scanning triple-quoted string literal
+^CProcess useless_agent:
+Traceback (most recent call last):
+  File "main.py", line 114, in <module>
+    main()
+  File "main.py", line 47, in main
+    ('nn_agent', True)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 28, in __init__
+    self.setup_agents(agents)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 80, in setup_agents
+    self.add_agent(agent_dir, name, train=train)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 168, in add_agent
+    agent.ready_flag.wait()
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 361, in wait
+    self._cond.wait(timeout)
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 262, in wait
+Traceback (most recent call last):
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agents.py", line 71, in run
+    self.round = self.pipe_to_world.recv()
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+KeyboardInterrupt
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 16:53:12.890 python[1940:86922] 16:53:12.889 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Process user_agent:
+Traceback (most recent call last):
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agents.py", line 82, in run
+    if self.fake_self.game_state['exit']:
+TypeError: 'NoneType' object is not subscriptable
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 16:53:36.128 python[1948:87345] 16:53:36.128 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Process user_agent:
+Traceback (most recent call last):
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agents.py", line 82, in run
+    if self.fake_self.game_state['exit']:
+TypeError: 'int' object is not subscriptable
+^CProcess useless_agent:
+Traceback (most recent call last):
+  File "main.py", line 114, in <module>
+    main()
+  File "main.py", line 86, in main
+    world.end_round()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 402, in end_round
+    self.put_down_agent(a)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 281, in put_down_agent
+Traceback (most recent call last):
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agents.py", line 71, in run
+    self.round = self.pipe_to_world.recv()
+    agent.ready_flag.wait()
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 361, in wait
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+KeyboardInterrupt
+    self._cond.wait(timeout)
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 262, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:08:27.159 python[2029:94868] 17:08:27.159 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Carls-MBP:bomberman Carl$ ls
+README.md		items.py		settings.py
+__pycache__		logs			test_reward_q.txt
+agent_code		main.py			test_reward_qn.txt
+agents.py		q_data.npy		test_reward_qnn.txt
+assets			replays			theta_q.npy
+environment.py		screenshots
+Carls-MBP:bomberman Carl$ cd agent_code/
+Carls-MBP:agent_code Carl$ cd qn_agent/
+Carls-MBP:qn_agent Carl$ ls
+Datensicherung_nach_355_spielen	logs
+__pycache__			q_data.npy
+callbacks.py			test.py
+copy_q_data.npy			theta_q.npy
+create_q_data.py
+Carls-MBP:qn_agent Carl$ python create_q_data.py 
+Carls-MBP:qn_agent Carl$ cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:22:11.003 python[2264:100934] 17:22:11.002 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+50
+END
+82
+END
+106
+END
+137
+END
+161
+END
+170
+END
+229
+END
+246
+END
+286
+END
+292
+END
+304
+END
+346
+END
+405
+END
+454
+END
+460
+END
+470
+END
+481
+END
+530
+END
+622
+END
+676
+END
+689
+END
+700
+END
+722
+END
+734
+END
+748
+END
+785
+END
+814
+END
+902
+END
+953
+END
+967
+END
+977
+END
+991
+END
+1032
+END
+1049
+END
+1067
+END
+1088
+END
+1107
+END
+1140
+END
+1183
+END
+1220
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:27:40.876 python[2286:102378] 17:27:40.876 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1220
+1285
+END
+1312
+END
+1332
+END
+1346
+END
+1419
+END
+1435
+END
+1471
+END
+1525
+END
+1567
+END
+1596
+END
+1751
+END
+1784
+END
+1816
+END
+1825
+END
+1835
+END
+1966
+END
+2025
+END
+2044
+END
+2094
+END
+2133
+END
+2173
+END
+2190
+END
+2219
+END
+2226
+END
+2342
+END
+2355
+END
+2364
+END
+2406
+END
+2490
+END
+2503
+END
+2520
+END
+2541
+END
+2549
+END
+2571
+END
+2586
+END
+2605
+END
+2626
+END
+2732
+END
+2777
+END
+2802
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:28:30.889 python[2294:102894] 17:28:30.889 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2802
+2833
+END
+2999
+END
+3045
+END
+3078
+END
+3134
+END
+3140
+END
+3147
+END
+3231
+END
+3242
+END
+3270
+END
+3282
+END
+3303
+END
+3334
+END
+3343
+END
+3351
+END
+3422
+END
+3440
+END
+3465
+END
+3533
+END
+3577
+END
+3633
+END
+3652
+END
+3672
+END
+3687
+END
+3733
+END
+3760
+END
+3798
+END
+3814
+END
+3846
+END
+3890
+END
+3927
+END
+3982
+END
+4060
+END
+4068
+END
+4102
+END
+4163
+END
+4241
+END
+4410
+END
+4442
+END
+4457
+END
+Carls-MBP:bomberman Carl$ 
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:30:41.973 python[2334:104571] 17:30:41.973 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+4457
+4470
+END
+4493
+END
+4549
+END
+4566
+END
+4644
+END
+4715
+END
+4738
+END
+4815
+END
+4839
+END
+4900
+END
+4967
+END
+4984
+END
+5036
+END
+5042
+END
+5133
+END
+5178
+END
+5221
+END
+5421
+END
+5466
+END
+5476
+END
+5482
+END
+5503
+END
+5527
+END
+5601
+END
+5620
+END
+5788
+END
+5985
+END
+5996
+END
+6022
+END
+6065
+END
+6083
+END
+6099
+END
+6135
+END
+6179
+END
+6191
+END
+6218
+END
+6262
+END
+6295
+END
+6320
+END
+6351
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:32:18.580 python[2370:105773] 17:32:18.579 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6408
+END
+6433
+END
+6460
+END
+6476
+END
+6500
+END
+6607
+END
+6669
+END
+6675
+END
+6698
+END
+6721
+END
+6731
+END
+6808
+END
+6822
+END
+6844
+END
+6860
+END
+6872
+END
+6940
+END
+6982
+END
+7031
+END
+7037
+END
+7090
+END
+7124
+END
+7171
+END
+7184
+END
+7200
+END
+7206
+END
+7216
+END
+7226
+END
+7259
+END
+7271
+END
+7292
+END
+7318
+END
+7344
+END
+7372
+END
+7378
+END
+7387
+END
+7430
+END
+7459
+END
+7552
+END
+7565
+END
+Carls-MBP:bomberman Carl$ cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:34:20.194 python[2384:106771] 17:34:20.194 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+36
+END
+71
+END
+245
+END
+292
+END
+316
+END
+333
+END
+357
+END
+369
+END
+396
+END
+410
+END
+420
+END
+483
+END
+491
+END
+507
+END
+523
+END
+674
+END
+700
+END
+715
+END
+736
+END
+775
+END
+821
+END
+829
+END
+867
+END
+914
+END
+934
+END
+1069
+END
+1169
+END
+1198
+END
+1254
+END
+1308
+END
+1343
+END
+1400
+END
+1411
+END
+1428
+END
+1449
+END
+1484
+END
+1524
+END
+1534
+END
+1662
+END
+1699
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:34:56.495 python[2390:107058] 17:34:56.495 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1707
+END
+1818
+END
+1825
+END
+1876
+END
+1955
+END
+1986
+END
+2024
+END
+2058
+END
+2097
+END
+2124
+END
+2149
+END
+2180
+END
+2306
+END
+2319
+END
+2353
+END
+2395
+END
+2431
+END
+2453
+END
+2478
+END
+2620
+END
+2634
+END
+2663
+END
+2735
+END
+2745
+END
+2773
+END
+2828
+END
+2881
+END
+3066
+END
+3084
+END
+3125
+END
+3158
+END
+3183
+END
+3204
+END
+3271
+END
+3288
+END
+3312
+END
+3347
+END
+3356
+END
+3366
+END
+3423
+END
+Carls-MBP:bomberman Carl$ cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:35:55.193 python[2400:107437] 17:35:55.192 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+39
+END
+79
+END
+147
+END
+155
+END
+192
+END
+242
+END
+259
+END
+280
+END
+289
+END
+297
+END
+341
+END
+370
+END
+379
+END
+408
+END
+498
+END
+522
+END
+558
+END
+597
+END
+623
+END
+676
+END
+788
+END
+819
+END
+864
+END
+897
+END
+920
+END
+946
+END
+979
+END
+991
+END
+1074
+END
+1111
+END
+1133
+END
+1171
+END
+1202
+END
+1210
+END
+1240
+END
+1304
+END
+1315
+END
+1360
+END
+1399
+END
+1449
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:36:41.015 python[2407:107770] 17:36:41.015 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1449
+1264
+END
+1276
+END
+1287
+END
+1295
+END
+1332
+END
+1348
+END
+1373
+END
+1384
+END
+1411
+END
+1421
+END
+1494
+END
+1521
+END
+1571
+END
+1738
+END
+1802
+END
+1817
+END
+1825
+END
+1888
+END
+1898
+END
+1919
+END
+1954
+END
+1971
+END
+2149
+END
+2181
+END
+2210
+END
+2225
+END
+2268
+END
+2279
+END
+2292
+END
+2322
+END
+2397
+END
+2423
+END
+2484
+END
+2491
+END
+2519
+END
+2542
+END
+2558
+END
+2579
+END
+2613
+END
+2704
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:37:26.993 python[2414:108116] 17:37:26.993 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2704
+2520
+END
+2671
+END
+2707
+END
+2730
+END
+2800
+END
+2856
+END
+2895
+END
+2901
+END
+2947
+END
+3002
+END
+3060
+END
+3095
+END
+3104
+END
+3124
+END
+3181
+END
+3235
+END
+3260
+END
+3396
+END
+3406
+END
+3415
+END
+3505
+END
+3570
+END
+3594
+END
+3639
+END
+3649
+END
+3691
+END
+3700
+END
+3757
+END
+3765
+END
+3781
+END
+3793
+END
+3847
+END
+3859
+END
+3877
+END
+3935
+END
+3977
+END
+3987
+END
+4044
+END
+4057
+END
+4076
+END
+Carls-MBP:bomberman Carl$ cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:38:23.424 python[2423:108542] 17:38:23.423 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+26
+END
+36
+END
+216
+END
+281
+END
+296
+END
+335
+END
+389
+END
+395
+END
+430
+END
+437
+END
+475
+END
+498
+END
+535
+END
+559
+END
+643
+END
+677
+END
+717
+END
+780
+END
+824
+END
+839
+END
+922
+END
+1003
+END
+1045
+END
+1053
+END
+1073
+END
+1217
+END
+1286
+END
+1322
+END
+1346
+END
+1359
+END
+1365
+END
+1379
+END
+1453
+END
+1515
+END
+1532
+END
+1604
+END
+1620
+END
+1670
+END
+1714
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:42:26.980 python[2441:109688] 17:42:26.979 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1714
+1734 , also +  1734
+END
+1764 , also +  30
+END
+1770 , also +  6
+END
+1807 , also +  37
+END
+1823 , also +  16
+END
+1853 , also +  30
+END
+1923 , also +  70
+END
+1941 , also +  18
+END
+2015 , also +  74
+END
+2057 , also +  42
+END
+2095 , also +  38
+END
+2110 , also +  15
+END
+2157 , also +  47
+END
+2165 , also +  8
+END
+2258 , also +  93
+END
+2290 , also +  32
+END
+2304 , also +  14
+END
+2348 , also +  44
+END
+2355 , also +  7
+END
+2410 , also +  55
+END
+2424 , also +  14
+END
+2442 , also +  18
+END
+2463 , also +  21
+END
+2469 , also +  6
+END
+2514 , also +  45
+END
+2543 , also +  29
+END
+2642 , also +  99
+END
+2664 , also +  22
+END
+2673 , also +  9
+END
+2744 , also +  71
+END
+2751 , also +  7
+END
+2765 , also +  14
+END
+2774 , also +  9
+END
+2842 , also +  68
+END
+2896 , also +  54
+END
+2906 , also +  10
+END
+2928 , also +  22
+END
+2939 , also +  11
+END
+2945 , also +  6
+END
+2960 , also +  15
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:43:03.058 python[2447:109976] 17:43:03.058 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+2960
+2973 , also +  2973
+END
+3014 , also +  41
+END
+3036 , also +  22
+END
+3052 , also +  16
+END
+3116 , also +  64
+END
+3151 , also +  35
+END
+3166 , also +  15
+END
+3183 , also +  17
+END
+3208 , also +  25
+END
+3234 , also +  26
+END
+3328 , also +  94
+END
+3338 , also +  10
+END
+3347 , also +  9
+END
+3355 , also +  8
+END
+3390 , also +  35
+END
+3427 , also +  37
+END
+3461 , also +  34
+END
+3486 , also +  25
+END
+3522 , also +  36
+END
+3530 , also +  8
+END
+3545 , also +  15
+END
+3590 , also +  45
+END
+3659 , also +  69
+END
+3717 , also +  58
+END
+3768 , also +  51
+END
+3829 , also +  61
+END
+3852 , also +  23
+END
+3871 , also +  19
+END
+3879 , also +  8
+END
+3906 , also +  27
+END
+3923 , also +  17
+END
+3944 , also +  21
+END
+4043 , also +  99
+END
+4057 , also +  14
+END
+4088 , also +  31
+END
+4134 , also +  46
+END
+4178 , also +  44
+END
+4196 , also +  18
+END
+4283 , also +  87
+END
+4328 , also +  45
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:43:57.209 python[2456:110345] 17:43:57.208 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+4328
+4373 , also +  4373
+END
+4469 , also +  96
+END
+4524 , also +  55
+END
+4538 , also +  14
+END
+4552 , also +  14
+END
+4576 , also +  24
+END
+4583 , also +  7
+END
+4597 , also +  14
+END
+4641 , also +  44
+END
+4666 , also +  25
+END
+4688 , also +  22
+END
+4734 , also +  46
+END
+4775 , also +  41
+END
+4788 , also +  13
+END
+4824 , also +  36
+END
+4849 , also +  25
+END
+4882 , also +  33
+END
+4930 , also +  48
+END
+4938 , also +  8
+END
+4983 , also +  45
+END
+4999 , also +  16
+END
+5012 , also +  13
+END
+5031 , also +  19
+END
+5093 , also +  62
+END
+5111 , also +  18
+END
+5137 , also +  26
+END
+5165 , also +  28
+END
+5201 , also +  36
+END
+5235 , also +  34
+END
+5246 , also +  11
+END
+5279 , also +  33
+END
+5310 , also +  31
+END
+5326 , also +  16
+END
+5332 , also +  6
+END
+5340 , also +  8
+END
+5386 , also +  46
+END
+5416 , also +  30
+END
+5457 , also +  41
+END
+5494 , also +  37
+END
+5512 , also +  18
+END
+5538 , also +  26
+END
+5547 , also +  9
+END
+5553 , also +  6
+END
+5567 , also +  14
+END
+5667 , also +  100
+END
+5684 , also +  17
+END
+5722 , also +  38
+END
+5750 , also +  28
+END
+5770 , also +  20
+END
+5889 , also +  119
+END
+5954 , also +  65
+END
+6050 , also +  96
+END
+6058 , also +  8
+END
+6065 , also +  7
+END
+6120 , also +  55
+END
+6205 , also +  85
+END
+6216 , also +  11
+END
+6232 , also +  16
+END
+6257 , also +  25
+END
+6300 , also +  43
+END
+6325 , also +  25
+END
+6338 , also +  13
+END
+6354 , also +  16
+END
+6368 , also +  14
+END
+6383 , also +  15
+END
+6420 , also +  37
+END
+6430 , also +  10
+END
+6437 , also +  7
+END
+6460 , also +  23
+END
+6489 , also +  29
+END
+6520 , also +  31
+END
+6575 , also +  55
+END
+6582 , also +  7
+END
+6646 , also +  64
+END
+6681 , also +  35
+END
+6756 , also +  75
+END
+6819 , also +  63
+END
+6891 , also +  72
+END
+6903 , also +  12
+END
+6980 , also +  77
+END
+7031 , also +  51
+END
+7038 , also +  7
+END
+7060 , also +  22
+END
+7155 , also +  95
+END
+7170 , also +  15
+END
+7190 , also +  20
+END
+7204 , also +  14
+END
+7281 , also +  77
+END
+7302 , also +  21
+END
+7309 , also +  7
+END
+7330 , also +  21
+END
+7344 , also +  14
+END
+7351 , also +  7
+END
+7359 , also +  8
+END
+7450 , also +  91
+END
+7463 , also +  13
+END
+7480 , also +  17
+END
+7517 , also +  37
+END
+7531 , also +  14
+END
+7644 , also +  113
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:45:54.850 python[2468:110992] 17:45:54.850 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+7644
+7661 , also +  7661
+END
+7687 , also +  26
+END
+7712 , also +  25
+END
+7759 , also +  47
+END
+7773 , also +  14
+END
+7807 , also +  34
+END
+7815 , also +  8
+END
+7848 , also +  33
+END
+7859 , also +  11
+END
+7911 , also +  52
+END
+7927 , also +  16
+END
+7964 , also +  37
+END
+7983 , also +  19
+END
+8028 , also +  45
+END
+8035 , also +  7
+END
+8052 , also +  17
+END
+8083 , also +  31
+END
+8097 , also +  14
+END
+8119 , also +  22
+END
+8166 , also +  47
+END
+8224 , also +  58
+END
+8378 , also +  154
+END
+8409 , also +  31
+END
+8436 , also +  27
+END
+8464 , also +  28
+END
+8480 , also +  16
+END
+8507 , also +  27
+END
+8617 , also +  110
+END
+8660 , also +  43
+END
+8683 , also +  23
+END
+8724 , also +  41
+END
+8732 , also +  8
+END
+8758 , also +  26
+END
+8792 , also +  34
+END
+8846 , also +  54
+END
+8927 , also +  81
+END
+8977 , also +  50
+END
+8994 , also +  17
+END
+9018 , also +  24
+END
+9055 , also +  37
+END
+9067 , also +  12
+END
+9091 , also +  24
+END
+9124 , also +  33
+END
+9136 , also +  12
+END
+9220 , also +  84
+END
+9260 , also +  40
+END
+9274 , also +  14
+END
+9305 , also +  31
+END
+9313 , also +  8
+END
+9322 , also +  9
+END
+9344 , also +  22
+END
+9354 , also +  10
+END
+9372 , also +  18
+END
+9386 , also +  14
+END
+9435 , also +  49
+END
+9464 , also +  29
+END
+9481 , also +  17
+END
+9493 , also +  12
+END
+9526 , also +  33
+END
+9540 , also +  14
+END
+9592 , also +  52
+END
+9621 , also +  29
+END
+9733 , also +  112
+END
+9742 , also +  9
+END
+9756 , also +  14
+END
+9782 , also +  26
+END
+9796 , also +  14
+END
+9847 , also +  51
+END
+9886 , also +  39
+END
+9929 , also +  43
+END
+9960 , also +  31
+END
+10000 , also +  40
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+10000 , also +  0
+END
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:49:10.098 python[2524:112288] 17:49:10.098 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+10000
+6058 also + 6058 |
+6043 also + 43 |
+6081 also + 81 |
+6055 also + 55 |
+6041 also + 41 |
+6017 also + 17 |
+6032 also + 32 |
+6013 also + 13 |
+6006 also + 6 |
+6006 also + 6 |
+6018 also + 18 |
+6019 also + 19 |
+6030 also + 30 |
+6049 also + 49 |
+6009 also + 9 |
+6012 also + 12 |
+6006 also + 6 |
+6006 also + 6 |
+6031 also + 31 |
+6033 also + 33 |
+6021 also + 21 |
+6008 also + 8 |
+6006 also + 6 |
+6006 also + 6 |
+6031 also + 31 |
+6028 also + 28 |
+6019 also + 19 |
+6051 also + 51 |
+6047 also + 47 |
+6011 also + 11 |
+6033 also + 33 |
+6020 also + 20 |
+6006 also + 6 |
+6047 also + 47 |
+6011 also + 11 |
+6008 also + 8 |
+6012 also + 12 |
+6018 also + 18 |
+6008 also + 8 |
+6020 also + 20 |
+6031 also + 31 |
+6007 also + 7 |
+6019 also + 19 |
+6019 also + 19 |
+6113 also + 113 |
+6064 also + 64 |
+6006 also + 6 |
+6055 also + 55 |
+6006 also + 6 |
+6014 also + 14 |
+6008 also + 8 |
+6006 also + 6 |
+6033 also + 33 |
+6014 also + 14 |
+6014 also + 14 |
+6138 also + 138 |
+6031 also + 31 |
+6020 also + 20 |
+6023 also + 23 |
+6019 also + 19 |
+6065 also + 65 |
+6010 also + 10 |
+6008 also + 8 |
+6024 also + 24 |
+6215 also + 215 |
+6006 also + 6 |
+6066 also + 66 |
+6030 also + 30 |
+6070 also + 70 |
+6028 also + 28 |
+6011 also + 11 |
+6034 also + 34 |
+6007 also + 7 |
+6007 also + 7 |
+6040 also + 40 |
+6008 also + 8 |
+6105 also + 105 |
+6031 also + 31 |
+6007 also + 7 |
+6038 also + 38 |
+6006 also + 6 |
+6020 also + 20 |
+6074 also + 74 |
+6011 also + 11 |
+6033 also + 33 |
+6051 also + 51 |
+6070 also + 70 |
+6038 also + 38 |
+6012 also + 12 |
+6045 also + 45 |
+6067 also + 67 |
+6012 also + 12 |
+6013 also + 13 |
+6006 also + 6 |
+6071 also + 71 |
+6020 also + 20 |
+6009 also + 9 |
+6061 also + 61 |
+6025 also + 25 |
+6064 also + 64 |
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:51:21.268 python[2537:113132] 17:51:21.268 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+6007 also + 6007 |
+6033 also + 33 |
+6022 also + 22 |
+6020 also + 20 |
+6016 also + 16 |
+6028 also + 28 |
+6034 also + 34 |
+6061 also + 61 |
+6037 also + 37 |
+6014 also + 14 |
+6024 also + 24 |
+6035 also + 35 |
+6040 also + 40 |
+6094 also + 94 |
+6009 also + 9 |
+6012 also + 12 |
+6006 also + 6 |
+6065 also + 65 |
+6013 also + 13 |
+6023 also + 23 |
+6048 also + 48 |
+6018 also + 18 |
+6011 also + 11 |
+6041 also + 41 |
+6006 also + 6 |
+6070 also + 70 |
+6015 also + 15 |
+6012 also + 12 |
+6022 also + 22 |
+6059 also + 59 |
+6006 also + 6 |
+6027 also + 27 |
+6012 also + 12 |
+6089 also + 89 |
+6010 also + 10 |
+6043 also + 43 |
+6038 also + 38 |
+6071 also + 71 |
+6087 also + 87 |
+6027 also + 27 |
+6030 also + 30 |
+6020 also + 20 |
+6052 also + 52 |
+6006 also + 6 |
+6006 also + 6 |
+6072 also + 72 |
+6090 also + 90 |
+6011 also + 11 |
+6029 also + 29 |
+6009 also + 9 |
+6008 also + 8 |
+6073 also + 73 |
+6013 also + 13 |
+6024 also + 24 |
+6043 also + 43 |
+6015 also + 15 |
+6046 also + 46 |
+6014 also + 14 |
+6023 also + 23 |
+6014 also + 14 |
+6050 also + 50 |
+6030 also + 30 |
+6015 also + 15 |
+6036 also + 36 |
+6024 also + 24 |
+6064 also + 64 |
+6006 also + 6 |
+6015 also + 15 |
+6011 also + 11 |
+6007 also + 7 |
+6014 also + 14 |
+6017 also + 17 |
+6025 also + 25 |
+6017 also + 17 |
+6014 also + 14 |
+6025 also + 25 |
+6036 also + 36 |
+6129 also + 129 |
+6023 also + 23 |
+6022 also + 22 |
+6007 also + 7 |
+6044 also + 44 |
+6011 also + 11 |
+6043 also + 43 |
+6041 also + 41 |
+6013 also + 13 |
+6008 also + 8 |
+6011 also + 11 |
+6008 also + 8 |
+6013 also + 13 |
+6018 also + 18 |
+6006 also + 6 |
+6019 also + 19 |
+6105 also + 105 |
+6025 also + 25 |
+6019 also + 19 |
+6009 also + 9 |
+6013 also + 13 |
+6024 also + 24 |
+6025 also + 25 |
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:54:54.453 python[2555:114287] 17:54:54.452 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+Process qn_agent:
+Traceback (most recent call last):
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/process.py", line 258, in _bootstrap
+    self.run()
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agents.py", line 56, in run
+    self.code = importlib.import_module('agent_code.' + self.agent_dir + '.callbacks')
+  File "/Users/Carl/anaconda3/lib/python3.6/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/agent_code/qn_agent/callbacks.py", line 331
+    if new <
+           ^
+SyntaxError: invalid syntax
+^[[A^CTraceback (most recent call last):
+  File "main.py", line 114, in <module>
+    main()
+  File "main.py", line 47, in main
+    ('qn_agent', True)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 28, in __init__
+    self.setup_agents(agents)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 80, in setup_agents
+    self.add_agent(agent_dir, name, train=train)
+  File "/Users/Carl/Documents/GitHub/ml_project/bomberman/environment.py", line 168, in add_agent
+    agent.ready_flag.wait()
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 361, in wait
+    self._cond.wait(timeout)
+  File "/Users/Carl/anaconda3/lib/python3.6/multiprocessing/synchronize.py", line 262, in wait
+    return self._wait_semaphore.acquire(True, timeout)
+KeyboardInterrupt
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 17:57:08.688 python[2568:115092] 17:57:08.688 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+6006 also + 6006 |
+6015 also + 15 |
+6067 also + 67 |
+6097 also + 97 |
+6077 also + 77 |
+6007 also + 7 |
+6011 also + 11 |
+6047 also + 47 |
+6029 also + 29 |
+6123 also + 123 |
+6006 also + 6 |
+6006 also + 6 |
+6010 also + 10 |
+6006 also + 6 |
+6080 also + 80 |
+6011 also + 11 |
+6039 also + 39 |
+6009 also + 9 |
+6034 also + 34 |
+6022 also + 22 |
+6029 also + 29 |
+6030 also + 30 |
+6091 also + 91 |
+6081 also + 81 |
+6110 also + 110 |
+6028 also + 28 |
+6008 also + 8 |
+6008 also + 8 |
+6030 also + 30 |
+6029 also + 29 |
+6010 also + 10 |
+6007 also + 7 |
+6070 also + 70 |
+6034 also + 34 |
+6013 also + 13 |
+6023 also + 23 |
+6020 also + 20 |
+6168 also + 168 |
+6012 also + 12 |
+6043 also + 43 |
+6163 also + 163 |
+6043 also + 43 |
+6139 also + 139 |
+6007 also + 7 |
+6011 also + 11 |
+6006 also + 6 |
+6008 also + 8 |
+6086 also + 86 |
+6010 also + 10 |
+6014 also + 14 |
+6054 also + 54 |
+6039 also + 39 |
+6066 also + 66 |
+6041 also + 41 |
+6015 also + 15 |
+6013 also + 13 |
+6045 also + 45 |
+6015 also + 15 |
+6038 also + 38 |
+6036 also + 36 |
+6021 also + 21 |
+6015 also + 15 |
+6062 also + 62 |
+6019 also + 19 |
+6067 also + 67 |
+6013 also + 13 |
+6015 also + 15 |
+6030 also + 30 |
+6041 also + 41 |
+6025 also + 25 |
+6013 also + 13 |
+6006 also + 6 |
+6006 also + 6 |
+6048 also + 48 |
+6006 also + 6 |
+6009 also + 9 |
+6009 also + 9 |
+6010 also + 10 |
+6032 also + 32 |
+6011 also + 11 |
+6017 also + 17 |
+6069 also + 69 |
+6054 also + 54 |
+6050 also + 50 |
+6031 also + 31 |
+6050 also + 50 |
+6027 also + 27 |
+6042 also + 42 |
+6006 also + 6 |
+6018 also + 18 |
+6030 also + 30 |
+6048 also + 48 |
+6008 also + 8 |
+6075 also + 75 |
+6006 also + 6 |
+6006 also + 6 |
+6017 also + 17 |
+6037 also + 37 |
+6023 also + 23 |
+6007 also + 7 |
+Carls-MBP:bomberman Carl$ cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 18:03:49.467 python[2622:117436] 18:03:49.466 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 18:24:15.175 python[2792:124155] 18:24:15.174 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 18:39:42.812 python[2874:128752] 18:39:42.811 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552412389.189513
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552412856.440931
+Duration = 467.2514181137085 s = 7.787523635228475 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 18:51:37.015 python[2928:131929] 18:51:37.015 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552413103.3692632
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552413645.170885
+Duration = 541.8016219139099 s = 9.030027031898499 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 19:22:45.743 python[3073:139119] 19:22:45.743 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552414971.576303
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552415521.727597
+Duration = 550.1512939929962 s = 9.169188233216603 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 19:32:25.111 python[3142:142163] 19:32:25.110 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552415549.431819
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552416120.3773482
+Duration = 570.9455292224884 s = 9.515758820374806 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 19:43:42.120 python[3192:145477] 19:43:42.119 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552416228.7153542
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552416795.245876
+Duration = 566.5305218696594 s = 9.442175364494323 min
+Carls-MBP:bomberman Carl$ vi
+Carls-MBP:bomberman Carl$ vim
+Carls-MBP:bomberman Carl$ vim
+Carls-MBP:bomberman Carl$ vi
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 20:08:42.088 python[3340:152608] 20:08:42.088 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552417728.775768
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552418281.8738
+Duration = 553.0980319976807 s = 9.218300533294677 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 20:43:21.073 python[3499:161552] 20:43:21.073 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552419807.128563
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552425830.55073
+Duration = 6023.422167062759 s = 100.39036945104598 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 22:27:16.752 python[4027:190160] 22:27:16.749 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552426042.4131358
+1552426074.212672
+Duration = 31.79953622817993 s = 0.5299922704696656 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 22:28:14.506 python[4035:190615] 22:28:14.506 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552426096.526222
+1552426134.6075578
+Duration = 38.08133578300476 s = 0.6346889297167461 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 22:29:09.808 python[4043:190995] 22:29:09.808 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552426152.1350799
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552426176.981706
+Duration = 24.846626043319702 s = 0.4141104340553284 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 22:29:53.686 python[4051:191372] 22:29:53.686 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552426195.876554
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552426221.889001
+Duration = 26.012446880340576 s = 0.4335407813390096 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-12 22:30:31.665 python[4058:191664] 22:30:31.664 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552426235.0923882
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552426295.9069061
+Duration = 60.814517974853516 s = 1.013575299580892 min
+Carls-MBP:bomberman Carl$ !cd
+cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:12:48.753 python[5498:263226] 03:12:48.753 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+1552443174.1948428
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+danger
+1552443197.3679628
+Duration = 23.17312002182007 s = 0.3862186670303345 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:14:28.300 python[5523:265117] 03:14:28.299 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+111
+1552443271.920794
+1552443367.458391
+Duration = 95.53759694099426 s = 1.5922932823499043 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:17:00.649 python[5549:266850] 03:17:00.649 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+4016
+1552443429.247827
+1552443563.189524
+Duration = 133.94169688224792 s = 2.232361614704132 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:20:07.109 python[5562:267861] 03:20:07.109 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552443611.782888
+1552443652.2753642
+Duration = 40.49247622489929 s = 0.6748746037483215 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:21:35.809 python[5573:268429] 03:21:35.808 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552443699.17474
+1552444309.793115
+Duration = 610.6183748245239 s = 10.176972913742066 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:32:44.671 python[5613:271271] 03:32:44.671 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552444369.289303
+spacken
+spacken
+1552444392.277198
+Duration = 22.987895011901855 s = 0.3831315835316976 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:33:21.025 python[5619:271600] 03:33:21.025 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552444403.1214359
+spacken
+spacken
+1552444424.979307
+Duration = 21.857871055603027 s = 0.3642978509267171 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:35:46.650 python[5654:272247] 03:35:46.650 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552444552.449188
+LEFT
+RIGHT
+spacken
+LEFT
+spacken
+WAIT
+RIGHT
+LEFT
+spacken
+WAIT
+WAIT
+UP
+WAIT
+WAIT
+WAIT
+RIGHT
+LEFT
+spacken
+BOMB
+WAIT
+WAIT
+RIGHT
+LEFT
+spacken
+LEFT
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:36:32.829 python[5662:272654] 03:36:32.829 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552444595.526895
+LEFT
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+DOWN
+RIGHT
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+RIGHT
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+LEFT
+RIGHT
+spacken
+RIGHT
+LEFT
+spacken
+RIGHT
+spacken
+WAIT
+LEFT
+RIGHT
+spacken
+WAIT
+LEFT
+DOWN
+RIGHT
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+DOWN
+RIGHT
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+UP
+RIGHT
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+LEFT
+spacken
+RIGHT
+spacken
+BOMB
+RIGHT
+WAIT
+RIGHT
+RIGHT
+RIGHT
+UP
+DOWN
+spacken
+LEFT
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+LEFT
+UP
+LEFT
+UP
+UP
+UP
+RIGHT
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+LEFT
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+UP
+BOMB
+BOMB
+DOWN
+WAIT
+RIGHT
+WAIT
+LEFT
+UP
+WAIT
+UP
+UP
+UP
+UP
+UP
+BOMB
+RIGHT
+BOMB
+BOMB
+BOMB
+LEFT
+Carls-MBP:bomberman Carl$ !cd
+cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:41:19.316 python[5686:274108] 03:41:19.316 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+1552444883.589366
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552445467.27812
+Duration = 583.6887540817261 s = 9.728145901362101 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:51:53.952 python[5722:276655] 03:51:53.951 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552445518.371628
+1552445599.974491
+Duration = 81.60286283493042 s = 1.360047713915507 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:53:42.775 python[5735:277251] 03:53:42.774 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552445627.385482
+1552445679.425341
+Duration = 52.0398588180542 s = 0.8673309803009033 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:55:10.911 python[5744:277736] 03:55:10.910 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552445713.14159
+1552445769.850312
+Duration = 56.70872187614441 s = 0.9451453646024068 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:56:24.767 python[5755:278240] 03:56:24.767 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552445787.746252
+1552445851.483913
+Duration = 63.73766088485718 s = 1.062294348080953 min
+Carls-MBP:bomberman Carl$ !cd
+cd agent_code/qn_agent/ ; python create_q_data.py ; cd ../..
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 03:58:58.963 python[5770:279160] 03:58:58.962 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+1
+1552445944.025702
+/Users/Carl/anaconda3/lib/python3.6/site-packages/scipy/optimize/minpack.py:794: OptimizeWarning: Covariance of the parameters could not be estimated
+  category=OptimizeWarning)
+1552446489.8735821
+Duration = 545.8478801250458 s = 9.097464668750764 min
+Carls-MBP:bomberman Carl$ python main.py 
+2019-03-13 04:09:50.722 python[5810:281841] 04:09:50.722 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+6000
+1552446595.708695
+1552446669.7433128
+Duration = 74.03461790084839 s = 1.2339102983474732 min
+Carls-MBP:bomberman Carl$ 

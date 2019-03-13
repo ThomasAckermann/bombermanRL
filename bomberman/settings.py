@@ -15,8 +15,8 @@ settings = {
     # Main loop
     'update_interval': 0.1, # 0.33,
     'turn_based': False,
-    'n_rounds': 40,
-    'save_replay': True,
+    'n_rounds': 15,#000,
+    'save_replay': False,
     'make_video_from_replay': False,
 
     # Game properties

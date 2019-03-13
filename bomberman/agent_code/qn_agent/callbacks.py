@@ -6,6 +6,7 @@ from scipy.optimize import curve_fit
 
 
 moves = np.array([[]])
+last_len_q_data = 0
 
 
 def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15):
@@ -149,6 +150,7 @@ def explosion_radius(self):
                 j -= 1
 
     if np.array(agent_pos) in np.array(danger):
+        #print('danger')
         return 1
     else:
         return 0
@@ -167,19 +169,20 @@ def q_function(theta_q, features):
 
 
 def build_features (self):
-    features = difference(self)
-    features = np.append(features, check_even_odd(self))
-    features = np.append(features, crate_difference(self)) 
-    features = np.append(features, bomb_difference(self))
-    features = np.append(features, explosion_radius(self))
+    features = difference(self) # [diff, *direction, *mean_coin] also 5 Werte, Indizes 0, 1, 2, 3, 4
+    features = np.append(features, check_even_odd(self)) # 2 Werte, Indizes 5, 6
+    features = np.append(features, crate_difference(self)) # [diff, *direction] also 3 Werte, Indizes 7, 8, 9
+    features = np.append(features, bomb_difference(self)) # [diff, *direction] also 3 Werte, Indizes 10, 11, 12
+    features = np.append(features, explosion_radius(self)) # 1 (Gefahr) oder 0 (sicher) also 1 Wert, Index 13
+    # currently own bomb ticking?
     return features
 
 def setup(self):
     np.random.seed()
-    q_value = np.load('agent_code/qn_agent/q_data.npy')
-    print(len(q_value))
-    if len(q_value) > 1000:
-        q_value = q_value[200:]
+    q_data = np.load('agent_code/qn_agent/q_data.npy')
+    print(len(q_data))
+    if len(q_data) > 6000:
+        q_data = q_data[-6000:]
         np.save('agent_code/qn_agent/q_data.npy', q_data)
     pass
 
@@ -215,7 +218,7 @@ def act(self):
     self.next_action = action[chosen_action] 
     # if len(self.game_state['coins'])==1:
     #     print(self.game_state['step']) 
-
+    #print(action[chosen_action])
     return None
 
 def reward_update(self):
@@ -229,32 +232,33 @@ def reward_update(self):
         second_to_last_move = history[-2][0]
         if (second_to_last_move == 0 and last_move == 1) or (second_to_last_move == 1 and last_move == 0) or (second_to_last_move == 2 and last_move == 3) or (second_to_last_move == 3 and last_move == 2):
             spacken = 2
+            #print('spacken')
         
         
     delta_dist = features[0] - last_event[2]
     delta_bd = features[10] - last_event[12]
 
-    rewards = {0:-4.5 - spacken - 1.5*features[1]*delta_dist + 0.2*features[3] + 0.5*features[8] + 1*delta_bd - 3*features[13] + 1.5*features[11],
-            1:-4.5 - spacken + 1.5*features[1]*delta_dist - 0.2*features[3] - 0.5*features[8] + 1*delta_bd - 3*features[13] - 1.5*features[11],
-            2:-4.5 - spacken - 1.5*features[2]*delta_dist + 0.2*features[4] + 0.5*features[9] + 1*delta_bd - 3*features[13] + 1.5*features[12],
-            3:-4.5 -spacken + 1.5*features[2]*delta_dist - 0.2*features[4] - 0.5*features[9] + 1*delta_bd - 3*features[13] - 1.5*features[12],
-            4:-7 - 10*features[11], 
+    rewards = {0:-4.5 - spacken - 1.5*features[1]*delta_dist + 0.2*features[3] + 0.5*features[8] + 2*delta_bd - 3*features[13] + 1.5*features[11],
+            1:-4.5 - spacken + 1.5*features[1]*delta_dist - 0.2*features[3] - 0.5*features[8] + 2*delta_bd - 3*features[13] - 1.5*features[11],
+            2:-4.5 - spacken - 1.5*features[2]*delta_dist + 0.2*features[4] + 0.5*features[9] + 2*delta_bd - 3*features[13] + 1.5*features[12],
+            3:-4.5 -spacken + 1.5*features[2]*delta_dist - 0.2*features[4] - 0.5*features[9] + 2*delta_bd - 3*features[13] - 1.5*features[12],
+            4:-15 - 10*features[13],
             5:-5,
-            6:-5 - 1.5*features[5] - 1.5*features[6] - 1.5*features[8] - 1.5*features[9],
+            6:-10 - 1.5*features[5] - 1.5*features[6] -25*features[13] ,# - 1.5*features[8] - 1.5*features[9], #sinnvoll, dass beitrag bei >1?
             
             7:-5,
             8:0, 
             
-            9:5,
-            10:10,
-            11:20,
+            9:10,
+            10:15,
+            11:25,
 
             12:0,
-            13:-50,
+            13:-100,
 
             14:-30,
             15:0,
-            16:20
+            16:100 #das schafft er eh nicht :D
             }
 
 
@@ -322,13 +326,27 @@ def end_of_episode(self):
     np.save('agent_code/qn_agent/theta_q.npy', theta_q)
     np.save('agent_code/qn_agent/q_data.npy', history)
 
-    q_value = np.load('agent_code/qn_agent/q_data.npy')
-    print(len(q_value))
-    if len(q_value) > 20000:
-        q_value = q_value[100:]
-        np.save('agent_code/qn_agent/q_data.npy', q_value) 
+    q_data = np.load('agent_code/qn_agent/q_data.npy')
+
+    global last_len_q_data
+    new = len(q_data)- last_len_q_data
+    #print(len(q_data), 'also +', new, '|')
+    if new < 410:
+        try:
+            with open('neue_q_data.txt', 'a') as f:
+                #print(q_value)
+                f.write(str(new)[:] + '\n')
+                #f.write(str(p_value)[1:-1] + '\n')
+                pass
+        except:
+            pass
+    if len(q_data) > 6000:
+        q_data = q_data[-6000:]
+        np.save('agent_code/qn_agent/q_data.npy', q_data)
+    last_len_q_data = len(q_data)
+
     # print(self.events)    
-    print('END')
+    # print('END')
     moves = np.array([[]])
 
     
