@@ -3,15 +3,34 @@ from time import sleep
 # from tempfile import * 
 from scipy.optimize import curve_fit
 # import random
-
+import scipy as sp
+import scipy.optimize as opt
+import sys 
 
 moves = np.array([[]])
 last_len_q_data = 0
 
+def gauss(x):
+    return np.exp(-x**2)
 
-def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15):
-    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14) = X
-    return a_1 + a_2*x_1 + a_3*x_2 + a_4*x_3 + a_5*x_4 + a_6*x_5 + a_7*x_6 + a_8*x_7 + a_9*x_8 + a_10*x_9 + a_11*x_10 + a_12*x_11 + a_13*x_12 + a_14*x_13 + a_15*x_14
+
+def func(theta, data, y):
+    q = theta[-1]
+    for i in range(np.shape(data)[1]):
+        q += theta[2*i]*sigmoid(theta[2*i + 1] * data[:,i])
+    f = y - q
+    return f
+
+
+# def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15):
+#     (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14) = X
+#     return a_1 + a_2*sigmoid(x_1) + a_3*sigmoid(x_2) + a_4*sigmoid(x_3) + a_5*sigmoid(x_4) + a_6*sigmoid(x_5) + a_7*sigmoid(x_6) + a_8*sigmoid(x_7) + a_9*sigmoid(x_8) + a_10*sigmoid(x_9) + a_11*sigmoid(x_10) + a_12*sigmoid(x_11) + a_13*sigmoid(x_12) + a_14*sigmoid(x_13) + a_15*sigmoid(x_14)
+
+
+
+# def func(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15):
+#     (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14) = X
+#     return a_1 + a_2*x_1 + a_3*x_2 + a_4*x_3 + a_5*x_4 + a_6*x_5 + a_7*x_6 + a_8*x_7 + a_9*x_8 + a_10*x_9 + a_11*x_10 + a_12*x_11 + a_13*x_12 + a_14*x_13 + a_15*x_14
 
 def positions(self):
     agent = self.game_state['self']
@@ -162,16 +181,19 @@ def check_even_odd (self):
     return (np.array([agent[0], agent[1]]) + 1) % 2
    
 def q_function(theta_q, features):
-    f = theta_q[:,0]
+    f = theta_q[:,-1]
     for i in range(len(features)):
-        f = f + theta_q[:, i+1] * features[i] 
+        f = f + theta_q[:, 2*i] * sigmoid( theta_q[:, 2*i+1] * features[i]) 
     return f
 
 
 def build_features (self):
     features = difference(self) # [diff, *direction, *mean_coin] also 5 Werte, Indizes 0, 1, 2, 3, 4
     features = np.append(features, check_even_odd(self)) # 2 Werte, Indizes 5, 6
-    features = np.append(features, crate_difference(self)) # [diff, *direction] also 3 Werte, Indizes 7, 8, 9
+    try:
+        features = np.append(features, crate_difference(self)) # [diff, *direction] also 3 Werte, Indizes 7, 8, 9
+    except:
+        features = np.append(features, np.array([0,0,0]))
     features = np.append(features, bomb_difference(self)) # [diff, *direction] also 3 Werte, Indizes 10, 11, 12
     features = np.append(features, explosion_radius(self)) # 1 (Gefahr) oder 0 (sicher) also 1 Wert, Index 13
     # currently own bomb ticking?
@@ -190,35 +212,46 @@ def sigmoid(x):
     return 1/(1+ np.exp(-1 * x))
 
 def act(self):  
-    q_data = np.load('agent_code/qn_agent/q_data.npy')
+    try:
+        q_data = np.load('agent_code/qn_agent/q_data.npy')
 
-    features = build_features(self) 
+        features = build_features(self) 
 
-    theta_q = np.load('agent_code/qn_agent/theta_q.npy')
-    action = {0:'UP', 1:'DOWN', 2:'RIGHT', 3:'LEFT', 4:'WAIT', 5:'BOMB'}
-    q_value = q_function(theta_q, features)
-    p_value = sigmoid(8*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
-    p_value = p_value / np.sum(p_value)
-    
-    #''' 
-    eps =  0.2# 1 / (1 + len(q_data))**0.3
-    e = np.random.uniform(0,1)
-    if e < eps:
-        chosen_action = int(np.random.choice([0,1,2,3,4,5]))
-    else:
-        chosen_action = int(np.argmax(q_value))
-    #'''
-    
-    #indices = np.arange(len(q_value))#[q_value == np.max(q_value)]
-    #chosen_action = int(np.random.choice(indices, p=p_value))
-    # print(action[chosen_action])
-    # print('qn: ', p_value)
-    q_data = np.append(q_data, [np.array([chosen_action, q_value[chosen_action], *features])], axis=0)
-    np.save('agent_code/qn_agent/q_data.npy', q_data)
-    self.next_action = action[chosen_action] 
-    # if len(self.game_state['coins'])==1:
-    #     print(self.game_state['step']) 
-    #print(action[chosen_action])
+        theta_q = np.load('agent_code/qn_agent/theta_q.npy')
+
+        action = {0:'UP', 1:'DOWN', 2:'RIGHT', 3:'LEFT', 4:'WAIT', 5:'BOMB'}
+
+        q_value = q_function(theta_q, features)
+        p_value = sigmoid(8*q_value) # 0.5 + q_value / (np.sum(q_value)*2)
+        p_value = p_value / np.sum(p_value)
+
+        #''' 
+        eps =  0.5# 1 / (1 + len(q_data))**0.3
+        e = np.random.uniform(0,1)
+        if e < eps:
+            chosen_action = int(np.random.choice([0,1,2,3,4,5]))
+        else:
+            chosen_action = int(np.argmax(q_value))
+        #'''
+        
+        #indices = np.arange(len(q_value))#[q_value == np.max(q_value)]
+        #chosen_action = int(np.random.choice(indices, p=p_value))
+        # print(action[chosen_action])
+        # print('qn: ', p_value)
+
+
+
+        q_data = np.append(q_data, [np.array([chosen_action, q_value[chosen_action], *features])], axis=0)
+
+        np.save('agent_code/qn_agent/q_data.npy', q_data)
+        self.next_action = action[chosen_action] 
+        # if len(self.game_state['coins'])==1:
+        #     print(self.game_state['step']) 
+        #print(action[chosen_action])
+
+    except Exception as e:
+        print('line: ', sys.exc_info()[2].tb_lineno)
+        print(type(e), e) 
     return None
 
 def reward_update(self):
@@ -263,8 +296,10 @@ def reward_update(self):
 
 
     reward = np.sum([rewards[item] for item in self.events])
-    moves = np.append(moves, [last_event[0], reward, last_event[2:]])
-
+    # print('test 1')
+    # print(moves)
+    moves = np.append(moves, [last_event[0], reward, *last_event[2:]])
+    # print('test 2')
     # try:
     #     with open('test_reward_q.txt', 'a') as f:
     #         #print(q_value)
@@ -274,82 +309,103 @@ def reward_update(self):
     # except:
     #     pass
     moves = np.reshape(moves, (int(len(moves.flat)/(2+len(features))), 2+len(features)))
+
     return None
 
 
 def end_of_episode(self):
-    global moves
-    #print(moves)
-    #print(np.shape(moves))
 
-    theta_q = np.load('agent_code/qn_agent/theta_q.npy')     
-    history = np.load('agent_code/qn_agent/q_data.npy') 
-   
-    alpha = 0.1 
-    gamma = 0.1
-    n = 10
-    # print('Begin Calculations')
-    for t in range(len(moves)):
-        if (t >= len(moves) - n):
-            n = len(moves) - t - 1
-        q_next = np.max(q_function(theta_q, moves[t + n, 2:])) 
-        y_t = np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]) + gamma**n * q_next
-        # print(moves[t_, 1] for t_ in range(t+1, t+n+1)) 
-        # print(moves[:,1])
-        # try:
-        #     with open('test_reward_qnn.txt', 'a') as f:
-        #         #print(q_value)
-        #         f.write(str(np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]))[:] + '\n')
-        #         #f.write(str(p_value)[1:-1] + '\n')
-        #         pass
-        # except:
-        #     pass
+    try:
+        global moves
+        theta_q = np.load('agent_code/qn_agent/theta_q.npy')     
+        history = np.load('agent_code/qn_agent/q_data.npy') 
+        history = history[:-1]
+        y_array = np.load('agent_code/qn_agent/y_data.npy')
+        alpha = 0.1 
+        gamma = 0.1
+        n = 10    
+        for t in range(len(moves)):
+            if (t >= len(moves) - n):
+                n = len(moves) - t - 1
+            q_next = np.max(q_function(theta_q, moves[t + n, 2:])) 
+            y_t = np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]) + gamma**n * q_next
+            y_array = np.append(y_array, y_t)
+            # print(moves[t_, 1] for t_ in range(t+1, t+n+1)) 
+            # print(moves[:,1])
+            # try:
+            #     with open('test_reward_qnn.txt', 'a') as f:
+            #         #print(q_value)
+            #         f.write(str(np.sum([gamma**(t_ - t - 1) * moves[t_, 1] for t_ in range(t + 1, t + n + 1)]))[:] + '\n')
+            #         #f.write(str(p_value)[1:-1] + '\n')
+            #         pass
+            # except:
+            #     pass
 
-        q_update = history[t, 1] + alpha * (y_t - history[t, 1])   
-        # print('Q_n: ', y_t)
-        history[t, 1] = q_update
-        chosen_action = int(history[t, 0])
-        regression_data = history[history[:,0]==chosen_action][:,1:]
-        popt,cov = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])
-        if len(history) <= 800:
+            q_update = history[t, 1] + alpha * (y_t - history[t, 1])   
+            # print('Q_n: ', y_t)
+            history[t, 1] = q_update
+            chosen_action = int(history[t, 0])
+            regression_data = history[history[:,0]==chosen_action][:,1:]   
+            # theta = opt.least_squares(func, x0=start, method='lm', args=[regression_data, y_array])['x']
+            # popt,cov = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])#, p0=theta_q[chosen_action])
+        
+
+            # if len(history) <= 800:
+                # pass
+            # else: 
+                # theta_q[chosen_action] = np.array([*popt])
+        
+        print(theta_q)
+        try: 
+            print('hallo')
+            theta = []
+            for i in range(6):
+                mask = history[:,0]==i
+                print(self.game_state['step'])
+                # print('history: ', np.shape(history))
+                # print('y: ', np.shape(y_array))
+                print('theta_q: ', np.shape(theta_q[i]))
+                theta.append(opt.least_squares(func, x0=theta_q[i], method='lm', args=[history[mask][:,2:], y_array[mask]])['x'])
+            np.save('agent_code/qn_agent/theta_q.npy', theta)
+        except Exception as e:
+            print(e)
+            print('theta unverändert')
             pass
-        else: 
-            theta_q[chosen_action] = np.array([*popt])
-   
-    # for i in range(4):
-    #     regression_data = history[history[:,0]==int(i)][:,1:]
-    #     popt,cov = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])
-    #     theta_q[chosen_action] = np.array([*popt])
-   
-
-
-    np.save('agent_code/qn_agent/theta_q.npy', theta_q)
-    np.save('agent_code/qn_agent/q_data.npy', history)
-
-    q_data = np.load('agent_code/qn_agent/q_data.npy')
-
-    global last_len_q_data
-    new = len(q_data)- last_len_q_data
-    #print(len(q_data), 'also +', new, '|')
-    if new < 410:
-        try:
-            with open('neue_q_data.txt', 'a') as f:
-                #print(q_value)
-                f.write(str(new)[:] + '\n')
-                #f.write(str(p_value)[1:-1] + '\n')
-                pass
-        except:
-            pass
-    if len(q_data) > 6000:
-        q_data = q_data[-6000:]
-        np.save('agent_code/qn_agent/q_data.npy', q_data)
-    last_len_q_data = len(q_data)
-
-    # print(self.events)    
-    # print('END')
-    moves = np.array([[]])
-
     
+        # for i in range(4):
+        #     regression_data = history[history[:,0]==int(i)][:,1:]
+        #     popt,cov = curve_fit(func, (regression_data[:, 1:].T), regression_data[:, 0])
+        #     theta_q[chosen_action] = np.array([*popt])
+        
+        np.save('agent_code/qn_agent/q_data.npy', history)
+        np.save('agent_code/qn_agent/y_data.npy', y_array)
+        q_data = np.load('agent_code/qn_agent/q_data.npy')
+
+        global last_len_q_data
+        new = len(q_data)- last_len_q_data
+        #print(len(q_data), 'also +', new, '|')
+        if new < 410:
+            try:
+                with open('neue_q_data.txt', 'a') as f:
+                    #print(q_value)
+                    f.write(str(new)[:] + '\n')
+                    #f.write(str(p_value)[1:-1] + '\n')
+                    pass
+            except:
+                pass
+        if len(q_data) > 6000:
+            q_data = q_data[-6000:]
+            np.save('agent_code/qn_agent/q_data.npy', q_data)
+        last_len_q_data = len(q_data)
+
+        # print(self.events)    
+        print('END')
+        moves = np.array([[]])    
+    except Exception as e:
+        print('line: ', sys.exc_info()[2].tb_lineno)
+        print(type(e), e)
+        
+
     return None
 
 

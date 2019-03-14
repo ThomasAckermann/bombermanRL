@@ -39,7 +39,7 @@ def main():
     # Emulate Windows process spawning behaviour under Unix (for testing)
     # mp.set_start_method('spawn')
 
-    # Initialize environment and agents
+    # Initialize environment and agents 
     world = BombeRLeWorld([
             #('useless_agent', False),
             #('q_agent', True),
