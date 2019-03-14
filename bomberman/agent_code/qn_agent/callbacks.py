@@ -17,7 +17,7 @@ def gauss(x):
 def func(theta, data, y):
     q = theta[-1]
     for i in range(np.shape(data)[1]):
-        q += theta[2*i]*sigmoid(theta[2*i + 1] * data[:,i])
+        q += theta[3*i]*sigmoid(theta[3*i + 1] * (data[:,i] - theta[3*i + 2]))
     f = y - q
     return f
 
@@ -97,7 +97,7 @@ def crate_difference(self):
         direction = (agent_pos - crate) / diff
     else:
         direction = np.array([0,0]) 
-    return np.array([diff, *direction])
+    return np.array([diff, *direction])# , mean_crate])
 
 def bomb_difference(self):
     agent = self.game_state['self']
@@ -183,7 +183,7 @@ def check_even_odd (self):
 def q_function(theta_q, features):
     f = theta_q[:,-1]
     for i in range(len(features)):
-        f = f + theta_q[:, 2*i] * sigmoid( theta_q[:, 2*i+1] * features[i]) 
+        f = f + theta_q[:, 3*i] * sigmoid( theta_q[:, 3*i+1] * (features[i] - theta_q[:, 3*i + 2])) 
     return f
 
 
@@ -226,7 +226,8 @@ def act(self):
         p_value = p_value / np.sum(p_value)
 
         #''' 
-        eps =  0.5# 1 / (1 + len(q_data))**0.3
+        # eps =  2/(1+ np.log(1+len(q_data)))**1 + 0.15# 0.5# 1 / (1 + len(q_data))**0.3
+        eps = 0.1
         e = np.random.uniform(0,1)
         if e < eps:
             chosen_action = int(np.random.choice([0,1,2,3,4,5]))
@@ -270,24 +271,26 @@ def reward_update(self):
         
     delta_dist = features[0] - last_event[2]
     delta_bd = features[10] - last_event[12]
-
+    bomb_reward = 0
+    if features[7] <= 1:
+         bomb_reward = 4
     rewards = {0:-4.5 - spacken - 1.5*features[1]*delta_dist + 0.2*features[3] + 0.5*features[8] + 2*delta_bd - 3*features[13] + 1.5*features[11],
             1:-4.5 - spacken + 1.5*features[1]*delta_dist - 0.2*features[3] - 0.5*features[8] + 2*delta_bd - 3*features[13] - 1.5*features[11],
             2:-4.5 - spacken - 1.5*features[2]*delta_dist + 0.2*features[4] + 0.5*features[9] + 2*delta_bd - 3*features[13] + 1.5*features[12],
             3:-4.5 -spacken + 1.5*features[2]*delta_dist - 0.2*features[4] - 0.5*features[9] + 2*delta_bd - 3*features[13] - 1.5*features[12],
-            4:-15 - 10*features[13],
+            4:-20 - 20*features[13],
             5:-5,
             6:-10 - 1.5*features[5] - 1.5*features[6] -25*features[13] ,# - 1.5*features[8] - 1.5*features[9], #sinnvoll, dass beitrag bei >1?
             
-            7:-5,
+            7:-5 + bomb_reward,
             8:0, 
             
             9:10,
             10:15,
-            11:25,
+            11:100,
 
             12:0,
-            13:-100,
+            13:-300,
 
             14:-30,
             15:0,
@@ -361,10 +364,10 @@ def end_of_episode(self):
             theta = []
             for i in range(6):
                 mask = history[:,0]==i
-                print(self.game_state['step'])
+                # print(self.game_state['step'])
                 # print('history: ', np.shape(history))
                 # print('y: ', np.shape(y_array))
-                print('theta_q: ', np.shape(theta_q[i]))
+                # print('theta_q: ', np.shape(theta_q[i]))
                 theta.append(opt.least_squares(func, x0=theta_q[i], method='lm', args=[history[mask][:,2:], y_array[mask]])['x'])
             np.save('agent_code/qn_agent/theta_q.npy', theta)
         except Exception as e:
@@ -395,6 +398,8 @@ def end_of_episode(self):
                 pass
         if len(q_data) > 6000:
             q_data = q_data[-6000:]
+            y_array = y_array[-6000:]
+            np.save('agent_code/qn_agent/y_data.npy', y_array)
             np.save('agent_code/qn_agent/q_data.npy', q_data)
         last_len_q_data = len(q_data)
 

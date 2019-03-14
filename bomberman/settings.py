@@ -15,7 +15,7 @@ settings = {
     # Main loop
     'update_interval': 0.1, # 0.33,
     'turn_based': False,
-    'n_rounds': 20,#000,
+    'n_rounds': 1000,#000,
     'save_replay': False,
     'make_video_from_replay': False,
 
@@ -23,7 +23,7 @@ settings = {
     'cols': 17,
     'rows': 17,
     'grid_size': 30,
-    'crate_density': 0.0,# 0.10, # 0.75
+    'crate_density': 0.3,# 0.10, # 0.75
     'actions': ['UP', 'DOWN', 'LEFT', 'RIGHT', 'BOMB', 'WAIT'],
     'max_agents': 4,
     'max_steps': 400,
