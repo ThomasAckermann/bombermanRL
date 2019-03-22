@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.26)  25 FEB 2019 15:20
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.5.1)  21 MAR 2019 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3319,9 +3319,8 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `project.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'project.bbl' not found.
-
-No file project.bbl.
+Package biblatex Info: ... file 'project.bbl' found.
+ (./project.bbl)
 Package biblatex Info: Reference section=0 on input line 10.
 Package biblatex Info: Reference segment=0 on input line 10.
 
@@ -3452,35 +3451,35 @@ chapter 1.
 chapter 2.
 [4
 
-]
+] [5]
 chapter 3.
 
-LaTeX Warning: Empty bibliography on input line 24.
+LaTeX Warning: Empty bibliography on input line 34.
 
 \tf@thm=\write11
 \openout11 = `project.thm'.
 
-[5
+[6
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
  (./project.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 25.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 35.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: 9987511D118E72DAE9009C9957F6D5F9.
+(rerunfilecheck)             Checksum: 244CCB8459C70532D5D392504A0AF8C7.
 Package logreq Info: Writing requests to 'project.run.xml'.
 \openout1 = `project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52344 strings out of 492970
- 1050323 string characters out of 6133938
- 1731031 words of memory out of 5000000
- 55624 multiletter control sequences out of 15000+600000
- 542505 words of font info for 102 fonts, out of 8000000 for 9000
+ 52364 strings out of 492970
+ 1050848 string characters out of 6133939
+ 1736089 words of memory out of 5000000
+ 55640 multiletter control sequences out of 15000+600000
+ 542521 words of font info for 104 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  76i,7n,100p,10477b,3426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on project.pdf (5 pages).
+Output written on project.pdf (6 pages).

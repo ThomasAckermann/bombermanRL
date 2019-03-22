@@ -55,7 +55,9 @@ def main():
     t.start()
 
     start_time = time()
-    print(start_time)
+    print('Start:', start_time)
+    with open('round_number.txt', 'r') as f:
+        print('Beginn bei Rundenzahl:', int(f.read()))
     # Run one or more games
     for i in range(s.n_rounds):
         if not world.running:

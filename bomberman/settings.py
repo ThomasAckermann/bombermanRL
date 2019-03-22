@@ -9,13 +9,13 @@ settings = {
     # Display
     'width': 1000,
     'height': 600,
-    'gui': False, 
+    'gui': True, 
     'fps': 15,
 
     # Main loop
     'update_interval': 0.1, # 0.33,
     'turn_based': False,
-    'n_rounds': 1000,#000,
+    'n_rounds': 10,#000,
     'save_replay': False,
     'make_video_from_replay': False,
 
@@ -23,13 +23,13 @@ settings = {
     'cols': 17,
     'rows': 17,
     'grid_size': 30,
-    'crate_density': 0.3,# 0.10, # 0.75
+    'crate_density': 0.05,# 0.10, # 0.75
     'actions': ['UP', 'DOWN', 'LEFT', 'RIGHT', 'BOMB', 'WAIT'],
     'max_agents': 4,
     'max_steps': 400,
     'stop_if_not_training': False,
     'bomb_power': 3,
-    'bomb_timer': 6,
+    'bomb_timer': 4,
     'explosion_timer': 2,
 
     # Rules for agents
