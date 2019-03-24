@@ -141,7 +141,9 @@ def number_of_crates_in_explosion_radius(self):
     own_pos = np.array(self.game_state['self'][:2])
     explosion_radius = explosion_radius_single_bomb(own_pos)
     tiles = np.array([self.game_state['arena'][tuple(item)] for item in explosion_radius])
-    return len(np.arange(len(tiles))[tiles == 1])
+    number = len(np.arange(len(tiles))[tiles == 1])
+    number = 0.7 * number if number <= 2
+    return number
 
 def next_move_danger(self):
     # returns 0 if no danger is in the corresponding direction or a wall 
@@ -183,10 +185,10 @@ def tile_blocked(pos, self):
         blocked = 1
     return blocked
 
-def no_through_road(self):
+def no_through_road(self, check_no_bomb = False):
     blocked = np.zeros(4)
     own_pos = np.array(self.game_state['self'][:2])
-    if (list(own_pos) in [list(coord[:-1]) for coord in self.game_state['bombs']]):
+    if (list(own_pos) not in [list(coord[:-1]) for coord in self.game_state['bombs']] and not check_no_bomb):
         return blocked
     pos_diffs = np.array([[-1, 0], [1, 0], [0, -1], [0, 1]]) # left, right, up, down 
     orthogonal_list = np.array([[2, 3], [0, 1]])
@@ -202,7 +204,7 @@ def no_through_road(self):
     return blocked
 
 def no_bomb(self):
-    all_directions_blocked = no_through_road(self).all()
+    all_directions_blocked = no_through_road(self, check_no_bomb = True).all()
     return 1 if all_directions_blocked else 0
 
 
@@ -211,6 +213,7 @@ def q_function(theta_q, features):
     for i in range(len(features)):
         f = f + theta_q[:, i] * features[i] 
     return f
+
 
 def build_features (self):
     features = difference(self) # [diff, *direction, *mean_coin] also 5 Werte, Indizes 0, 1, 2, 3, 4
@@ -226,6 +229,8 @@ def build_features (self):
     features = np.append(features, no_bomb(self)) # 1 Wert, Index 31
     return features
 
+
+
 def setup(self):
     np.random.seed(1)
     self.q_data = np.load('{}q_data/q_data.npy'.format(path))
@@ -240,6 +245,7 @@ def setup(self):
 
 def sigmoid(x):
     return 1/(1+ np.exp(-1 * x))
+
 
 def act(self):  
     try:
@@ -267,6 +273,9 @@ def act(self):
         self.next_action = action[chosen_action]
         # print(action[chosen_action])
         # print('q_values: ', q_value)
+        # print(30*'-')
+        # print(features[27:31])
+        # print(features[31])
     except Exception as e:
         print('Exception as e:')
         print('line: ', sys.exc_info()[2].tb_lineno)
@@ -321,7 +330,7 @@ def reward_update_(self):
                     "INTERRUPTED" : -1,
                     "INVALID_ACTION" : -5 - 5*f[5] - 5*f[6] - 40*f[12] - 10*np.clip(np.sum(f[14:18]), 0, 1),
                     
-                    "BOMB_DROPPED" :  -4 + 5*f[13] + 2*f[26] - 30*f[31],
+                    "BOMB_DROPPED" :  -5 + 5*f[13] + 2*f[26] - 30*f[31],
                     "BOMB_EXPLODED" : 0, 
                     
                     "CRATE_DESTROYED" : 2,
@@ -415,7 +424,7 @@ def end_of_episode(self):
 
         round_number += 1
         moves = np.array([[]])    
-
+        # print('END')
     except Exception as e:
         print('Exception as e:')
         print('line: ', sys.exc_info()[2].tb_lineno)
