@@ -11,9 +11,9 @@ path = './agent_code/qn_agent/'
 crate_counter = 0
 round_number = 1
 
-def func_curve(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15, a_16, a_17, a_18, a_19, a_20, a_21, a_22, a_23, a_24, a_25, a_26, a_27, a_28, a_29, a_30, a_31, a_32):
-    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20, x_21, x_22, x_23, x_24, x_25, x_26, x_27, x_28, x_29, x_30, x_31) = X
-    return a_1*x_1 + a_2*x_2 + a_3*x_3 + a_4*x_4 + a_5*x_5 + a_6*x_6 + a_7*x_7 + a_8*x_8 + a_9*x_9 + a_10*x_10 + a_11*x_11 + a_12*x_12 + a_13*x_13 + a_14*x_14 + a_15*x_15 + a_16*x_16 + a_17*x_17 + a_18*x_18 + a_19*x_19 + a_20*x_20 + a_21*x_21 + a_22*x_22 + a_23*x_23 + a_24*x_24 + a_25*x_25 + a_26*x_26 + a_27*x_27 + a_28*x_28 + a_29*x_29 + a_30*x_30 + a_31*x_31 + a_32
+def func_curve(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15, a_16, a_17, a_18, a_19, a_20, a_21, a_22, a_23, a_24, a_25, a_26, a_27, a_28, a_29, a_30, a_31, a_32, a_33):
+    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20, x_21, x_22, x_23, x_24, x_25, x_26, x_27, x_28, x_29, x_30, x_31, x_32) = X
+    return a_1*x_1 + a_2*x_2 + a_3*x_3 + a_4*x_4 + a_5*x_5 + a_6*x_6 + a_7*x_7 + a_8*x_8 + a_9*x_9 + a_10*x_10 + a_11*x_11 + a_12*x_12 + a_13*x_13 + a_14*x_14 + a_15*x_15 + a_16*x_16 + a_17*x_17 + a_18*x_18 + a_19*x_19 + a_20*x_20 + a_21*x_21 + a_22*x_22 + a_23*x_23 + a_24*x_24 + a_25*x_25 + a_26*x_26 + a_27*x_27 + a_28*x_28 + a_29*x_29 + a_30*x_30 + a_31*x_31 + a_32*x_32 + a_33
 
 
 def positions(self):
@@ -51,7 +51,6 @@ def difference(self):
         direction = np.zeros(2)
 
     return np.array([diff, *direction, *mean_coin])
-
 
 
 def crate_positions(self):
@@ -178,9 +177,6 @@ def next_move_blocked (self):
             blocked[i] = -3 + np.clip(np.sum(directions_blocked(current_pos, self)), 3, 4)
     return blocked
 
-
-
-
 def tile_blocked(pos, self):
     blocked = np.abs(self.game_state['arena'][tuple(pos)])
     if list(pos) in [list(coord[:-1]) for coord in self.game_state['bombs']]:
@@ -190,6 +186,8 @@ def tile_blocked(pos, self):
 def no_through_road(self):
     blocked = np.zeros(4)
     own_pos = np.array(self.game_state['self'][:2])
+    if (list(own_pos) in [list(coord[:-1]) for coord in self.game_state['bombs']]):
+        return blocked
     pos_diffs = np.array([[-1, 0], [1, 0], [0, -1], [0, 1]]) # left, right, up, down 
     orthogonal_list = np.array([[2, 3], [0, 1]])
     for i in range(4): #all directions
@@ -202,6 +200,10 @@ def no_through_road(self):
             elif (directions_blocked(current_pos, self)[cur_orthogonal] == 0).any():
                 break
     return blocked
+
+def no_bomb(self):
+    all_directions_blocked = no_through_road(self).all()
+    return 1 if all_directions_blocked else 0
 
 
 def q_function(theta_q, features):
@@ -219,8 +221,9 @@ def build_features (self):
     features = np.append(features, number_of_crates_in_explosion_radius(self)) # 1 Wert, Index 13
     features = np.append(features, directions_blocked(self.game_state['self'][:2], self)) # 4 Werte, Indizes 14, 15, 16, 17
     features = np.append(features, next_move_danger(self)) # 4 Werte, Indizes 18, 19, 20, 21
-    features = np.append(features, crate_diff(self)) # 5 werte, Indizes 22, 23, 24, 25, 26
-    features = np.append(features, no_through_road(self)) # 4 werte, indizes 27, 28, 29, 30
+    features = np.append(features, crate_diff(self)) # 5 Werte, Indizes 22, 23, 24, 25, 26
+    features = np.append(features, no_through_road(self)) # 4 Werte, Indizes 27, 28, 29, 30
+    features = np.append(features, no_bomb(self)) # 1 Wert, Index 31
     return features
 
 def setup(self):
@@ -318,7 +321,7 @@ def reward_update_(self):
                     "INTERRUPTED" : -1,
                     "INVALID_ACTION" : -5 - 5*f[5] - 5*f[6] - 40*f[12] - 10*np.clip(np.sum(f[14:18]), 0, 1),
                     
-                    "BOMB_DROPPED" :  -4 + 5*f[13] + 2*f[26],
+                    "BOMB_DROPPED" :  -4 + 5*f[13] + 2*f[26] - 30*f[31],
                     "BOMB_EXPLODED" : 0, 
                     
                     "CRATE_DESTROYED" : 2,
@@ -402,13 +405,13 @@ def end_of_episode(self):
         if len(self.all_data) > 30000:
             self.all_data = self.all_data[np.array(random.sample(list(np.arange(len(self.all_data))), 30000))]    
 
-        if round_number % 30 == 0:
+        if round_number % 20 == 0:
             np.save('{}thetas/theta_q.npy'.format(path), self.theta)
             np.save('{}q_data/q_data.npy'.format(path), self.q_data)
             np.save('{}all_data/all_data.npy'.format(path), self.all_data)
             np.save('{}thetas/theta_nach_{}_spielen.npy'.format(path, round_number), self.theta)
-            np.save('{}q_data/q_data_nach_{}_spielen.npy'.format(path, round_number), self.q_data)
-            np.save('{}all_data/all_data_nach_{}_spielen.npy'.format(path, round_number), self.all_data)
+            if round_number % 60 == 0:
+                np.save('{}all_data/all_data_nach_{}_spielen.npy'.format(path, round_number), self.all_data)
 
         round_number += 1
         moves = np.array([[]])    

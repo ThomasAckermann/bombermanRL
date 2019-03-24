@@ -120,8 +120,6 @@ def main():
     end_time = time()
     print('Ende am {2}.{1}.{0}, um {3:02}:{4:02}:{5:02} Uhr.'.format(*time_.localtime(end_time)))
     print('Duration =', end_time - start_time, 's =', (end_time - start_time)/60, 'min')
-    with open('{}round_number.txt'.format(path), 'r') as f:
-        print('Ende bei Rundenzahl:', int(f.read()))
 
 
 if __name__ == '__main__':
