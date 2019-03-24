@@ -41,9 +41,9 @@ def main():
     # mp.set_start_method('spawn')
 
     agent_list = [
-            #('useless_agent', True),
-            #('user_agent', False),
-            # ('q_agent', True),
+            #('qn_agent_copy', True),
+            #('qn_agent_copy', False),
+            #('qn_agent_copy', True),
             ('qn_agent', True)
         ]
     # stores the path to the last agent, which is used for the round number and extraction of theta at every 20th round 

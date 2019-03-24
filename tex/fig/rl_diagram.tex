@@ -1,0 +1,47 @@
+\documentclass{standalone}
+\usepackage{tikz} 
+\usetikzlibrary{shapes}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usepackage[active,tightpage]{preview}  %generates a tightly fitting border around the work
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{2mm}
+
+
+\begin{document}
+		
+\begin{tikzpicture}%[scale=7]
+	
+%erstes Bild	
+	
+	%Füllen der Grundfläche
+
+    \node at (0,0) {\ldots};
+    \draw[->] (0.5,0) -- (1.5,0);
+    \node at (2, 0) {$s_{t-1}$};
+    \draw[->] (2.5,0) -- (3.5,0);
+    \node at (4, 0) {$s_{t}$};
+    \draw[->]  (4.5, 0) -- (5.5, 0);
+    \node at (6,0) {\ldots};
+
+
+    \draw[->]  (2, -0.25) -- (2, -0.75);
+    \draw[->] (2.1,-0.75) -- (3.9, -0.25); 
+   
+    \draw[->]  (4, -0.25) -- (4, -0.75);
+    \draw[->] (4.1,-0.75) -- (5.9, -0.25); 
+   
+
+    
+    \node at (2, -1) {$o_{t-1}$};
+    \node at (4, -1) {$o_{t}$};
+
+    \node at (3.2, -0.7) {$a_{t-1}$};
+    \node at (5.2, -0.7) {$a_t$};
+    
+ 
+	
+
+
+	\end{tikzpicture}
+\end{document}

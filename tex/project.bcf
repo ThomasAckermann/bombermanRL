@@ -127,7 +127,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortlocale</bcf:key>
-      <bcf:value>german</bcf:value>
+      <bcf:value>english</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
@@ -1971,7 +1971,6 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">/Users/thomasackermann/Latex/uni.bib</bcf:datasource>
     <bcf:datasource type="file" datatype="bibtex">/Users/thomasackermann/Latex/uni.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
