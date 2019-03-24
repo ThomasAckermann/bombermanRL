@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.26)  23 MAR 2019 18:53
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.7.26)  24 MAR 2019 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3497,7 +3497,32 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 [6
 
-] [7]) (./content//chapter_3.tex [8]
+] [7]) (./content//chapter_3.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 \section{Resulting \theta_q}
+                                
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.3 \section{Resulting \theta_q}
+                                
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 3.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 3.
+
+File: fig//theta_q.pdf Graphic file (type pdf)
+<use fig//theta_q.pdf>
+File: fig//theta_q.pdf Graphic file (type pdf)
+<use fig//theta_q.pdf>
+[8]) (./content//chapter_4.tex [9]
 chapter 3.
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
@@ -3506,22 +3531,28 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 1--1
 
 )
 
-LaTeX Warning: Empty bibliography on input line 15.
+LaTeX Warning: Empty bibliography on input line 17.
 
 \tf@thm=\write11
 \openout11 = `project.thm'.
 
-[9
+[10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 16.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 16.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
  (./project.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 16.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 16.
-Package rerunfilecheck Info: File `project.out' has not changed.
-(rerunfilecheck)             Checksum: 8A794EFD025A063721226282E02C97E5.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 18.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
 
+
+Package rerunfilecheck Warning: File `project.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `project.out':
+(rerunfilecheck)             Before: 21CC9C89C1CE2F01905E766A27D212C3
+(rerunfilecheck)             After:  5B21F585A451D7A698BBAF354FD61169.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -3530,12 +3561,12 @@ Package logreq Info: Writing requests to 'project.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 52456 strings out of 492970
- 1051807 string characters out of 6133938
+ 52507 strings out of 492970
+ 1052958 string characters out of 6133938
  1729328 words of memory out of 5000000
- 55706 multiletter control sequences out of 15000+600000
- 538860 words of font info for 84 fonts, out of 8000000 for 9000
+ 55747 multiletter control sequences out of 15000+600000
+ 541895 words of font info for 100 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  76i,15n,100p,10478b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on project.pdf (9 pages).
+Output written on project.pdf (10 pages).
