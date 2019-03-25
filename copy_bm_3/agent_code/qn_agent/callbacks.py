@@ -11,9 +11,9 @@ path = './agent_code/qn_agent/'
 crate_counter = 0
 round_number = 1
 
-def func_curve(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15, a_16, a_17, a_18, a_19, a_20, a_21, a_22, a_23, a_24, a_25, a_26, a_27, a_28, a_29, a_30, a_31, a_32, a_33):
-    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20, x_21, x_22, x_23, x_24, x_25, x_26, x_27, x_28, x_29, x_30, x_31, x_32) = X
-    return a_1*x_1 + a_2*x_2 + a_3*x_3 + a_4*x_4 + a_5*x_5 + a_6*x_6 + a_7*x_7 + a_8*x_8 + a_9*x_9 + a_10*x_10 + a_11*x_11 + a_12*x_12 + a_13*x_13 + a_14*x_14 + a_15*x_15 + a_16*x_16 + a_17*x_17 + a_18*x_18 + a_19*x_19 + a_20*x_20 + a_21*x_21 + a_22*x_22 + a_23*x_23 + a_24*x_24 + a_25*x_25 + a_26*x_26 + a_27*x_27 + a_28*x_28 + a_29*x_29 + a_30*x_30 + a_31*x_31 + a_32*x_32 + a_33
+def func_curve(X, a_1, a_2, a_3, a_4, a_5, a_6, a_7, a_8, a_9, a_10, a_11, a_12, a_13, a_14, a_15, a_16, a_17, a_18, a_19, a_20, a_21, a_22, a_23, a_24, a_25, a_26, a_27, a_28, a_29, a_30, a_31, a_32, a_33, a_34):
+    (x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10, x_11, x_12, x_13, x_14, x_15, x_16, x_17, x_18, x_19, x_20, x_21, x_22, x_23, x_24, x_25, x_26, x_27, x_28, x_29, x_30, x_31, x_32, x_33) = X
+    return a_1*x_1 + a_2*x_2 + a_3*x_3 + a_4*x_4 + a_5*x_5 + a_6*x_6 + a_7*x_7 + a_8*x_8 + a_9*x_9 + a_10*x_10 + a_11*x_11 + a_12*x_12 + a_13*x_13 + a_14*x_14 + a_15*x_15 + a_16*x_16 + a_17*x_17 + a_18*x_18 + a_19*x_19 + a_20*x_20 + a_21*x_21 + a_22*x_22 + a_23*x_23 + a_24*x_24 + a_25*x_25 + a_26*x_26 + a_27*x_27 + a_28*x_28 + a_29*x_29 + a_30*x_30 + a_31*x_31 + a_32*x_32 + a_33*x_33 + a_34
 
 
 def positions(self):
@@ -207,6 +207,15 @@ def no_bomb(self):
     all_directions_blocked = no_through_road(self, check_no_bomb = True).all()
     return 1 if all_directions_blocked else 0
 
+def killable_opponents(self):
+    number = 0
+    if own_bomb_ticking(self) == 0:
+        explosion_radius = explosion_radius_single_bomb(self.game_state['self'][:2])
+        for opponent in self.game_state['others']:
+            if list(opponent[:2]) in explosion_radius:
+                number += 1
+    return number
+
 
 def q_function(theta_q, features):
     f = theta_q[:,-1]
@@ -227,6 +236,7 @@ def build_features (self):
     features = np.append(features, crate_diff(self)) # 5 Werte, Indizes 22, 23, 24, 25, 26
     features = np.append(features, no_through_road(self)) # 4 Werte, Indizes 27, 28, 29, 30
     features = np.append(features, no_bomb(self)) # 1 Wert, Index 31
+    features = np.append(features, killable_opponents(self)) # 1 Wert, Index 32
     return features
 
 
@@ -259,11 +269,11 @@ def act(self):
 
         #eps = 0.8 - np.min((round_number, 500))/500 * 0.6
         # eps = 0.25 - np.min((round_number, 500))/500 * 0.2
-        eps = 0.0
+        eps = 0.05
         e = np.random.uniform(0,1)
         if e < eps:
             chosen_action = int(np.random.choice([0,1,2,3,4,5], p = [0.2, 0.2, 0.2, 0.2, 0.1, 0.1]))
-            print('step', self.game_state['step'], 'random: ', action[chosen_action])
+            #print('step', self.game_state['step'], 'random: ', action[chosen_action])
         else:
             chosen_action = int(np.argmax(q_value))
         
@@ -326,11 +336,11 @@ def reward_update_(self):
                     "MOVED_RIGHT" : -2 - f[1] - 0.2*f[3] + 0.2*f[5] - 3*f[8] - 35*f[19] - 2*f[22] - 0.4*f[24] - 22*f[28],
                     "MOVED_UP" : -2 + f[2] + 0.2*f[4] + 0.2*f[6] - 3*f[9] - 35*f[20] + 2*f[23] + 0.4*f[25] - 22*f[29],
                     "MOVED_DOWN" : -2 - f[2] - 0.2*f[4] + 0.2*f[6] - 3*f[10] - 35*f[21] - 2*f[23] - 0.4*f[25] - 22*f[30],
-                    "WAITED" : -2 - 500*f[11], 
+                    "WAITED" : -6 - 400*f[11], 
                     "INTERRUPTED" : -1,
-                    "INVALID_ACTION" : -5 - 5*f[5] - 5*f[6] - 50*f[12] - 10*np.clip(np.sum(f[14:18]), 0, 1),
+                    "INVALID_ACTION" : -5 - 5*f[5] - 5*f[6] - 45*f[12] - 10*np.clip(np.sum(f[14:18]), 0, 1),
                     
-                    "BOMB_DROPPED" :  -5 + 5*f[13] + 2*f[26] - 30*f[31],
+                    "BOMB_DROPPED" :  -5 + 5*f[13] + 2*f[26] - 30*f[31] + 20*f[32],
                     "BOMB_EXPLODED" : 0, 
                     
                     "CRATE_DESTROYED" : 2,
@@ -344,7 +354,7 @@ def reward_update_(self):
                     "OPPONENT_ELIMINATED" : 0,
                     "SURVIVED_ROUND" : 200}
 
-    reward = np.sum([rewards[event_dict[item]] for item in self.events])
+    reward = 0.55993 * np.sum([rewards[event_dict[item]] for item in self.events])
 
     global crate_counter
     for event in self.events:
@@ -360,7 +370,7 @@ def end_of_episode(self):
     try:
         global moves, round_number, path, crate_counter
         alpha = 0.04        
-        gamma = 0.1
+        gamma = 0.5
         n = 7    
         for t in range(len(moves)):
             if (t >= len(moves) - n):
@@ -379,7 +389,7 @@ def end_of_episode(self):
             f.write(str(round_number) + ' ' + str(len(moves)) + ' ' + str(new_coins) + ' ' + str(crate_counter) + '\n')
             crate_counter = 0
 
-        if (round_number % 200 == 0):
+        if (round_number % 100 == 0):
             try: 
                 theta = []
                 for i in range(6):
