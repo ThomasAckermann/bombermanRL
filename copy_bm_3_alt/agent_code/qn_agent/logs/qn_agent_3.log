@@ -1,0 +1,424 @@
+2019-03-25 16:45:11,942 [qn_agent_3_wrapper] INFO: Import agent code from "agent_code/qn_agent/callbacks.py"
+2019-03-25 16:45:12,977 [qn_agent_3_wrapper] INFO: Initialize agent code
+2019-03-25 16:45:13,239 [qn_agent_3_wrapper] INFO: STARTING ROUND #1
+2019-03-25 16:45:13,506 [qn_agent_3_wrapper] INFO: STARTING STEP 1
+2019-03-25 16:45:13,792 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.253s of thinking
+2019-03-25 16:45:13,894 [qn_agent_3_wrapper] INFO: STARTING STEP 2
+2019-03-25 16:45:13,895 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:15,928 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.027s of thinking
+2019-03-25 16:45:15,995 [qn_agent_3_wrapper] INFO: STARTING STEP 3
+2019-03-25 16:45:15,996 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:18,031 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.033s of thinking
+2019-03-25 16:45:18,067 [qn_agent_3_wrapper] INFO: STARTING STEP 4
+2019-03-25 16:45:18,068 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:20,115 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.042s of thinking
+2019-03-25 16:45:20,183 [qn_agent_3_wrapper] INFO: STARTING STEP 5
+2019-03-25 16:45:20,190 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:22,236 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.044s of thinking
+2019-03-25 16:45:22,248 [qn_agent_3_wrapper] INFO: STARTING STEP 6
+2019-03-25 16:45:22,249 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:24,282 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.032s of thinking
+2019-03-25 16:45:24,334 [qn_agent_3_wrapper] INFO: STARTING STEP 7
+2019-03-25 16:45:24,335 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:26,377 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.036s of thinking
+2019-03-25 16:45:26,422 [qn_agent_3_wrapper] INFO: STARTING STEP 8
+2019-03-25 16:45:26,435 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:28,465 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.028s of thinking
+2019-03-25 16:45:28,475 [qn_agent_3_wrapper] INFO: STARTING STEP 9
+2019-03-25 16:45:28,498 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:30,537 [qn_agent_3_wrapper] INFO: Chose action UP after 0.031s of thinking
+2019-03-25 16:45:30,612 [qn_agent_3_wrapper] INFO: STARTING STEP 10
+2019-03-25 16:45:30,613 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:32,650 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.035s of thinking
+2019-03-25 16:45:32,699 [qn_agent_3_wrapper] INFO: STARTING STEP 11
+2019-03-25 16:45:32,699 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:34,732 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.031s of thinking
+2019-03-25 16:45:34,783 [qn_agent_3_wrapper] INFO: STARTING STEP 12
+2019-03-25 16:45:34,784 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:36,826 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.034s of thinking
+2019-03-25 16:45:36,859 [qn_agent_3_wrapper] INFO: STARTING STEP 13
+2019-03-25 16:45:36,860 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:38,900 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.038s of thinking
+2019-03-25 16:45:38,977 [qn_agent_3_wrapper] INFO: STARTING STEP 14
+2019-03-25 16:45:38,978 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:41,019 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.040s of thinking
+2019-03-25 16:45:41,081 [qn_agent_3_wrapper] INFO: STARTING STEP 15
+2019-03-25 16:45:41,082 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:43,109 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.025s of thinking
+2019-03-25 16:45:43,175 [qn_agent_3_wrapper] INFO: STARTING STEP 16
+2019-03-25 16:45:43,175 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:45,212 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.029s of thinking
+2019-03-25 16:45:45,272 [qn_agent_3_wrapper] INFO: STARTING STEP 17
+2019-03-25 16:45:45,276 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:47,307 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.030s of thinking
+2019-03-25 16:45:47,392 [qn_agent_3_wrapper] INFO: STARTING STEP 18
+2019-03-25 16:45:47,392 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:49,432 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.038s of thinking
+2019-03-25 16:45:49,468 [qn_agent_3_wrapper] INFO: STARTING STEP 19
+2019-03-25 16:45:49,468 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:51,516 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.046s of thinking
+2019-03-25 16:45:51,524 [qn_agent_3_wrapper] INFO: STARTING STEP 20
+2019-03-25 16:45:51,525 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:53,559 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.033s of thinking
+2019-03-25 16:45:53,605 [qn_agent_3_wrapper] INFO: STARTING STEP 21
+2019-03-25 16:45:53,605 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:55,636 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.029s of thinking
+2019-03-25 16:45:55,744 [qn_agent_3_wrapper] INFO: STARTING STEP 22
+2019-03-25 16:45:55,745 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:57,771 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.024s of thinking
+2019-03-25 16:45:57,815 [qn_agent_3_wrapper] INFO: STARTING STEP 23
+2019-03-25 16:45:57,816 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:45:59,893 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.076s of thinking
+2019-03-25 16:45:59,960 [qn_agent_3_wrapper] INFO: STARTING STEP 24
+2019-03-25 16:45:59,965 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:02,009 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.035s of thinking
+2019-03-25 16:46:02,032 [qn_agent_3_wrapper] INFO: STARTING STEP 25
+2019-03-25 16:46:02,045 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:04,137 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.038s of thinking
+2019-03-25 16:46:04,162 [qn_agent_3_wrapper] INFO: STARTING STEP 26
+2019-03-25 16:46:04,163 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:06,199 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.029s of thinking
+2019-03-25 16:46:06,229 [qn_agent_3_wrapper] INFO: STARTING STEP 27
+2019-03-25 16:46:06,230 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:08,300 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.069s of thinking
+2019-03-25 16:46:08,460 [qn_agent_3_wrapper] INFO: STARTING STEP 28
+2019-03-25 16:46:08,461 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:10,483 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.020s of thinking
+2019-03-25 16:46:10,590 [qn_agent_3_wrapper] INFO: Received exit message for round
+2019-03-25 16:46:10,590 [qn_agent_3_wrapper] INFO: Finalize agent's training
+2019-03-25 16:46:25,220 [qn_agent_3_wrapper] INFO: Round #1 finished
+2019-03-25 16:46:29,711 [qn_agent_3_wrapper] INFO: STARTING ROUND #2
+2019-03-25 16:46:29,809 [qn_agent_3_wrapper] INFO: STARTING STEP 1
+2019-03-25 16:46:29,857 [qn_agent_3_wrapper] INFO: Chose action UP after 0.041s of thinking
+2019-03-25 16:46:29,942 [qn_agent_3_wrapper] INFO: STARTING STEP 2
+2019-03-25 16:46:29,942 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:31,980 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.031s of thinking
+2019-03-25 16:46:32,069 [qn_agent_3_wrapper] INFO: STARTING STEP 3
+2019-03-25 16:46:32,070 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:34,111 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.032s of thinking
+2019-03-25 16:46:34,144 [qn_agent_3_wrapper] INFO: STARTING STEP 4
+2019-03-25 16:46:34,145 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:36,182 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.035s of thinking
+2019-03-25 16:46:36,220 [qn_agent_3_wrapper] INFO: STARTING STEP 5
+2019-03-25 16:46:36,220 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:38,253 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.031s of thinking
+2019-03-25 16:46:38,324 [qn_agent_3_wrapper] INFO: STARTING STEP 6
+2019-03-25 16:46:38,324 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:40,355 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.030s of thinking
+2019-03-25 16:46:40,384 [qn_agent_3_wrapper] INFO: STARTING STEP 7
+2019-03-25 16:46:40,385 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:42,423 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.036s of thinking
+2019-03-25 16:46:42,453 [qn_agent_3_wrapper] INFO: STARTING STEP 8
+2019-03-25 16:46:42,454 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:44,517 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.020s of thinking
+2019-03-25 16:46:45,070 [qn_agent_3_wrapper] INFO: STARTING STEP 9
+2019-03-25 16:46:45,071 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:47,103 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.030s of thinking
+2019-03-25 16:46:47,161 [qn_agent_3_wrapper] INFO: STARTING STEP 10
+2019-03-25 16:46:47,161 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:49,197 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.035s of thinking
+2019-03-25 16:46:49,238 [qn_agent_3_wrapper] INFO: STARTING STEP 11
+2019-03-25 16:46:49,239 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:51,286 [qn_agent_3_wrapper] INFO: Chose action UP after 0.045s of thinking
+2019-03-25 16:46:51,383 [qn_agent_3_wrapper] INFO: STARTING STEP 12
+2019-03-25 16:46:51,383 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:53,418 [qn_agent_3_wrapper] INFO: Chose action UP after 0.032s of thinking
+2019-03-25 16:46:53,469 [qn_agent_3_wrapper] INFO: STARTING STEP 13
+2019-03-25 16:46:53,470 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:55,512 [qn_agent_3_wrapper] INFO: Chose action UP after 0.033s of thinking
+2019-03-25 16:46:55,572 [qn_agent_3_wrapper] INFO: STARTING STEP 14
+2019-03-25 16:46:55,572 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:57,604 [qn_agent_3_wrapper] INFO: Chose action UP after 0.031s of thinking
+2019-03-25 16:46:57,631 [qn_agent_3_wrapper] INFO: STARTING STEP 15
+2019-03-25 16:46:57,631 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:46:59,663 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.029s of thinking
+2019-03-25 16:46:59,698 [qn_agent_3_wrapper] INFO: STARTING STEP 16
+2019-03-25 16:46:59,699 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:01,736 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.036s of thinking
+2019-03-25 16:47:01,765 [qn_agent_3_wrapper] INFO: STARTING STEP 17
+2019-03-25 16:47:01,768 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:03,808 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.038s of thinking
+2019-03-25 16:47:03,857 [qn_agent_3_wrapper] INFO: STARTING STEP 18
+2019-03-25 16:47:03,857 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:05,909 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.049s of thinking
+2019-03-25 16:47:05,983 [qn_agent_3_wrapper] INFO: STARTING STEP 19
+2019-03-25 16:47:05,983 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:08,020 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.035s of thinking
+2019-03-25 16:47:08,070 [qn_agent_3_wrapper] INFO: STARTING STEP 20
+2019-03-25 16:47:08,071 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:10,100 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.026s of thinking
+2019-03-25 16:47:10,110 [qn_agent_3_wrapper] INFO: STARTING STEP 21
+2019-03-25 16:47:10,110 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:12,144 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.032s of thinking
+2019-03-25 16:47:12,162 [qn_agent_3_wrapper] INFO: STARTING STEP 22
+2019-03-25 16:47:12,163 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:14,195 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.025s of thinking
+2019-03-25 16:47:14,261 [qn_agent_3_wrapper] INFO: STARTING STEP 23
+2019-03-25 16:47:14,266 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:16,302 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.034s of thinking
+2019-03-25 16:47:16,345 [qn_agent_3_wrapper] INFO: STARTING STEP 24
+2019-03-25 16:47:16,346 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:18,377 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.029s of thinking
+2019-03-25 16:47:18,427 [qn_agent_3_wrapper] INFO: STARTING STEP 25
+2019-03-25 16:47:18,441 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:20,479 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.031s of thinking
+2019-03-25 16:47:20,487 [qn_agent_3_wrapper] INFO: STARTING STEP 26
+2019-03-25 16:47:20,488 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:22,515 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.025s of thinking
+2019-03-25 16:47:22,532 [qn_agent_3_wrapper] INFO: STARTING STEP 27
+2019-03-25 16:47:22,533 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:24,565 [qn_agent_3_wrapper] INFO: Chose action UP after 0.030s of thinking
+2019-03-25 16:47:24,572 [qn_agent_3_wrapper] INFO: STARTING STEP 28
+2019-03-25 16:47:24,572 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:26,597 [qn_agent_3_wrapper] INFO: Chose action UP after 0.024s of thinking
+2019-03-25 16:47:26,612 [qn_agent_3_wrapper] INFO: STARTING STEP 29
+2019-03-25 16:47:26,613 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:28,642 [qn_agent_3_wrapper] INFO: Chose action UP after 0.028s of thinking
+2019-03-25 16:47:28,663 [qn_agent_3_wrapper] INFO: STARTING STEP 30
+2019-03-25 16:47:28,664 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:30,697 [qn_agent_3_wrapper] INFO: Chose action UP after 0.027s of thinking
+2019-03-25 16:47:30,721 [qn_agent_3_wrapper] INFO: STARTING STEP 31
+2019-03-25 16:47:30,721 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:32,758 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.032s of thinking
+2019-03-25 16:47:32,773 [qn_agent_3_wrapper] INFO: STARTING STEP 32
+2019-03-25 16:47:32,774 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:34,796 [qn_agent_3_wrapper] INFO: Chose action UP after 0.020s of thinking
+2019-03-25 16:47:34,806 [qn_agent_3_wrapper] INFO: STARTING STEP 33
+2019-03-25 16:47:34,808 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:36,845 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.034s of thinking
+2019-03-25 16:47:36,891 [qn_agent_3_wrapper] INFO: STARTING STEP 34
+2019-03-25 16:47:36,898 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:38,929 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.030s of thinking
+2019-03-25 16:47:38,936 [qn_agent_3_wrapper] INFO: STARTING STEP 35
+2019-03-25 16:47:38,936 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:40,967 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.028s of thinking
+2019-03-25 16:47:40,975 [qn_agent_3_wrapper] INFO: STARTING STEP 36
+2019-03-25 16:47:40,988 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:43,029 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.038s of thinking
+2019-03-25 16:47:43,055 [qn_agent_3_wrapper] INFO: STARTING STEP 37
+2019-03-25 16:47:43,055 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:45,094 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.031s of thinking
+2019-03-25 16:47:45,100 [qn_agent_3_wrapper] INFO: STARTING STEP 38
+2019-03-25 16:47:45,101 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:47,130 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.028s of thinking
+2019-03-25 16:47:47,154 [qn_agent_3_wrapper] INFO: STARTING STEP 39
+2019-03-25 16:47:47,154 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:49,176 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.020s of thinking
+2019-03-25 16:47:49,186 [qn_agent_3_wrapper] INFO: STARTING STEP 40
+2019-03-25 16:47:49,186 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:51,213 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.025s of thinking
+2019-03-25 16:47:51,274 [qn_agent_3_wrapper] INFO: STARTING STEP 41
+2019-03-25 16:47:51,274 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:53,309 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.033s of thinking
+2019-03-25 16:47:53,330 [qn_agent_3_wrapper] INFO: STARTING STEP 42
+2019-03-25 16:47:53,331 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:55,354 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.021s of thinking
+2019-03-25 16:47:55,383 [qn_agent_3_wrapper] INFO: STARTING STEP 43
+2019-03-25 16:47:55,384 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:57,411 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.026s of thinking
+2019-03-25 16:47:57,437 [qn_agent_3_wrapper] INFO: STARTING STEP 44
+2019-03-25 16:47:57,438 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:47:59,469 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.027s of thinking
+2019-03-25 16:47:59,523 [qn_agent_3_wrapper] INFO: STARTING STEP 45
+2019-03-25 16:47:59,525 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:01,550 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.023s of thinking
+2019-03-25 16:48:01,595 [qn_agent_3_wrapper] INFO: STARTING STEP 46
+2019-03-25 16:48:01,596 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:03,622 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.024s of thinking
+2019-03-25 16:48:03,636 [qn_agent_3_wrapper] INFO: STARTING STEP 47
+2019-03-25 16:48:03,636 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:05,670 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.027s of thinking
+2019-03-25 16:48:05,687 [qn_agent_3_wrapper] INFO: STARTING STEP 48
+2019-03-25 16:48:05,688 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:07,715 [qn_agent_3_wrapper] INFO: Chose action UP after 0.026s of thinking
+2019-03-25 16:48:07,755 [qn_agent_3_wrapper] INFO: STARTING STEP 49
+2019-03-25 16:48:07,755 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:09,798 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.035s of thinking
+2019-03-25 16:48:09,809 [qn_agent_3_wrapper] INFO: STARTING STEP 50
+2019-03-25 16:48:09,809 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:11,862 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.037s of thinking
+2019-03-25 16:48:11,875 [qn_agent_3_wrapper] INFO: STARTING STEP 51
+2019-03-25 16:48:11,876 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:13,909 [qn_agent_3_wrapper] INFO: Chose action UP after 0.031s of thinking
+2019-03-25 16:48:13,919 [qn_agent_3_wrapper] INFO: STARTING STEP 52
+2019-03-25 16:48:13,920 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:15,943 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.021s of thinking
+2019-03-25 16:48:15,989 [qn_agent_3_wrapper] INFO: STARTING STEP 53
+2019-03-25 16:48:15,989 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:18,023 [qn_agent_3_wrapper] INFO: Chose action UP after 0.031s of thinking
+2019-03-25 16:48:18,043 [qn_agent_3_wrapper] INFO: STARTING STEP 54
+2019-03-25 16:48:18,043 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:20,065 [qn_agent_3_wrapper] INFO: Chose action UP after 0.020s of thinking
+2019-03-25 16:48:20,084 [qn_agent_3_wrapper] INFO: STARTING STEP 55
+2019-03-25 16:48:20,084 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:22,112 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.026s of thinking
+2019-03-25 16:48:22,140 [qn_agent_3_wrapper] INFO: STARTING STEP 56
+2019-03-25 16:48:22,142 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:24,179 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.024s of thinking
+2019-03-25 16:48:24,189 [qn_agent_3_wrapper] INFO: STARTING STEP 57
+2019-03-25 16:48:24,189 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:26,215 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.024s of thinking
+2019-03-25 16:48:26,231 [qn_agent_3_wrapper] INFO: STARTING STEP 58
+2019-03-25 16:48:26,232 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:28,256 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.021s of thinking
+2019-03-25 16:48:28,266 [qn_agent_3_wrapper] INFO: STARTING STEP 59
+2019-03-25 16:48:28,267 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:30,287 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.019s of thinking
+2019-03-25 16:48:30,374 [qn_agent_3_wrapper] INFO: STARTING STEP 60
+2019-03-25 16:48:30,375 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:32,396 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.020s of thinking
+2019-03-25 16:48:32,424 [qn_agent_3_wrapper] INFO: STARTING STEP 61
+2019-03-25 16:48:32,425 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:34,450 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.022s of thinking
+2019-03-25 16:48:34,455 [qn_agent_3_wrapper] INFO: STARTING STEP 62
+2019-03-25 16:48:34,456 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:36,495 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.037s of thinking
+2019-03-25 16:48:36,500 [qn_agent_3_wrapper] INFO: STARTING STEP 63
+2019-03-25 16:48:36,501 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:38,577 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.075s of thinking
+2019-03-25 16:48:38,674 [qn_agent_3_wrapper] INFO: STARTING STEP 64
+2019-03-25 16:48:38,675 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:40,700 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.024s of thinking
+2019-03-25 16:48:40,711 [qn_agent_3_wrapper] INFO: STARTING STEP 65
+2019-03-25 16:48:40,712 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:42,737 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.023s of thinking
+2019-03-25 16:48:42,751 [qn_agent_3_wrapper] INFO: STARTING STEP 66
+2019-03-25 16:48:42,752 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:44,779 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.019s of thinking
+2019-03-25 16:48:44,788 [qn_agent_3_wrapper] INFO: STARTING STEP 67
+2019-03-25 16:48:44,789 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:46,806 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.016s of thinking
+2019-03-25 16:48:46,880 [qn_agent_3_wrapper] INFO: STARTING STEP 68
+2019-03-25 16:48:46,880 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:48,904 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.022s of thinking
+2019-03-25 16:48:48,918 [qn_agent_3_wrapper] INFO: STARTING STEP 69
+2019-03-25 16:48:48,919 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:50,941 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.020s of thinking
+2019-03-25 16:48:50,951 [qn_agent_3_wrapper] INFO: STARTING STEP 70
+2019-03-25 16:48:50,952 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:52,983 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.015s of thinking
+2019-03-25 16:48:52,989 [qn_agent_3_wrapper] INFO: STARTING STEP 71
+2019-03-25 16:48:52,990 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:55,011 [qn_agent_3_wrapper] INFO: Chose action UP after 0.020s of thinking
+2019-03-25 16:48:55,017 [qn_agent_3_wrapper] INFO: STARTING STEP 72
+2019-03-25 16:48:55,018 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:57,037 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.018s of thinking
+2019-03-25 16:48:57,088 [qn_agent_3_wrapper] INFO: STARTING STEP 73
+2019-03-25 16:48:57,088 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:48:59,111 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.016s of thinking
+2019-03-25 16:48:59,117 [qn_agent_3_wrapper] INFO: STARTING STEP 74
+2019-03-25 16:48:59,118 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:01,140 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.019s of thinking
+2019-03-25 16:49:01,153 [qn_agent_3_wrapper] INFO: STARTING STEP 75
+2019-03-25 16:49:01,153 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:03,176 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.020s of thinking
+2019-03-25 16:49:03,182 [qn_agent_3_wrapper] INFO: STARTING STEP 76
+2019-03-25 16:49:03,183 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:05,204 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.019s of thinking
+2019-03-25 16:49:05,217 [qn_agent_3_wrapper] INFO: STARTING STEP 77
+2019-03-25 16:49:05,217 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:07,243 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.024s of thinking
+2019-03-25 16:49:07,270 [qn_agent_3_wrapper] INFO: STARTING STEP 78
+2019-03-25 16:49:07,271 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:09,309 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.034s of thinking
+2019-03-25 16:49:09,324 [qn_agent_3_wrapper] INFO: STARTING STEP 79
+2019-03-25 16:49:09,324 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:11,341 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.015s of thinking
+2019-03-25 16:49:11,346 [qn_agent_3_wrapper] INFO: STARTING STEP 80
+2019-03-25 16:49:11,347 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:13,370 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.017s of thinking
+2019-03-25 16:49:13,377 [qn_agent_3_wrapper] INFO: STARTING STEP 81
+2019-03-25 16:49:13,378 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:15,405 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.023s of thinking
+2019-03-25 16:49:15,411 [qn_agent_3_wrapper] INFO: STARTING STEP 82
+2019-03-25 16:49:15,415 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:17,436 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.019s of thinking
+2019-03-25 16:49:17,468 [qn_agent_3_wrapper] INFO: STARTING STEP 83
+2019-03-25 16:49:17,469 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:19,498 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.020s of thinking
+2019-03-25 16:49:19,506 [qn_agent_3_wrapper] INFO: STARTING STEP 84
+2019-03-25 16:49:19,507 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:21,525 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.017s of thinking
+2019-03-25 16:49:21,533 [qn_agent_3_wrapper] INFO: STARTING STEP 85
+2019-03-25 16:49:21,533 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:23,549 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.015s of thinking
+2019-03-25 16:49:23,560 [qn_agent_3_wrapper] INFO: STARTING STEP 86
+2019-03-25 16:49:23,560 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:25,577 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.015s of thinking
+2019-03-25 16:49:25,587 [qn_agent_3_wrapper] INFO: STARTING STEP 87
+2019-03-25 16:49:25,588 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:27,603 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.014s of thinking
+2019-03-25 16:49:27,630 [qn_agent_3_wrapper] INFO: STARTING STEP 88
+2019-03-25 16:49:27,631 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:29,648 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.016s of thinking
+2019-03-25 16:49:29,653 [qn_agent_3_wrapper] INFO: STARTING STEP 89
+2019-03-25 16:49:29,653 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:31,671 [qn_agent_3_wrapper] INFO: Chose action UP after 0.017s of thinking
+2019-03-25 16:49:31,676 [qn_agent_3_wrapper] INFO: STARTING STEP 90
+2019-03-25 16:49:31,676 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:33,695 [qn_agent_3_wrapper] INFO: Chose action UP after 0.017s of thinking
+2019-03-25 16:49:33,705 [qn_agent_3_wrapper] INFO: STARTING STEP 91
+2019-03-25 16:49:33,705 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:35,736 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.030s of thinking
+2019-03-25 16:49:35,755 [qn_agent_3_wrapper] INFO: STARTING STEP 92
+2019-03-25 16:49:35,756 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:37,788 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.028s of thinking
+2019-03-25 16:49:37,821 [qn_agent_3_wrapper] INFO: STARTING STEP 93
+2019-03-25 16:49:37,822 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:39,838 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.015s of thinking
+2019-03-25 16:49:39,844 [qn_agent_3_wrapper] INFO: STARTING STEP 94
+2019-03-25 16:49:39,844 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:41,869 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.023s of thinking
+2019-03-25 16:49:41,881 [qn_agent_3_wrapper] INFO: STARTING STEP 95
+2019-03-25 16:49:41,881 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:43,904 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.021s of thinking
+2019-03-25 16:49:43,911 [qn_agent_3_wrapper] INFO: STARTING STEP 96
+2019-03-25 16:49:43,912 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:45,936 [qn_agent_3_wrapper] INFO: Chose action WAIT after 0.023s of thinking
+2019-03-25 16:49:45,985 [qn_agent_3_wrapper] INFO: STARTING STEP 97
+2019-03-25 16:49:45,986 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:48,013 [qn_agent_3_wrapper] INFO: Chose action DOWN after 0.018s of thinking
+2019-03-25 16:49:48,020 [qn_agent_3_wrapper] INFO: STARTING STEP 98
+2019-03-25 16:49:48,021 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:50,039 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.016s of thinking
+2019-03-25 16:49:50,066 [qn_agent_3_wrapper] INFO: STARTING STEP 99
+2019-03-25 16:49:50,068 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:52,083 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.013s of thinking
+2019-03-25 16:49:52,105 [qn_agent_3_wrapper] INFO: STARTING STEP 100
+2019-03-25 16:49:52,106 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:54,123 [qn_agent_3_wrapper] INFO: Chose action UP after 0.015s of thinking
+2019-03-25 16:49:54,131 [qn_agent_3_wrapper] INFO: STARTING STEP 101
+2019-03-25 16:49:54,132 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:56,148 [qn_agent_3_wrapper] INFO: Chose action UP after 0.013s of thinking
+2019-03-25 16:49:56,189 [qn_agent_3_wrapper] INFO: STARTING STEP 102
+2019-03-25 16:49:56,190 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:49:58,224 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.024s of thinking
+2019-03-25 16:49:58,231 [qn_agent_3_wrapper] INFO: STARTING STEP 103
+2019-03-25 16:49:58,232 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:00,251 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.017s of thinking
+2019-03-25 16:50:00,261 [qn_agent_3_wrapper] INFO: STARTING STEP 104
+2019-03-25 16:50:00,262 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:02,281 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.018s of thinking
+2019-03-25 16:50:02,290 [qn_agent_3_wrapper] INFO: STARTING STEP 105
+2019-03-25 16:50:02,290 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:04,312 [qn_agent_3_wrapper] INFO: Chose action BOMB after 0.021s of thinking
+2019-03-25 16:50:04,354 [qn_agent_3_wrapper] INFO: STARTING STEP 106
+2019-03-25 16:50:04,357 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:06,385 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.027s of thinking
+2019-03-25 16:50:06,433 [qn_agent_3_wrapper] INFO: STARTING STEP 107
+2019-03-25 16:50:06,433 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:08,469 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.023s of thinking
+2019-03-25 16:50:08,478 [qn_agent_3_wrapper] INFO: STARTING STEP 108
+2019-03-25 16:50:08,478 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:10,494 [qn_agent_3_wrapper] INFO: Chose action RIGHT after 0.014s of thinking
+2019-03-25 16:50:10,509 [qn_agent_3_wrapper] INFO: STARTING STEP 109
+2019-03-25 16:50:10,509 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:12,526 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.015s of thinking
+2019-03-25 16:50:12,534 [qn_agent_3_wrapper] INFO: STARTING STEP 110
+2019-03-25 16:50:12,535 [qn_agent_3_wrapper] INFO: Process intermediate rewards
+2019-03-25 16:50:14,552 [qn_agent_3_wrapper] INFO: Chose action LEFT after 0.014s of thinking
+2019-03-25 16:50:14,592 [qn_agent_3_wrapper] INFO: Received exit message for round
+2019-03-25 16:50:14,597 [qn_agent_3_wrapper] INFO: Finalize agent's training
+2019-03-25 16:50:46,659 [qn_agent_3_wrapper] INFO: Round #2 finished
+2019-03-25 16:50:53,274 [qn_agent_3_wrapper] INFO: Received global exit message
+2019-03-25 16:50:53,329 [qn_agent_3_wrapper] INFO: SHUT DOWN
