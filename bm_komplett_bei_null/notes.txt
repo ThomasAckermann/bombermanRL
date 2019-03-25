@@ -1,4 +1,0 @@
--explosion radius hat vllt das "in" nicht geklappt
-
--bin mir nicht sicher, ob es das war, was ich sagen wollte, aber:
-ich glaube vllt ist es sinnvoll/oder zumindest die begründung dafür, dass die anderen thetas nicht null sind: wenn er vorher nach links gegangen ist, wird er ja für rechts bestraft, bzw. gleichermaßen kann man ihn dann ja für alle anderen bewegungen belohnen, deshalb stehen da vllt werte ungleich null. Allerdings weiß ich nicht, ob er dann nicht in versuchung gerät, etwas invalides zu tun. 

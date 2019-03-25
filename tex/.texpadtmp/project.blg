@@ -1,9 +1,0 @@
-[0] Config.pm:343> INFO - This is Biber 2.5
-[0] Config.pm:346> INFO - Logfile is '/Users/Mathieu/Downloads/tex/.texpadtmp/project.blg'
-[97] biber-darwin:290> INFO - === Sat Mar 23, 2019, 00:14:47
-[142] Biber.pm:351> INFO - Reading '/Users/Mathieu/Downloads/tex/.texpadtmp/project.bcf'
-[293] Biber.pm:776> INFO - Found 0 citekeys in bib section 0
-[300] Utils.pm:149> WARN - The file '/Users/Mathieu/Downloads/tex/.texpadtmp/project.bcf' does not contain any citations!
-[312] bbl.pm:526> INFO - Writing '/Users/Mathieu/Downloads/tex/.texpadtmp/project.bbl' with encoding 'UTF-8'
-[312] bbl.pm:619> INFO - Output to /Users/Mathieu/Downloads/tex/.texpadtmp/project.bbl
-[313] Biber.pm:108> INFO - WARNINGS: 1

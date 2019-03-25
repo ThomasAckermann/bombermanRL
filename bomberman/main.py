@@ -1,7 +1,7 @@
-
 from time import time, sleep
 import contextlib
 from time import time
+import time as time_
 
 with contextlib.redirect_stdout(None):
     import pygame
@@ -39,13 +39,18 @@ def main():
     # Emulate Windows process spawning behaviour under Unix (for testing)
     # mp.set_start_method('spawn')
 
+    agent_list = [
+            ('cbt_agent', True),
+            ('cbt_agent', True),
+            ('cbt_agent', True),
+            ('cbt_agent', False)
+        ]
+    # stores the path to the last agent, which is used for the round number and extraction of theta at every 20th round 
+    path = './agent_code/{}/'.format(agent_list[-1][0])
+
     # Initialize environment and agents 
-    world = BombeRLeWorld([
-            #('useless_agent', False),
-            #('q_agent', True),
-            # ('q_agent', True),
-            ('qn_agent', True)
-        ])
+    world = BombeRLeWorld(agent_list)
+
     # world = ReplayWorld('replay_3')# ('Replay 2019-01-30 16:57:42')
     user_inputs = []
 
@@ -55,11 +60,11 @@ def main():
     t.start()
 
     start_time = time()
-    print('Start:', start_time)
-    with open('round_number.txt', 'r') as f:
-        print('Beginn bei Rundenzahl:', int(f.read()))
+    print('Start am {2}.{1}.{0}, um {3:02}:{4:02}:{5:02} Uhr.'.format(*time_.localtime(start_time)))
     # Run one or more games
     for i in range(s.n_rounds):
+        if (i % 20 == 0):
+            print(i)
         if not world.running:
             world.ready_for_restart_flag.wait()
             world.ready_for_restart_flag.clear()
@@ -113,7 +118,7 @@ def main():
 
     world.end()
     end_time = time()
-    print(end_time)
+    print('Ende am {2}.{1}.{0}, um {3:02}:{4:02}:{5:02} Uhr.'.format(*time_.localtime(end_time)))
     print('Duration =', end_time - start_time, 's =', (end_time - start_time)/60, 'min')
 
 

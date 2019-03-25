@@ -1,4 +1,0 @@
-2019-03-06 19:23:27,624 [simple_agent_wrapper] INFO: Import agent code from "agent_code/simple_agent/callbacks.py"
-2019-03-06 19:23:27,627 [simple_agent_wrapper] INFO: Initialize agent code
-2019-03-06 19:23:27,627 [simple_agent_code] DEBUG: Successfully entered setup code
-2019-03-06 19:23:27,933 [simple_agent_wrapper] INFO: STARTING ROUND #1
