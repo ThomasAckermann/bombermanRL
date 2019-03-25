@@ -1,0 +1,1207 @@
+2019-03-26 00:11:07,714 [cbt_agent_0_wrapper] INFO: Import agent code from "agent_code/cbt_agent/callbacks.py"
+2019-03-26 00:11:07,981 [cbt_agent_0_wrapper] INFO: Initialize agent code
+2019-03-26 00:11:08,765 [cbt_agent_0_wrapper] INFO: STARTING ROUND #1
+2019-03-26 00:11:08,872 [cbt_agent_0_wrapper] INFO: STARTING STEP 1
+2019-03-26 00:11:08,880 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.008s of thinking
+2019-03-26 00:11:08,976 [cbt_agent_0_wrapper] INFO: STARTING STEP 2
+2019-03-26 00:11:08,977 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:08,987 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.009s of thinking
+2019-03-26 00:11:09,081 [cbt_agent_0_wrapper] INFO: STARTING STEP 3
+2019-03-26 00:11:09,082 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,092 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.009s of thinking
+2019-03-26 00:11:09,185 [cbt_agent_0_wrapper] INFO: STARTING STEP 4
+2019-03-26 00:11:09,186 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,206 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.007s of thinking
+2019-03-26 00:11:09,291 [cbt_agent_0_wrapper] INFO: STARTING STEP 5
+2019-03-26 00:11:09,299 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,311 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.011s of thinking
+2019-03-26 00:11:09,394 [cbt_agent_0_wrapper] INFO: STARTING STEP 6
+2019-03-26 00:11:09,395 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,405 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.008s of thinking
+2019-03-26 00:11:09,499 [cbt_agent_0_wrapper] INFO: STARTING STEP 7
+2019-03-26 00:11:09,500 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,508 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.007s of thinking
+2019-03-26 00:11:09,603 [cbt_agent_0_wrapper] INFO: STARTING STEP 8
+2019-03-26 00:11:09,605 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,611 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.004s of thinking
+2019-03-26 00:11:09,708 [cbt_agent_0_wrapper] INFO: STARTING STEP 9
+2019-03-26 00:11:09,709 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,728 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.007s of thinking
+2019-03-26 00:11:09,812 [cbt_agent_0_wrapper] INFO: STARTING STEP 10
+2019-03-26 00:11:09,813 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,823 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.009s of thinking
+2019-03-26 00:11:09,917 [cbt_agent_0_wrapper] INFO: STARTING STEP 11
+2019-03-26 00:11:09,918 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:09,929 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.010s of thinking
+2019-03-26 00:11:10,022 [cbt_agent_0_wrapper] INFO: STARTING STEP 12
+2019-03-26 00:11:10,023 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,053 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.006s of thinking
+2019-03-26 00:11:10,128 [cbt_agent_0_wrapper] INFO: STARTING STEP 13
+2019-03-26 00:11:10,130 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,144 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.009s of thinking
+2019-03-26 00:11:10,233 [cbt_agent_0_wrapper] INFO: STARTING STEP 14
+2019-03-26 00:11:10,242 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,252 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:10,336 [cbt_agent_0_wrapper] INFO: STARTING STEP 15
+2019-03-26 00:11:10,337 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,344 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.005s of thinking
+2019-03-26 00:11:10,441 [cbt_agent_0_wrapper] INFO: STARTING STEP 16
+2019-03-26 00:11:10,442 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,451 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.009s of thinking
+2019-03-26 00:11:10,545 [cbt_agent_0_wrapper] INFO: STARTING STEP 17
+2019-03-26 00:11:10,548 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,563 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.007s of thinking
+2019-03-26 00:11:10,649 [cbt_agent_0_wrapper] INFO: STARTING STEP 18
+2019-03-26 00:11:10,656 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,662 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.005s of thinking
+2019-03-26 00:11:10,754 [cbt_agent_0_wrapper] INFO: STARTING STEP 19
+2019-03-26 00:11:10,755 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,763 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.008s of thinking
+2019-03-26 00:11:10,864 [cbt_agent_0_wrapper] INFO: STARTING STEP 20
+2019-03-26 00:11:10,865 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,881 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.004s of thinking
+2019-03-26 00:11:10,970 [cbt_agent_0_wrapper] INFO: STARTING STEP 21
+2019-03-26 00:11:10,970 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:10,980 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.009s of thinking
+2019-03-26 00:11:11,075 [cbt_agent_0_wrapper] INFO: STARTING STEP 22
+2019-03-26 00:11:11,075 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,087 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.004s of thinking
+2019-03-26 00:11:11,181 [cbt_agent_0_wrapper] INFO: STARTING STEP 23
+2019-03-26 00:11:11,181 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,194 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.005s of thinking
+2019-03-26 00:11:11,284 [cbt_agent_0_wrapper] INFO: STARTING STEP 24
+2019-03-26 00:11:11,285 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,299 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.004s of thinking
+2019-03-26 00:11:11,389 [cbt_agent_0_wrapper] INFO: STARTING STEP 25
+2019-03-26 00:11:11,389 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,399 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.009s of thinking
+2019-03-26 00:11:11,493 [cbt_agent_0_wrapper] INFO: STARTING STEP 26
+2019-03-26 00:11:11,494 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,507 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.008s of thinking
+2019-03-26 00:11:11,598 [cbt_agent_0_wrapper] INFO: STARTING STEP 27
+2019-03-26 00:11:11,599 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,613 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.006s of thinking
+2019-03-26 00:11:11,705 [cbt_agent_0_wrapper] INFO: STARTING STEP 28
+2019-03-26 00:11:11,706 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,731 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.008s of thinking
+2019-03-26 00:11:11,809 [cbt_agent_0_wrapper] INFO: STARTING STEP 29
+2019-03-26 00:11:11,811 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,822 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.008s of thinking
+2019-03-26 00:11:11,914 [cbt_agent_0_wrapper] INFO: STARTING STEP 30
+2019-03-26 00:11:11,914 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:11,923 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.008s of thinking
+2019-03-26 00:11:12,019 [cbt_agent_0_wrapper] INFO: STARTING STEP 31
+2019-03-26 00:11:12,020 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,034 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.006s of thinking
+2019-03-26 00:11:12,123 [cbt_agent_0_wrapper] INFO: STARTING STEP 32
+2019-03-26 00:11:12,124 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,143 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.008s of thinking
+2019-03-26 00:11:12,228 [cbt_agent_0_wrapper] INFO: STARTING STEP 33
+2019-03-26 00:11:12,229 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,236 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.006s of thinking
+2019-03-26 00:11:12,333 [cbt_agent_0_wrapper] INFO: STARTING STEP 34
+2019-03-26 00:11:12,333 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,339 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.006s of thinking
+2019-03-26 00:11:12,438 [cbt_agent_0_wrapper] INFO: STARTING STEP 35
+2019-03-26 00:11:12,438 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,446 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.007s of thinking
+2019-03-26 00:11:12,541 [cbt_agent_0_wrapper] INFO: STARTING STEP 36
+2019-03-26 00:11:12,542 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,567 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.007s of thinking
+2019-03-26 00:11:12,649 [cbt_agent_0_wrapper] INFO: STARTING STEP 37
+2019-03-26 00:11:12,655 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,670 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.006s of thinking
+2019-03-26 00:11:12,752 [cbt_agent_0_wrapper] INFO: STARTING STEP 38
+2019-03-26 00:11:12,753 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,759 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.005s of thinking
+2019-03-26 00:11:12,857 [cbt_agent_0_wrapper] INFO: STARTING STEP 39
+2019-03-26 00:11:12,857 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,865 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.007s of thinking
+2019-03-26 00:11:12,961 [cbt_agent_0_wrapper] INFO: STARTING STEP 40
+2019-03-26 00:11:12,962 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:12,977 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.003s of thinking
+2019-03-26 00:11:13,066 [cbt_agent_0_wrapper] INFO: STARTING STEP 41
+2019-03-26 00:11:13,067 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,082 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.008s of thinking
+2019-03-26 00:11:13,170 [cbt_agent_0_wrapper] INFO: STARTING STEP 42
+2019-03-26 00:11:13,171 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,178 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.007s of thinking
+2019-03-26 00:11:13,275 [cbt_agent_0_wrapper] INFO: STARTING STEP 43
+2019-03-26 00:11:13,276 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,286 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.010s of thinking
+2019-03-26 00:11:13,379 [cbt_agent_0_wrapper] INFO: STARTING STEP 44
+2019-03-26 00:11:13,380 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,387 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.006s of thinking
+2019-03-26 00:11:13,486 [cbt_agent_0_wrapper] INFO: STARTING STEP 45
+2019-03-26 00:11:13,487 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,500 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.010s of thinking
+2019-03-26 00:11:13,594 [cbt_agent_0_wrapper] INFO: STARTING STEP 46
+2019-03-26 00:11:13,594 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,605 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:13,694 [cbt_agent_0_wrapper] INFO: STARTING STEP 47
+2019-03-26 00:11:13,696 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,706 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.005s of thinking
+2019-03-26 00:11:13,799 [cbt_agent_0_wrapper] INFO: STARTING STEP 48
+2019-03-26 00:11:13,800 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,810 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.003s of thinking
+2019-03-26 00:11:13,904 [cbt_agent_0_wrapper] INFO: STARTING STEP 49
+2019-03-26 00:11:13,904 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:13,922 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:14,008 [cbt_agent_0_wrapper] INFO: STARTING STEP 50
+2019-03-26 00:11:14,009 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,016 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.007s of thinking
+2019-03-26 00:11:14,113 [cbt_agent_0_wrapper] INFO: STARTING STEP 51
+2019-03-26 00:11:14,114 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,120 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.005s of thinking
+2019-03-26 00:11:14,221 [cbt_agent_0_wrapper] INFO: STARTING STEP 52
+2019-03-26 00:11:14,223 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,235 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.005s of thinking
+2019-03-26 00:11:14,326 [cbt_agent_0_wrapper] INFO: STARTING STEP 53
+2019-03-26 00:11:14,328 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,335 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.006s of thinking
+2019-03-26 00:11:14,430 [cbt_agent_0_wrapper] INFO: STARTING STEP 54
+2019-03-26 00:11:14,432 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,449 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.009s of thinking
+2019-03-26 00:11:14,535 [cbt_agent_0_wrapper] INFO: STARTING STEP 55
+2019-03-26 00:11:14,536 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,545 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.004s of thinking
+2019-03-26 00:11:14,642 [cbt_agent_0_wrapper] INFO: STARTING STEP 56
+2019-03-26 00:11:14,643 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,659 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.003s of thinking
+2019-03-26 00:11:14,748 [cbt_agent_0_wrapper] INFO: STARTING STEP 57
+2019-03-26 00:11:14,748 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,756 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.007s of thinking
+2019-03-26 00:11:14,851 [cbt_agent_0_wrapper] INFO: STARTING STEP 58
+2019-03-26 00:11:14,852 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,858 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.005s of thinking
+2019-03-26 00:11:14,956 [cbt_agent_0_wrapper] INFO: STARTING STEP 59
+2019-03-26 00:11:14,958 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:14,970 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.005s of thinking
+2019-03-26 00:11:15,065 [cbt_agent_0_wrapper] INFO: STARTING STEP 60
+2019-03-26 00:11:15,070 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,082 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.011s of thinking
+2019-03-26 00:11:15,165 [cbt_agent_0_wrapper] INFO: STARTING STEP 61
+2019-03-26 00:11:15,166 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,171 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:15,270 [cbt_agent_0_wrapper] INFO: STARTING STEP 62
+2019-03-26 00:11:15,271 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,277 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.004s of thinking
+2019-03-26 00:11:15,374 [cbt_agent_0_wrapper] INFO: STARTING STEP 63
+2019-03-26 00:11:15,375 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,383 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.006s of thinking
+2019-03-26 00:11:15,479 [cbt_agent_0_wrapper] INFO: STARTING STEP 64
+2019-03-26 00:11:15,484 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,491 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:15,583 [cbt_agent_0_wrapper] INFO: STARTING STEP 65
+2019-03-26 00:11:15,584 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,590 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.005s of thinking
+2019-03-26 00:11:15,687 [cbt_agent_0_wrapper] INFO: STARTING STEP 66
+2019-03-26 00:11:15,688 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,695 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.004s of thinking
+2019-03-26 00:11:15,792 [cbt_agent_0_wrapper] INFO: STARTING STEP 67
+2019-03-26 00:11:15,793 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,803 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.003s of thinking
+2019-03-26 00:11:15,896 [cbt_agent_0_wrapper] INFO: STARTING STEP 68
+2019-03-26 00:11:15,899 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:15,905 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.004s of thinking
+2019-03-26 00:11:16,002 [cbt_agent_0_wrapper] INFO: STARTING STEP 69
+2019-03-26 00:11:16,010 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,016 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.005s of thinking
+2019-03-26 00:11:16,106 [cbt_agent_0_wrapper] INFO: STARTING STEP 70
+2019-03-26 00:11:16,106 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,112 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:16,209 [cbt_agent_0_wrapper] INFO: STARTING STEP 71
+2019-03-26 00:11:16,210 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,216 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.005s of thinking
+2019-03-26 00:11:16,315 [cbt_agent_0_wrapper] INFO: STARTING STEP 72
+2019-03-26 00:11:16,317 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,321 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.004s of thinking
+2019-03-26 00:11:16,419 [cbt_agent_0_wrapper] INFO: STARTING STEP 73
+2019-03-26 00:11:16,420 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,424 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.003s of thinking
+2019-03-26 00:11:16,523 [cbt_agent_0_wrapper] INFO: STARTING STEP 74
+2019-03-26 00:11:16,524 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,532 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.007s of thinking
+2019-03-26 00:11:16,628 [cbt_agent_0_wrapper] INFO: STARTING STEP 75
+2019-03-26 00:11:16,628 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,632 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:16,732 [cbt_agent_0_wrapper] INFO: STARTING STEP 76
+2019-03-26 00:11:16,733 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,737 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:16,837 [cbt_agent_0_wrapper] INFO: STARTING STEP 77
+2019-03-26 00:11:16,838 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,848 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.004s of thinking
+2019-03-26 00:11:16,943 [cbt_agent_0_wrapper] INFO: STARTING STEP 78
+2019-03-26 00:11:16,945 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:16,954 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.008s of thinking
+2019-03-26 00:11:17,046 [cbt_agent_0_wrapper] INFO: STARTING STEP 79
+2019-03-26 00:11:17,046 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,049 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.002s of thinking
+2019-03-26 00:11:17,150 [cbt_agent_0_wrapper] INFO: STARTING STEP 80
+2019-03-26 00:11:17,151 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,155 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:17,255 [cbt_agent_0_wrapper] INFO: STARTING STEP 81
+2019-03-26 00:11:17,256 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,264 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.007s of thinking
+2019-03-26 00:11:17,359 [cbt_agent_0_wrapper] INFO: STARTING STEP 82
+2019-03-26 00:11:17,360 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,365 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.003s of thinking
+2019-03-26 00:11:17,464 [cbt_agent_0_wrapper] INFO: STARTING STEP 83
+2019-03-26 00:11:17,465 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,470 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.005s of thinking
+2019-03-26 00:11:17,571 [cbt_agent_0_wrapper] INFO: STARTING STEP 84
+2019-03-26 00:11:17,572 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,578 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.005s of thinking
+2019-03-26 00:11:17,675 [cbt_agent_0_wrapper] INFO: STARTING STEP 85
+2019-03-26 00:11:17,675 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,680 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:17,780 [cbt_agent_0_wrapper] INFO: STARTING STEP 86
+2019-03-26 00:11:17,781 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,790 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.004s of thinking
+2019-03-26 00:11:17,885 [cbt_agent_0_wrapper] INFO: STARTING STEP 87
+2019-03-26 00:11:17,888 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,893 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:17,991 [cbt_agent_0_wrapper] INFO: STARTING STEP 88
+2019-03-26 00:11:17,991 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:17,997 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:18,094 [cbt_agent_0_wrapper] INFO: STARTING STEP 89
+2019-03-26 00:11:18,094 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,096 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:18,199 [cbt_agent_0_wrapper] INFO: STARTING STEP 90
+2019-03-26 00:11:18,200 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,210 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.008s of thinking
+2019-03-26 00:11:18,303 [cbt_agent_0_wrapper] INFO: STARTING STEP 91
+2019-03-26 00:11:18,304 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,309 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:18,408 [cbt_agent_0_wrapper] INFO: STARTING STEP 92
+2019-03-26 00:11:18,409 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,423 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.014s of thinking
+2019-03-26 00:11:18,512 [cbt_agent_0_wrapper] INFO: STARTING STEP 93
+2019-03-26 00:11:18,513 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,516 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:18,617 [cbt_agent_0_wrapper] INFO: STARTING STEP 94
+2019-03-26 00:11:18,617 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,620 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:18,727 [cbt_agent_0_wrapper] INFO: STARTING STEP 95
+2019-03-26 00:11:18,729 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,744 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.009s of thinking
+2019-03-26 00:11:18,831 [cbt_agent_0_wrapper] INFO: STARTING STEP 96
+2019-03-26 00:11:18,832 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,837 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.003s of thinking
+2019-03-26 00:11:18,935 [cbt_agent_0_wrapper] INFO: STARTING STEP 97
+2019-03-26 00:11:18,936 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:18,939 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:19,039 [cbt_agent_0_wrapper] INFO: STARTING STEP 98
+2019-03-26 00:11:19,040 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,043 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:19,143 [cbt_agent_0_wrapper] INFO: STARTING STEP 99
+2019-03-26 00:11:19,144 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,147 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:19,249 [cbt_agent_0_wrapper] INFO: STARTING STEP 100
+2019-03-26 00:11:19,251 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,256 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.004s of thinking
+2019-03-26 00:11:19,355 [cbt_agent_0_wrapper] INFO: STARTING STEP 101
+2019-03-26 00:11:19,357 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,365 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.006s of thinking
+2019-03-26 00:11:19,458 [cbt_agent_0_wrapper] INFO: STARTING STEP 102
+2019-03-26 00:11:19,458 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,462 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:19,562 [cbt_agent_0_wrapper] INFO: STARTING STEP 103
+2019-03-26 00:11:19,563 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,569 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.005s of thinking
+2019-03-26 00:11:19,667 [cbt_agent_0_wrapper] INFO: STARTING STEP 104
+2019-03-26 00:11:19,668 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,680 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.010s of thinking
+2019-03-26 00:11:19,771 [cbt_agent_0_wrapper] INFO: STARTING STEP 105
+2019-03-26 00:11:19,771 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,775 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:19,876 [cbt_agent_0_wrapper] INFO: STARTING STEP 106
+2019-03-26 00:11:19,877 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,882 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:19,979 [cbt_agent_0_wrapper] INFO: STARTING STEP 107
+2019-03-26 00:11:19,980 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:19,984 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:20,084 [cbt_agent_0_wrapper] INFO: STARTING STEP 108
+2019-03-26 00:11:20,084 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,088 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.003s of thinking
+2019-03-26 00:11:20,193 [cbt_agent_0_wrapper] INFO: STARTING STEP 109
+2019-03-26 00:11:20,194 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,200 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.005s of thinking
+2019-03-26 00:11:20,297 [cbt_agent_0_wrapper] INFO: STARTING STEP 110
+2019-03-26 00:11:20,298 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,304 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.005s of thinking
+2019-03-26 00:11:20,401 [cbt_agent_0_wrapper] INFO: STARTING STEP 111
+2019-03-26 00:11:20,401 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,406 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:20,506 [cbt_agent_0_wrapper] INFO: STARTING STEP 112
+2019-03-26 00:11:20,506 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,510 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:20,613 [cbt_agent_0_wrapper] INFO: STARTING STEP 113
+2019-03-26 00:11:20,614 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,618 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:20,714 [cbt_agent_0_wrapper] INFO: STARTING STEP 114
+2019-03-26 00:11:20,715 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,719 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:20,820 [cbt_agent_0_wrapper] INFO: STARTING STEP 115
+2019-03-26 00:11:20,820 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,823 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:20,924 [cbt_agent_0_wrapper] INFO: STARTING STEP 116
+2019-03-26 00:11:20,925 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:20,928 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:21,029 [cbt_agent_0_wrapper] INFO: STARTING STEP 117
+2019-03-26 00:11:21,030 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,032 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:21,132 [cbt_agent_0_wrapper] INFO: STARTING STEP 118
+2019-03-26 00:11:21,133 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,135 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:21,240 [cbt_agent_0_wrapper] INFO: STARTING STEP 119
+2019-03-26 00:11:21,242 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,246 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.002s of thinking
+2019-03-26 00:11:21,343 [cbt_agent_0_wrapper] INFO: STARTING STEP 120
+2019-03-26 00:11:21,343 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,346 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:21,447 [cbt_agent_0_wrapper] INFO: STARTING STEP 121
+2019-03-26 00:11:21,448 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,450 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:21,552 [cbt_agent_0_wrapper] INFO: STARTING STEP 122
+2019-03-26 00:11:21,553 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,555 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:21,657 [cbt_agent_0_wrapper] INFO: STARTING STEP 123
+2019-03-26 00:11:21,658 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,663 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:21,761 [cbt_agent_0_wrapper] INFO: STARTING STEP 124
+2019-03-26 00:11:21,762 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,771 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.007s of thinking
+2019-03-26 00:11:21,865 [cbt_agent_0_wrapper] INFO: STARTING STEP 125
+2019-03-26 00:11:21,865 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,868 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:21,970 [cbt_agent_0_wrapper] INFO: STARTING STEP 126
+2019-03-26 00:11:21,970 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:21,972 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:22,075 [cbt_agent_0_wrapper] INFO: STARTING STEP 127
+2019-03-26 00:11:22,076 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,079 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:22,178 [cbt_agent_0_wrapper] INFO: STARTING STEP 128
+2019-03-26 00:11:22,179 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,181 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:22,283 [cbt_agent_0_wrapper] INFO: STARTING STEP 129
+2019-03-26 00:11:22,283 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,287 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:22,387 [cbt_agent_0_wrapper] INFO: STARTING STEP 130
+2019-03-26 00:11:22,388 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,390 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:22,492 [cbt_agent_0_wrapper] INFO: STARTING STEP 131
+2019-03-26 00:11:22,492 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,495 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:22,596 [cbt_agent_0_wrapper] INFO: STARTING STEP 132
+2019-03-26 00:11:22,597 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,601 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.003s of thinking
+2019-03-26 00:11:22,702 [cbt_agent_0_wrapper] INFO: STARTING STEP 133
+2019-03-26 00:11:22,704 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,711 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.006s of thinking
+2019-03-26 00:11:22,804 [cbt_agent_0_wrapper] INFO: STARTING STEP 134
+2019-03-26 00:11:22,805 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,807 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:22,909 [cbt_agent_0_wrapper] INFO: STARTING STEP 135
+2019-03-26 00:11:22,909 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:22,911 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:23,013 [cbt_agent_0_wrapper] INFO: STARTING STEP 136
+2019-03-26 00:11:23,015 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,019 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:23,118 [cbt_agent_0_wrapper] INFO: STARTING STEP 137
+2019-03-26 00:11:23,119 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,121 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:23,223 [cbt_agent_0_wrapper] INFO: STARTING STEP 138
+2019-03-26 00:11:23,223 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,226 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:23,330 [cbt_agent_0_wrapper] INFO: STARTING STEP 139
+2019-03-26 00:11:23,330 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,333 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:23,435 [cbt_agent_0_wrapper] INFO: STARTING STEP 140
+2019-03-26 00:11:23,435 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,439 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.003s of thinking
+2019-03-26 00:11:23,539 [cbt_agent_0_wrapper] INFO: STARTING STEP 141
+2019-03-26 00:11:23,540 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,544 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.004s of thinking
+2019-03-26 00:11:23,651 [cbt_agent_0_wrapper] INFO: STARTING STEP 142
+2019-03-26 00:11:23,652 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,657 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:23,749 [cbt_agent_0_wrapper] INFO: STARTING STEP 143
+2019-03-26 00:11:23,749 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,752 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:23,853 [cbt_agent_0_wrapper] INFO: STARTING STEP 144
+2019-03-26 00:11:23,853 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,856 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.002s of thinking
+2019-03-26 00:11:23,955 [cbt_agent_0_wrapper] INFO: STARTING STEP 145
+2019-03-26 00:11:23,955 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:23,958 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.002s of thinking
+2019-03-26 00:11:24,060 [cbt_agent_0_wrapper] INFO: STARTING STEP 146
+2019-03-26 00:11:24,060 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,063 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:24,164 [cbt_agent_0_wrapper] INFO: STARTING STEP 147
+2019-03-26 00:11:24,165 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,168 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:24,269 [cbt_agent_0_wrapper] INFO: STARTING STEP 148
+2019-03-26 00:11:24,269 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,271 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:24,373 [cbt_agent_0_wrapper] INFO: STARTING STEP 149
+2019-03-26 00:11:24,374 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,376 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:24,479 [cbt_agent_0_wrapper] INFO: STARTING STEP 150
+2019-03-26 00:11:24,484 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,487 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:24,583 [cbt_agent_0_wrapper] INFO: STARTING STEP 151
+2019-03-26 00:11:24,585 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,593 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.004s of thinking
+2019-03-26 00:11:24,688 [cbt_agent_0_wrapper] INFO: STARTING STEP 152
+2019-03-26 00:11:24,688 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,690 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:24,792 [cbt_agent_0_wrapper] INFO: STARTING STEP 153
+2019-03-26 00:11:24,793 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,795 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:24,898 [cbt_agent_0_wrapper] INFO: STARTING STEP 154
+2019-03-26 00:11:24,899 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:24,905 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:25,001 [cbt_agent_0_wrapper] INFO: STARTING STEP 155
+2019-03-26 00:11:25,002 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,004 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:25,106 [cbt_agent_0_wrapper] INFO: STARTING STEP 156
+2019-03-26 00:11:25,106 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,108 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:25,210 [cbt_agent_0_wrapper] INFO: STARTING STEP 157
+2019-03-26 00:11:25,211 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,213 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:25,315 [cbt_agent_0_wrapper] INFO: STARTING STEP 158
+2019-03-26 00:11:25,315 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,317 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:25,418 [cbt_agent_0_wrapper] INFO: STARTING STEP 159
+2019-03-26 00:11:25,419 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,422 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:25,529 [cbt_agent_0_wrapper] INFO: STARTING STEP 160
+2019-03-26 00:11:25,530 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,534 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:25,634 [cbt_agent_0_wrapper] INFO: STARTING STEP 161
+2019-03-26 00:11:25,634 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,636 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:25,739 [cbt_agent_0_wrapper] INFO: STARTING STEP 162
+2019-03-26 00:11:25,740 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,742 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:25,843 [cbt_agent_0_wrapper] INFO: STARTING STEP 163
+2019-03-26 00:11:25,844 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,850 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:25,948 [cbt_agent_0_wrapper] INFO: STARTING STEP 164
+2019-03-26 00:11:25,949 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:25,952 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:26,054 [cbt_agent_0_wrapper] INFO: STARTING STEP 165
+2019-03-26 00:11:26,055 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,062 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.005s of thinking
+2019-03-26 00:11:26,157 [cbt_agent_0_wrapper] INFO: STARTING STEP 166
+2019-03-26 00:11:26,157 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,159 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:26,262 [cbt_agent_0_wrapper] INFO: STARTING STEP 167
+2019-03-26 00:11:26,262 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,264 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:26,366 [cbt_agent_0_wrapper] INFO: STARTING STEP 168
+2019-03-26 00:11:26,366 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,368 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:26,470 [cbt_agent_0_wrapper] INFO: STARTING STEP 169
+2019-03-26 00:11:26,471 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,473 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:26,575 [cbt_agent_0_wrapper] INFO: STARTING STEP 170
+2019-03-26 00:11:26,575 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,577 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:26,679 [cbt_agent_0_wrapper] INFO: STARTING STEP 171
+2019-03-26 00:11:26,680 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,682 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:26,784 [cbt_agent_0_wrapper] INFO: STARTING STEP 172
+2019-03-26 00:11:26,785 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,786 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:26,888 [cbt_agent_0_wrapper] INFO: STARTING STEP 173
+2019-03-26 00:11:26,889 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:26,897 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:26,993 [cbt_agent_0_wrapper] INFO: STARTING STEP 174
+2019-03-26 00:11:26,994 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,002 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.005s of thinking
+2019-03-26 00:11:27,097 [cbt_agent_0_wrapper] INFO: STARTING STEP 175
+2019-03-26 00:11:27,097 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,099 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:27,202 [cbt_agent_0_wrapper] INFO: STARTING STEP 176
+2019-03-26 00:11:27,203 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,204 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:27,308 [cbt_agent_0_wrapper] INFO: STARTING STEP 177
+2019-03-26 00:11:27,309 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,311 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:27,413 [cbt_agent_0_wrapper] INFO: STARTING STEP 178
+2019-03-26 00:11:27,413 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,416 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:27,516 [cbt_agent_0_wrapper] INFO: STARTING STEP 179
+2019-03-26 00:11:27,517 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,519 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:27,620 [cbt_agent_0_wrapper] INFO: STARTING STEP 180
+2019-03-26 00:11:27,621 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,623 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:27,725 [cbt_agent_0_wrapper] INFO: STARTING STEP 181
+2019-03-26 00:11:27,726 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,728 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:27,830 [cbt_agent_0_wrapper] INFO: STARTING STEP 182
+2019-03-26 00:11:27,830 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,832 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:27,941 [cbt_agent_0_wrapper] INFO: STARTING STEP 183
+2019-03-26 00:11:27,942 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:27,946 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:28,045 [cbt_agent_0_wrapper] INFO: STARTING STEP 184
+2019-03-26 00:11:28,045 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,047 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:28,149 [cbt_agent_0_wrapper] INFO: STARTING STEP 185
+2019-03-26 00:11:28,149 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,152 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:28,253 [cbt_agent_0_wrapper] INFO: STARTING STEP 186
+2019-03-26 00:11:28,254 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,255 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:28,359 [cbt_agent_0_wrapper] INFO: STARTING STEP 187
+2019-03-26 00:11:28,360 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,364 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.003s of thinking
+2019-03-26 00:11:28,463 [cbt_agent_0_wrapper] INFO: STARTING STEP 188
+2019-03-26 00:11:28,464 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,471 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.007s of thinking
+2019-03-26 00:11:28,566 [cbt_agent_0_wrapper] INFO: STARTING STEP 189
+2019-03-26 00:11:28,567 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,569 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:28,671 [cbt_agent_0_wrapper] INFO: STARTING STEP 190
+2019-03-26 00:11:28,672 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,674 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:28,776 [cbt_agent_0_wrapper] INFO: STARTING STEP 191
+2019-03-26 00:11:28,776 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,779 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:28,880 [cbt_agent_0_wrapper] INFO: STARTING STEP 192
+2019-03-26 00:11:28,881 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,883 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:28,984 [cbt_agent_0_wrapper] INFO: STARTING STEP 193
+2019-03-26 00:11:28,985 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:28,987 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:29,089 [cbt_agent_0_wrapper] INFO: STARTING STEP 194
+2019-03-26 00:11:29,090 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,093 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:29,194 [cbt_agent_0_wrapper] INFO: STARTING STEP 195
+2019-03-26 00:11:29,194 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,196 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:29,299 [cbt_agent_0_wrapper] INFO: STARTING STEP 196
+2019-03-26 00:11:29,300 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,302 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:29,402 [cbt_agent_0_wrapper] INFO: STARTING STEP 197
+2019-03-26 00:11:29,402 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,413 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.009s of thinking
+2019-03-26 00:11:29,505 [cbt_agent_0_wrapper] INFO: STARTING STEP 198
+2019-03-26 00:11:29,505 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,507 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:29,610 [cbt_agent_0_wrapper] INFO: STARTING STEP 199
+2019-03-26 00:11:29,611 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,613 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:29,714 [cbt_agent_0_wrapper] INFO: STARTING STEP 200
+2019-03-26 00:11:29,715 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,718 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:29,819 [cbt_agent_0_wrapper] INFO: STARTING STEP 201
+2019-03-26 00:11:29,819 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,822 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:29,923 [cbt_agent_0_wrapper] INFO: STARTING STEP 202
+2019-03-26 00:11:29,923 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:29,925 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.001s of thinking
+2019-03-26 00:11:30,030 [cbt_agent_0_wrapper] INFO: STARTING STEP 203
+2019-03-26 00:11:30,031 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,034 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:30,135 [cbt_agent_0_wrapper] INFO: STARTING STEP 204
+2019-03-26 00:11:30,136 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,139 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:30,240 [cbt_agent_0_wrapper] INFO: STARTING STEP 205
+2019-03-26 00:11:30,241 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,245 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:30,342 [cbt_agent_0_wrapper] INFO: STARTING STEP 206
+2019-03-26 00:11:30,344 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,359 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.006s of thinking
+2019-03-26 00:11:30,447 [cbt_agent_0_wrapper] INFO: STARTING STEP 207
+2019-03-26 00:11:30,448 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,451 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:30,551 [cbt_agent_0_wrapper] INFO: STARTING STEP 208
+2019-03-26 00:11:30,552 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,554 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:30,654 [cbt_agent_0_wrapper] INFO: STARTING STEP 209
+2019-03-26 00:11:30,655 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,658 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:30,758 [cbt_agent_0_wrapper] INFO: STARTING STEP 210
+2019-03-26 00:11:30,759 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,763 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:30,863 [cbt_agent_0_wrapper] INFO: STARTING STEP 211
+2019-03-26 00:11:30,864 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,866 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:30,968 [cbt_agent_0_wrapper] INFO: STARTING STEP 212
+2019-03-26 00:11:30,968 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:30,971 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:31,073 [cbt_agent_0_wrapper] INFO: STARTING STEP 213
+2019-03-26 00:11:31,080 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,083 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:31,178 [cbt_agent_0_wrapper] INFO: STARTING STEP 214
+2019-03-26 00:11:31,179 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,183 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.004s of thinking
+2019-03-26 00:11:31,281 [cbt_agent_0_wrapper] INFO: STARTING STEP 215
+2019-03-26 00:11:31,283 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,293 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.004s of thinking
+2019-03-26 00:11:31,385 [cbt_agent_0_wrapper] INFO: STARTING STEP 216
+2019-03-26 00:11:31,385 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,387 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:31,489 [cbt_agent_0_wrapper] INFO: STARTING STEP 217
+2019-03-26 00:11:31,490 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,492 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:31,593 [cbt_agent_0_wrapper] INFO: STARTING STEP 218
+2019-03-26 00:11:31,594 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,597 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:31,699 [cbt_agent_0_wrapper] INFO: STARTING STEP 219
+2019-03-26 00:11:31,699 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,702 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:31,803 [cbt_agent_0_wrapper] INFO: STARTING STEP 220
+2019-03-26 00:11:31,803 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,805 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:31,907 [cbt_agent_0_wrapper] INFO: STARTING STEP 221
+2019-03-26 00:11:31,908 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:31,909 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:32,017 [cbt_agent_0_wrapper] INFO: STARTING STEP 222
+2019-03-26 00:11:32,018 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,020 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:32,122 [cbt_agent_0_wrapper] INFO: STARTING STEP 223
+2019-03-26 00:11:32,123 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,125 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:32,228 [cbt_agent_0_wrapper] INFO: STARTING STEP 224
+2019-03-26 00:11:32,229 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,232 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:32,330 [cbt_agent_0_wrapper] INFO: STARTING STEP 225
+2019-03-26 00:11:32,331 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,338 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:32,434 [cbt_agent_0_wrapper] INFO: STARTING STEP 226
+2019-03-26 00:11:32,434 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,436 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:32,537 [cbt_agent_0_wrapper] INFO: STARTING STEP 227
+2019-03-26 00:11:32,537 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,539 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:32,642 [cbt_agent_0_wrapper] INFO: STARTING STEP 228
+2019-03-26 00:11:32,642 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,644 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:32,745 [cbt_agent_0_wrapper] INFO: STARTING STEP 229
+2019-03-26 00:11:32,746 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,747 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:32,850 [cbt_agent_0_wrapper] INFO: STARTING STEP 230
+2019-03-26 00:11:32,850 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,852 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:32,954 [cbt_agent_0_wrapper] INFO: STARTING STEP 231
+2019-03-26 00:11:32,954 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:32,956 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:33,059 [cbt_agent_0_wrapper] INFO: STARTING STEP 232
+2019-03-26 00:11:33,060 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,063 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:33,165 [cbt_agent_0_wrapper] INFO: STARTING STEP 233
+2019-03-26 00:11:33,166 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,169 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.001s of thinking
+2019-03-26 00:11:33,268 [cbt_agent_0_wrapper] INFO: STARTING STEP 234
+2019-03-26 00:11:33,268 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,271 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:33,373 [cbt_agent_0_wrapper] INFO: STARTING STEP 235
+2019-03-26 00:11:33,373 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,376 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:33,478 [cbt_agent_0_wrapper] INFO: STARTING STEP 236
+2019-03-26 00:11:33,484 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,487 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:33,582 [cbt_agent_0_wrapper] INFO: STARTING STEP 237
+2019-03-26 00:11:33,583 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,588 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.004s of thinking
+2019-03-26 00:11:33,685 [cbt_agent_0_wrapper] INFO: STARTING STEP 238
+2019-03-26 00:11:33,685 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,688 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:33,788 [cbt_agent_0_wrapper] INFO: STARTING STEP 239
+2019-03-26 00:11:33,789 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,791 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:33,892 [cbt_agent_0_wrapper] INFO: STARTING STEP 240
+2019-03-26 00:11:33,892 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:33,894 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:33,997 [cbt_agent_0_wrapper] INFO: STARTING STEP 241
+2019-03-26 00:11:33,997 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,000 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:34,102 [cbt_agent_0_wrapper] INFO: STARTING STEP 242
+2019-03-26 00:11:34,105 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,112 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:34,206 [cbt_agent_0_wrapper] INFO: STARTING STEP 243
+2019-03-26 00:11:34,206 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,208 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:34,310 [cbt_agent_0_wrapper] INFO: STARTING STEP 244
+2019-03-26 00:11:34,311 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,313 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:34,416 [cbt_agent_0_wrapper] INFO: STARTING STEP 245
+2019-03-26 00:11:34,417 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,418 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:34,519 [cbt_agent_0_wrapper] INFO: STARTING STEP 246
+2019-03-26 00:11:34,520 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,521 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:34,624 [cbt_agent_0_wrapper] INFO: STARTING STEP 247
+2019-03-26 00:11:34,624 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,626 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:34,728 [cbt_agent_0_wrapper] INFO: STARTING STEP 248
+2019-03-26 00:11:34,729 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,730 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:34,833 [cbt_agent_0_wrapper] INFO: STARTING STEP 249
+2019-03-26 00:11:34,833 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,836 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:34,938 [cbt_agent_0_wrapper] INFO: STARTING STEP 250
+2019-03-26 00:11:34,938 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:34,941 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:35,042 [cbt_agent_0_wrapper] INFO: STARTING STEP 251
+2019-03-26 00:11:35,042 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,048 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:35,146 [cbt_agent_0_wrapper] INFO: STARTING STEP 252
+2019-03-26 00:11:35,147 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,148 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:35,251 [cbt_agent_0_wrapper] INFO: STARTING STEP 253
+2019-03-26 00:11:35,251 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,253 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:35,357 [cbt_agent_0_wrapper] INFO: STARTING STEP 254
+2019-03-26 00:11:35,358 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,367 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:35,462 [cbt_agent_0_wrapper] INFO: STARTING STEP 255
+2019-03-26 00:11:35,463 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,466 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:35,567 [cbt_agent_0_wrapper] INFO: STARTING STEP 256
+2019-03-26 00:11:35,568 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,573 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.005s of thinking
+2019-03-26 00:11:35,672 [cbt_agent_0_wrapper] INFO: STARTING STEP 257
+2019-03-26 00:11:35,672 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,674 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:35,776 [cbt_agent_0_wrapper] INFO: STARTING STEP 258
+2019-03-26 00:11:35,776 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,778 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:35,878 [cbt_agent_0_wrapper] INFO: STARTING STEP 259
+2019-03-26 00:11:35,878 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,883 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:35,983 [cbt_agent_0_wrapper] INFO: STARTING STEP 260
+2019-03-26 00:11:35,984 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:35,986 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:36,087 [cbt_agent_0_wrapper] INFO: STARTING STEP 261
+2019-03-26 00:11:36,087 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,089 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:36,192 [cbt_agent_0_wrapper] INFO: STARTING STEP 262
+2019-03-26 00:11:36,193 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,195 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:36,298 [cbt_agent_0_wrapper] INFO: STARTING STEP 263
+2019-03-26 00:11:36,300 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,302 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:36,403 [cbt_agent_0_wrapper] INFO: STARTING STEP 264
+2019-03-26 00:11:36,404 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,408 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:36,507 [cbt_agent_0_wrapper] INFO: STARTING STEP 265
+2019-03-26 00:11:36,509 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,524 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:36,612 [cbt_agent_0_wrapper] INFO: STARTING STEP 266
+2019-03-26 00:11:36,612 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,614 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:36,715 [cbt_agent_0_wrapper] INFO: STARTING STEP 267
+2019-03-26 00:11:36,716 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,718 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:36,818 [cbt_agent_0_wrapper] INFO: STARTING STEP 268
+2019-03-26 00:11:36,818 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,820 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:36,923 [cbt_agent_0_wrapper] INFO: STARTING STEP 269
+2019-03-26 00:11:36,924 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:36,927 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:37,028 [cbt_agent_0_wrapper] INFO: STARTING STEP 270
+2019-03-26 00:11:37,028 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,030 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:37,131 [cbt_agent_0_wrapper] INFO: STARTING STEP 271
+2019-03-26 00:11:37,132 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,134 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:37,245 [cbt_agent_0_wrapper] INFO: STARTING STEP 272
+2019-03-26 00:11:37,245 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,248 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:37,341 [cbt_agent_0_wrapper] INFO: STARTING STEP 273
+2019-03-26 00:11:37,342 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,345 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:37,445 [cbt_agent_0_wrapper] INFO: STARTING STEP 274
+2019-03-26 00:11:37,446 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,457 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.007s of thinking
+2019-03-26 00:11:37,550 [cbt_agent_0_wrapper] INFO: STARTING STEP 275
+2019-03-26 00:11:37,550 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,553 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:37,655 [cbt_agent_0_wrapper] INFO: STARTING STEP 276
+2019-03-26 00:11:37,655 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,658 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:37,759 [cbt_agent_0_wrapper] INFO: STARTING STEP 277
+2019-03-26 00:11:37,760 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,763 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:37,864 [cbt_agent_0_wrapper] INFO: STARTING STEP 278
+2019-03-26 00:11:37,864 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,867 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:37,968 [cbt_agent_0_wrapper] INFO: STARTING STEP 279
+2019-03-26 00:11:37,968 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:37,970 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:38,072 [cbt_agent_0_wrapper] INFO: STARTING STEP 280
+2019-03-26 00:11:38,073 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,074 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:38,176 [cbt_agent_0_wrapper] INFO: STARTING STEP 281
+2019-03-26 00:11:38,177 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,179 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:38,281 [cbt_agent_0_wrapper] INFO: STARTING STEP 282
+2019-03-26 00:11:38,282 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,286 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:38,387 [cbt_agent_0_wrapper] INFO: STARTING STEP 283
+2019-03-26 00:11:38,393 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,405 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:38,492 [cbt_agent_0_wrapper] INFO: STARTING STEP 284
+2019-03-26 00:11:38,493 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,498 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:38,596 [cbt_agent_0_wrapper] INFO: STARTING STEP 285
+2019-03-26 00:11:38,596 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,598 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:38,700 [cbt_agent_0_wrapper] INFO: STARTING STEP 286
+2019-03-26 00:11:38,701 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,704 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:38,804 [cbt_agent_0_wrapper] INFO: STARTING STEP 287
+2019-03-26 00:11:38,805 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,808 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:38,908 [cbt_agent_0_wrapper] INFO: STARTING STEP 288
+2019-03-26 00:11:38,909 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:38,911 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:39,013 [cbt_agent_0_wrapper] INFO: STARTING STEP 289
+2019-03-26 00:11:39,014 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,016 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:39,122 [cbt_agent_0_wrapper] INFO: STARTING STEP 290
+2019-03-26 00:11:39,122 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,125 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:39,223 [cbt_agent_0_wrapper] INFO: STARTING STEP 291
+2019-03-26 00:11:39,224 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,229 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:39,330 [cbt_agent_0_wrapper] INFO: STARTING STEP 292
+2019-03-26 00:11:39,332 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,338 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:39,432 [cbt_agent_0_wrapper] INFO: STARTING STEP 293
+2019-03-26 00:11:39,433 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,435 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:39,536 [cbt_agent_0_wrapper] INFO: STARTING STEP 294
+2019-03-26 00:11:39,536 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,538 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:39,648 [cbt_agent_0_wrapper] INFO: STARTING STEP 295
+2019-03-26 00:11:39,648 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,651 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:39,752 [cbt_agent_0_wrapper] INFO: STARTING STEP 296
+2019-03-26 00:11:39,753 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,758 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:39,856 [cbt_agent_0_wrapper] INFO: STARTING STEP 297
+2019-03-26 00:11:39,859 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,866 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.005s of thinking
+2019-03-26 00:11:39,961 [cbt_agent_0_wrapper] INFO: STARTING STEP 298
+2019-03-26 00:11:39,962 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:39,963 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:40,065 [cbt_agent_0_wrapper] INFO: STARTING STEP 299
+2019-03-26 00:11:40,065 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,068 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:40,170 [cbt_agent_0_wrapper] INFO: STARTING STEP 300
+2019-03-26 00:11:40,170 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,172 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:40,274 [cbt_agent_0_wrapper] INFO: STARTING STEP 301
+2019-03-26 00:11:40,275 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,278 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:40,379 [cbt_agent_0_wrapper] INFO: STARTING STEP 302
+2019-03-26 00:11:40,379 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,382 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:40,483 [cbt_agent_0_wrapper] INFO: STARTING STEP 303
+2019-03-26 00:11:40,484 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,486 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:40,588 [cbt_agent_0_wrapper] INFO: STARTING STEP 304
+2019-03-26 00:11:40,589 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,591 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:40,693 [cbt_agent_0_wrapper] INFO: STARTING STEP 305
+2019-03-26 00:11:40,694 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,701 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:40,799 [cbt_agent_0_wrapper] INFO: STARTING STEP 306
+2019-03-26 00:11:40,801 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,807 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:40,903 [cbt_agent_0_wrapper] INFO: STARTING STEP 307
+2019-03-26 00:11:40,903 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:40,905 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:41,008 [cbt_agent_0_wrapper] INFO: STARTING STEP 308
+2019-03-26 00:11:41,008 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,010 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:41,112 [cbt_agent_0_wrapper] INFO: STARTING STEP 309
+2019-03-26 00:11:41,113 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,115 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:41,217 [cbt_agent_0_wrapper] INFO: STARTING STEP 310
+2019-03-26 00:11:41,218 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,220 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:41,322 [cbt_agent_0_wrapper] INFO: STARTING STEP 311
+2019-03-26 00:11:41,322 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,324 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:41,426 [cbt_agent_0_wrapper] INFO: STARTING STEP 312
+2019-03-26 00:11:41,426 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,429 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:41,531 [cbt_agent_0_wrapper] INFO: STARTING STEP 313
+2019-03-26 00:11:41,531 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,533 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:41,635 [cbt_agent_0_wrapper] INFO: STARTING STEP 314
+2019-03-26 00:11:41,636 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,638 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:41,746 [cbt_agent_0_wrapper] INFO: STARTING STEP 315
+2019-03-26 00:11:41,746 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,751 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:41,850 [cbt_agent_0_wrapper] INFO: STARTING STEP 316
+2019-03-26 00:11:41,850 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,852 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:41,954 [cbt_agent_0_wrapper] INFO: STARTING STEP 317
+2019-03-26 00:11:41,954 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:41,957 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:42,059 [cbt_agent_0_wrapper] INFO: STARTING STEP 318
+2019-03-26 00:11:42,059 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,061 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:42,164 [cbt_agent_0_wrapper] INFO: STARTING STEP 319
+2019-03-26 00:11:42,165 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,169 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:42,267 [cbt_agent_0_wrapper] INFO: STARTING STEP 320
+2019-03-26 00:11:42,268 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,273 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:42,372 [cbt_agent_0_wrapper] INFO: STARTING STEP 321
+2019-03-26 00:11:42,373 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,376 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:42,476 [cbt_agent_0_wrapper] INFO: STARTING STEP 322
+2019-03-26 00:11:42,477 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,479 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:42,582 [cbt_agent_0_wrapper] INFO: STARTING STEP 323
+2019-03-26 00:11:42,582 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,585 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.002s of thinking
+2019-03-26 00:11:42,686 [cbt_agent_0_wrapper] INFO: STARTING STEP 324
+2019-03-26 00:11:42,687 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,691 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:42,790 [cbt_agent_0_wrapper] INFO: STARTING STEP 325
+2019-03-26 00:11:42,791 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,795 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:42,894 [cbt_agent_0_wrapper] INFO: STARTING STEP 326
+2019-03-26 00:11:42,895 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:42,897 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:42,999 [cbt_agent_0_wrapper] INFO: STARTING STEP 327
+2019-03-26 00:11:42,999 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,003 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:43,109 [cbt_agent_0_wrapper] INFO: STARTING STEP 328
+2019-03-26 00:11:43,110 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,114 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.004s of thinking
+2019-03-26 00:11:43,215 [cbt_agent_0_wrapper] INFO: STARTING STEP 329
+2019-03-26 00:11:43,217 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,220 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:43,318 [cbt_agent_0_wrapper] INFO: STARTING STEP 330
+2019-03-26 00:11:43,318 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,321 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:43,422 [cbt_agent_0_wrapper] INFO: STARTING STEP 331
+2019-03-26 00:11:43,422 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,425 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:43,528 [cbt_agent_0_wrapper] INFO: STARTING STEP 332
+2019-03-26 00:11:43,528 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,532 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:43,631 [cbt_agent_0_wrapper] INFO: STARTING STEP 333
+2019-03-26 00:11:43,632 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,636 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.003s of thinking
+2019-03-26 00:11:43,736 [cbt_agent_0_wrapper] INFO: STARTING STEP 334
+2019-03-26 00:11:43,736 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,739 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:43,840 [cbt_agent_0_wrapper] INFO: STARTING STEP 335
+2019-03-26 00:11:43,841 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,844 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:43,945 [cbt_agent_0_wrapper] INFO: STARTING STEP 336
+2019-03-26 00:11:43,946 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:43,950 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:44,048 [cbt_agent_0_wrapper] INFO: STARTING STEP 337
+2019-03-26 00:11:44,049 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,052 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:44,154 [cbt_agent_0_wrapper] INFO: STARTING STEP 338
+2019-03-26 00:11:44,154 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,157 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:44,256 [cbt_agent_0_wrapper] INFO: STARTING STEP 339
+2019-03-26 00:11:44,257 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,259 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:44,361 [cbt_agent_0_wrapper] INFO: STARTING STEP 340
+2019-03-26 00:11:44,361 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,363 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.001s of thinking
+2019-03-26 00:11:44,469 [cbt_agent_0_wrapper] INFO: STARTING STEP 341
+2019-03-26 00:11:44,469 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,472 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:44,574 [cbt_agent_0_wrapper] INFO: STARTING STEP 342
+2019-03-26 00:11:44,575 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,580 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:44,683 [cbt_agent_0_wrapper] INFO: STARTING STEP 343
+2019-03-26 00:11:44,688 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,693 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:44,783 [cbt_agent_0_wrapper] INFO: STARTING STEP 344
+2019-03-26 00:11:44,783 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,786 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:44,887 [cbt_agent_0_wrapper] INFO: STARTING STEP 345
+2019-03-26 00:11:44,888 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,890 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:44,992 [cbt_agent_0_wrapper] INFO: STARTING STEP 346
+2019-03-26 00:11:44,993 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:44,995 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:45,096 [cbt_agent_0_wrapper] INFO: STARTING STEP 347
+2019-03-26 00:11:45,097 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,100 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:45,201 [cbt_agent_0_wrapper] INFO: STARTING STEP 348
+2019-03-26 00:11:45,201 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,203 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:45,306 [cbt_agent_0_wrapper] INFO: STARTING STEP 349
+2019-03-26 00:11:45,306 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,308 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:45,410 [cbt_agent_0_wrapper] INFO: STARTING STEP 350
+2019-03-26 00:11:45,415 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,423 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:45,515 [cbt_agent_0_wrapper] INFO: STARTING STEP 351
+2019-03-26 00:11:45,517 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,520 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:45,620 [cbt_agent_0_wrapper] INFO: STARTING STEP 352
+2019-03-26 00:11:45,621 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,630 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.004s of thinking
+2019-03-26 00:11:45,723 [cbt_agent_0_wrapper] INFO: STARTING STEP 353
+2019-03-26 00:11:45,724 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,726 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:45,829 [cbt_agent_0_wrapper] INFO: STARTING STEP 354
+2019-03-26 00:11:45,829 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,831 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:45,933 [cbt_agent_0_wrapper] INFO: STARTING STEP 355
+2019-03-26 00:11:45,933 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:45,937 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:46,038 [cbt_agent_0_wrapper] INFO: STARTING STEP 356
+2019-03-26 00:11:46,039 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,041 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:46,141 [cbt_agent_0_wrapper] INFO: STARTING STEP 357
+2019-03-26 00:11:46,141 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,143 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:46,246 [cbt_agent_0_wrapper] INFO: STARTING STEP 358
+2019-03-26 00:11:46,246 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,248 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:46,350 [cbt_agent_0_wrapper] INFO: STARTING STEP 359
+2019-03-26 00:11:46,351 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,353 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:46,455 [cbt_agent_0_wrapper] INFO: STARTING STEP 360
+2019-03-26 00:11:46,456 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,458 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:46,562 [cbt_agent_0_wrapper] INFO: STARTING STEP 361
+2019-03-26 00:11:46,563 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,570 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.004s of thinking
+2019-03-26 00:11:46,664 [cbt_agent_0_wrapper] INFO: STARTING STEP 362
+2019-03-26 00:11:46,664 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,666 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.001s of thinking
+2019-03-26 00:11:46,768 [cbt_agent_0_wrapper] INFO: STARTING STEP 363
+2019-03-26 00:11:46,769 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,771 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:46,878 [cbt_agent_0_wrapper] INFO: STARTING STEP 364
+2019-03-26 00:11:46,878 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,880 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:46,977 [cbt_agent_0_wrapper] INFO: STARTING STEP 365
+2019-03-26 00:11:46,978 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:46,980 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:47,081 [cbt_agent_0_wrapper] INFO: STARTING STEP 366
+2019-03-26 00:11:47,082 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,083 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:47,186 [cbt_agent_0_wrapper] INFO: STARTING STEP 367
+2019-03-26 00:11:47,186 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,188 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:47,290 [cbt_agent_0_wrapper] INFO: STARTING STEP 368
+2019-03-26 00:11:47,291 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,292 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:47,395 [cbt_agent_0_wrapper] INFO: STARTING STEP 369
+2019-03-26 00:11:47,396 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,399 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:47,501 [cbt_agent_0_wrapper] INFO: STARTING STEP 370
+2019-03-26 00:11:47,503 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,506 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:47,604 [cbt_agent_0_wrapper] INFO: STARTING STEP 371
+2019-03-26 00:11:47,604 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,611 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:47,709 [cbt_agent_0_wrapper] INFO: STARTING STEP 372
+2019-03-26 00:11:47,709 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,711 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:47,814 [cbt_agent_0_wrapper] INFO: STARTING STEP 373
+2019-03-26 00:11:47,814 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,816 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:47,918 [cbt_agent_0_wrapper] INFO: STARTING STEP 374
+2019-03-26 00:11:47,918 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:47,921 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:48,022 [cbt_agent_0_wrapper] INFO: STARTING STEP 375
+2019-03-26 00:11:48,022 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,025 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:48,127 [cbt_agent_0_wrapper] INFO: STARTING STEP 376
+2019-03-26 00:11:48,128 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,129 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:48,232 [cbt_agent_0_wrapper] INFO: STARTING STEP 377
+2019-03-26 00:11:48,232 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,235 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:48,336 [cbt_agent_0_wrapper] INFO: STARTING STEP 378
+2019-03-26 00:11:48,337 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,340 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.002s of thinking
+2019-03-26 00:11:48,441 [cbt_agent_0_wrapper] INFO: STARTING STEP 379
+2019-03-26 00:11:48,442 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,446 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:48,545 [cbt_agent_0_wrapper] INFO: STARTING STEP 380
+2019-03-26 00:11:48,545 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,547 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:48,649 [cbt_agent_0_wrapper] INFO: STARTING STEP 381
+2019-03-26 00:11:48,650 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,652 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:48,757 [cbt_agent_0_wrapper] INFO: STARTING STEP 382
+2019-03-26 00:11:48,758 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,761 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.001s of thinking
+2019-03-26 00:11:48,862 [cbt_agent_0_wrapper] INFO: STARTING STEP 383
+2019-03-26 00:11:48,862 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,866 [cbt_agent_0_wrapper] INFO: Chose action RIGHT after 0.003s of thinking
+2019-03-26 00:11:48,967 [cbt_agent_0_wrapper] INFO: STARTING STEP 384
+2019-03-26 00:11:48,970 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:48,982 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.004s of thinking
+2019-03-26 00:11:49,071 [cbt_agent_0_wrapper] INFO: STARTING STEP 385
+2019-03-26 00:11:49,071 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,074 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.002s of thinking
+2019-03-26 00:11:49,176 [cbt_agent_0_wrapper] INFO: STARTING STEP 386
+2019-03-26 00:11:49,176 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,178 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:49,280 [cbt_agent_0_wrapper] INFO: STARTING STEP 387
+2019-03-26 00:11:49,281 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,283 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:49,386 [cbt_agent_0_wrapper] INFO: STARTING STEP 388
+2019-03-26 00:11:49,387 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,390 [cbt_agent_0_wrapper] INFO: Chose action BOMB after 0.002s of thinking
+2019-03-26 00:11:49,490 [cbt_agent_0_wrapper] INFO: STARTING STEP 389
+2019-03-26 00:11:49,491 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,494 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.003s of thinking
+2019-03-26 00:11:49,595 [cbt_agent_0_wrapper] INFO: STARTING STEP 390
+2019-03-26 00:11:49,595 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,598 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:49,700 [cbt_agent_0_wrapper] INFO: STARTING STEP 391
+2019-03-26 00:11:49,702 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,706 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.003s of thinking
+2019-03-26 00:11:49,805 [cbt_agent_0_wrapper] INFO: STARTING STEP 392
+2019-03-26 00:11:49,806 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,809 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.002s of thinking
+2019-03-26 00:11:49,911 [cbt_agent_0_wrapper] INFO: STARTING STEP 393
+2019-03-26 00:11:49,913 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:49,917 [cbt_agent_0_wrapper] INFO: Chose action WAIT after 0.002s of thinking
+2019-03-26 00:11:50,014 [cbt_agent_0_wrapper] INFO: STARTING STEP 394
+2019-03-26 00:11:50,015 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,018 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.001s of thinking
+2019-03-26 00:11:50,119 [cbt_agent_0_wrapper] INFO: STARTING STEP 395
+2019-03-26 00:11:50,119 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,122 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:50,223 [cbt_agent_0_wrapper] INFO: STARTING STEP 396
+2019-03-26 00:11:50,224 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,226 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:50,328 [cbt_agent_0_wrapper] INFO: STARTING STEP 397
+2019-03-26 00:11:50,329 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,330 [cbt_agent_0_wrapper] INFO: Chose action UP after 0.001s of thinking
+2019-03-26 00:11:50,434 [cbt_agent_0_wrapper] INFO: STARTING STEP 398
+2019-03-26 00:11:50,435 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,437 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.001s of thinking
+2019-03-26 00:11:50,538 [cbt_agent_0_wrapper] INFO: STARTING STEP 399
+2019-03-26 00:11:50,539 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,541 [cbt_agent_0_wrapper] INFO: Chose action DOWN after 0.002s of thinking
+2019-03-26 00:11:50,643 [cbt_agent_0_wrapper] INFO: STARTING STEP 400
+2019-03-26 00:11:50,643 [cbt_agent_0_wrapper] INFO: Process intermediate rewards
+2019-03-26 00:11:50,646 [cbt_agent_0_wrapper] INFO: Chose action LEFT after 0.002s of thinking
+2019-03-26 00:11:50,755 [cbt_agent_0_wrapper] INFO: Received exit message for round
+2019-03-26 00:11:50,757 [cbt_agent_0_wrapper] INFO: Finalize agent's training
+2019-03-26 00:11:50,813 [cbt_agent_0_wrapper] INFO: Round #1 finished
+2019-03-26 00:11:51,800 [cbt_agent_0_wrapper] INFO: Received global exit message
+2019-03-26 00:11:51,801 [cbt_agent_0_wrapper] INFO: SHUT DOWN

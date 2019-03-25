@@ -7,7 +7,7 @@ import random
 import copy
 
 moves = np.array([[]])
-path = './agent_code/qn_agent/'
+path = './agent_code/cbt_agent/'
 crate_counter = 0
 round_number = 1
 
