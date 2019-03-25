@@ -142,7 +142,7 @@ def number_of_crates_in_explosion_radius(self):
     explosion_radius = explosion_radius_single_bomb(own_pos)
     tiles = np.array([self.game_state['arena'][tuple(item)] for item in explosion_radius])
     number = len(np.arange(len(tiles))[tiles == 1])
-    number = 0.7 * number if number <= 2
+    number = 0.7 * number if number <= 2 else number
     return number
 
 def next_move_danger(self):
@@ -259,7 +259,7 @@ def act(self):
 
         #eps = 0.8 - np.min((round_number, 500))/500 * 0.6
         # eps = 0.25 - np.min((round_number, 500))/500 * 0.2
-        eps = 0.05
+        eps = 0.0
         e = np.random.uniform(0,1)
         if e < eps:
             chosen_action = int(np.random.choice([0,1,2,3,4,5], p = [0.2, 0.2, 0.2, 0.2, 0.1, 0.1]))
@@ -271,9 +271,9 @@ def act(self):
         self.all_data = np.append(self.all_data, [np.array([chosen_action, q_value[chosen_action], *features])], axis=0)
         
         self.next_action = action[chosen_action]
-        # print(action[chosen_action])
-        # print('q_values: ', q_value)
-        # print(30*'-')
+        #print(action[chosen_action])
+        #print('q_values: ', q_value)
+        #print(30*'-')
         # print(features[27:31])
         # print(features[31])
     except Exception as e:
@@ -326,9 +326,9 @@ def reward_update_(self):
                     "MOVED_RIGHT" : -2 - f[1] - 0.2*f[3] + 0.2*f[5] - 3*f[8] - 35*f[19] - 2*f[22] - 0.4*f[24] - 22*f[28],
                     "MOVED_UP" : -2 + f[2] + 0.2*f[4] + 0.2*f[6] - 3*f[9] - 35*f[20] + 2*f[23] + 0.4*f[25] - 22*f[29],
                     "MOVED_DOWN" : -2 - f[2] - 0.2*f[4] + 0.2*f[6] - 3*f[10] - 35*f[21] - 2*f[23] - 0.4*f[25] - 22*f[30],
-                    "WAITED" : -2 - 300*f[11], 
+                    "WAITED" : -2 - 500*f[11], 
                     "INTERRUPTED" : -1,
-                    "INVALID_ACTION" : -5 - 5*f[5] - 5*f[6] - 40*f[12] - 10*np.clip(np.sum(f[14:18]), 0, 1),
+                    "INVALID_ACTION" : -5 - 5*f[5] - 5*f[6] - 50*f[12] - 10*np.clip(np.sum(f[14:18]), 0, 1),
                     
                     "BOMB_DROPPED" :  -5 + 5*f[13] + 2*f[26] - 30*f[31],
                     "BOMB_EXPLODED" : 0, 
