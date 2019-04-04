@@ -105,11 +105,12 @@ def check_even_odd(position):
 def last_move(self):
     forbidden = np.zeros(4)
     try:
-        last_move_ = self.events[0]
-    except:
-        last_move_ = -1
-    if (last_move_ in [0, 1, 2, 3]):
+        move = [self.game_state['self'][:2][i] - self.last_coords[i] for i in range(2)]
+        moves = [[-1, 0], [1, 0], [0, -1], [0, 1]]
+        last_move_ = moves.index(move)
         forbidden[int(last_move_ + 1 - 2 * (last_move_ % 2))] = 1
+    except:
+        pass
     return forbidden
 
 
@@ -230,18 +231,20 @@ def q_function(theta_q, features):
 
 
 def build_features (self):
+    current_pos = self.game_state['self'][:2]
     features = difference(self) # [diff, *direction, *mean_coin] also 5 Werte, Indizes 0, 1, 2, 3, 4
-    features = np.append(features, check_even_odd(self.game_state['self'][:2])) # 2 Werte, Indizes 5, 6
+    features = np.append(features, check_even_odd(current_pos)) # 2 Werte, Indizes 5, 6
     features = np.append(features, last_move(self)) # 4 Werte, Indizes 7, 8, 9, 10
-    features = np.append(features, position_in_danger(self.game_state['self'][:2], self)) # 1 Wert, Index 11
+    features = np.append(features, position_in_danger(current_pos, self)) # 1 Wert, Index 11
     features = np.append(features, own_bomb_ticking(self)) # 1 Wert, Index 12
     features = np.append(features, number_of_crates_in_explosion_radius(self)) # 1 Wert, Index 13
-    features = np.append(features, directions_blocked(self.game_state['self'][:2], self)) # 4 Werte, Indizes 14, 15, 16, 17
+    features = np.append(features, directions_blocked(current_pos, self)) # 4 Werte, Indizes 14, 15, 16, 17
     features = np.append(features, next_move_danger(self)) # 4 Werte, Indizes 18, 19, 20, 21
     features = np.append(features, crate_diff(self)) # 5 Werte, Indizes 22, 23, 24, 25, 26
     features = np.append(features, no_through_road(self)) # 4 Werte, Indizes 27, 28, 29, 30
     features = np.append(features, no_bomb(self)) # 1 Wert, Index 31
     features = np.append(features, killable_opponents(self)) # 1 Wert, Index 32
+    self.last_coords = current_pos
     return features
 
 
@@ -301,6 +304,7 @@ def setup(self):
 ,-1.42553876e-02,-1.28669165e-01,2.21082707e+00,-2.47096453e+00
 ,-2.17640318e+00,-4.78100476e-01,-9.28862489e-01,-3.35639105e+01
 ,5.25775985e+00,-8.19891458e-01]])
+    self.last_coords = [0, 0]
     #self.theta = np.load('{}thetas/theta_q.npy'.format(path))
 
 
