@@ -41,9 +41,9 @@ def main():
 
     agent_list = [
             ('cbt_agent', True),
-            ('cbt_agent', True),
-            ('cbt_agent', True),
-            ('cbt_agent', False)
+            ('simple_agent', False),
+            ('simple_agent', False),
+            ('simple_agent', False)
         ]
     # stores the path to the last agent, which is used for the round number and extraction of theta at every 20th round 
     path = './agent_code/{}/'.format(agent_list[-1][0])
