@@ -7,7 +7,7 @@ import random
 import copy
 
 moves = np.array([[]])
-path = './agent_code/cbt_agent/'
+path = '' #'./agent_code/cbt_agent/'
 crate_counter = 0
 round_number = 1
 
@@ -247,74 +247,69 @@ def build_features (self):
 
 
 def setup(self):
-    np.random.seed(1)
+    self.theta = np.array([[-9.41628111e-01,9.22945874e+00,1.36345789e+00,-1.90475662e+00
+,-1.65306401e+00,-8.63364688e-01,5.50669699e-01,-5.15574501e+00
+,3.75939344e-01,1.77268861e+00,2.17951132e+00,-9.58596567e-02
+,-3.45980922e+00,-2.37804123e+00,-2.76523345e+01,-2.61112025e+00
+,-5.03728689e-01,-5.03579680e-01,-6.47056045e+00,1.31629723e+00
+,1.15013407e+00,6.61613235e-01,6.57211430e-01,-8.60887862e-02
+,3.33243019e-01,-3.44057142e-01,-1.04700878e+00,-2.05704236e+01
+,7.90610821e-01,6.84426502e-02,5.60601157e-02,2.69731029e-01
+,-9.72607233e-02,1.08960072e+00]
+,[-7.47103808e-01,-8.55628045e+00,-1.69117138e+00,8.86671819e-01
+,1.93795729e+00,-2.87329228e-01,8.35363466e-01,-9.43445239e-01
+,-5.32246964e+00,8.03716245e-01,1.11732823e+00,2.24446650e+00
+,-4.68404657e+00,-2.31038121e+00,-2.50294614e+00,-2.55027333e+01
+,-6.62964222e-02,-4.16801849e-01,1.68366652e+00,-5.92047207e+00
+,7.19934691e-01,6.17838762e-01,-8.85110625e-01,-1.00449663e-01
+,-2.68631597e-01,-3.71620079e-01,-1.12591020e+00,8.73300230e-01
+,-2.02797588e+01,3.19398089e-01,-1.66234116e-02,-9.74416300e-02
+,2.36057203e-03,1.25371616e+00]
+,[-1.31982732e+00,-4.38922085e-01,5.90198501e+00,2.75927102e-01
+,2.86722119e+00,1.20805449e+00,-3.41211678e+00,1.01792637e+00
+,1.23257435e+00,-5.48612540e+00,1.37678382e-01,5.13044503e-01
+,-4.44410288e+00,-2.22900938e+00,-5.73460531e-01,-2.12375102e-01
+,-2.88276888e+01,-2.33329976e+00,1.42148428e+00,6.01720291e-01
+,-6.03637039e+00,1.40930834e+00,-1.14680130e-01,5.54452850e-01
+,-1.07282664e-01,2.32432697e-01,-8.14434865e-01,-2.85017325e-02
+,-1.43599372e-01,-2.09525198e+01,6.67737039e-01,2.14565004e-02
+,8.32773698e-03,3.27352473e+00]
+,[-3.75475795e-01,8.46706565e-02,-4.55688327e+00,-1.90695444e-02
+,-1.35402449e+00,6.78542268e-01,-3.40926195e+00,1.16900183e+00
+,1.43949292e+00,-2.76197317e-01,-5.02602389e+00,2.04928331e+00
+,-4.32040761e+00,-2.19486945e+00,-3.04186662e-01,1.05258846e-01
+,-2.79952667e+00,-2.67214583e+01,3.60769109e-01,3.37203718e-01
+,1.58781945e+00,-7.30643924e+00,-2.97305552e-02,-8.77360088e-01
+,-9.40642135e-02,-4.67297856e-01,-7.78429982e-01,2.45066172e-01
+,-1.66621191e-02,8.91651574e-01,-2.13712434e+01,-1.55939741e-01
+,-2.37258441e-02,4.15434473e+00]
+,[-1.18755008e-01,-2.58375095e+00,4.63629243e+00,2.93828884e+00
+,-4.60678227e+00,-1.52279224e+00,-3.13831134e-01,4.94954498e-01
+,1.03158515e+00,5.86231788e-01,4.96112607e-01,-7.00000000e+01
+,8.98388430e-01,7.52180969e-02,-4.69825117e+00,-3.49091024e+00
+,-3.56101977e+00,-3.15913202e+00,2.75664245e+00,2.75914266e+00
+,2.50776343e+00,2.24736801e+00,-1.81883957e-02,2.22228627e-02
+,1.08706419e-01,-1.47139910e-01,1.62876800e+00,2.13886726e-01
+,-1.37923482e+00,1.75010842e-02,-1.02418655e+00,-7.89453257e+00
+,7.54407884e-02,-1.82982888e+00]
+,[-3.18570569e-02,-3.66520085e-01,-1.16445417e+00,3.13877484e-01
+,1.27605230e+00,-1.02652453e+00,-8.57630863e-01,2.52824719e-01
+,-2.05295994e-02,1.27858073e-02,1.56056096e-01,-2.00000000e+01
+,-5.49030345e+01,3.22744958e+00,-1.09596647e+00,-1.11788134e+00
+,-9.46493274e-01,-8.58317789e-01,2.98603776e-01,2.70411722e-01
+,1.40575066e-01,5.71486225e-02,9.22885997e-02,5.40059433e-02
+,-1.42553876e-02,-1.28669165e-01,2.21082707e+00,-2.47096453e+00
+,-2.17640318e+00,-4.78100476e-01,-9.28862489e-01,-3.35639105e+01
+,5.25775985e+00,-8.19891458e-01]])
+    #self.theta = np.load('{}thetas/theta_q.npy'.format(path))
 
-    self.q_data = np.load('{}q_data/q_data.npy'.format(path))
-    self.all_data = np.load('{}all_data/all_data.npy'.format(path))
-    self.theta = np.load('{}thetas/theta_q.npy'.format(path))
 
-    if len(self.q_data) > 6000:
-        self.q_data = self.q_data[-6000:]
-    if len(self.all_data) > 30000:
-        self.all_data = self.all_data[np.array(random.sample(list(np.arange(len(self.all_data))), 30000))]
-    pass
-
-def sigmoid(x):
-    return 1/(1+ np.exp(-1 * x))
-
-
-def act(self):  
-    try:
-        global round_number
-
-        features = build_features(self)
-
-        action = {0:'LEFT', 1:'RIGHT', 2:'UP', 3:'DOWN', 4:'WAIT', 5:'BOMB'}
-
-        q_value = q_function(self.theta, features)
-
-        #eps = 0.8 - np.min((round_number, 500))/500 * 0.6
-        # eps = 0.25 - np.min((round_number, 500))/500 * 0.2
-        eps = 0.05
-        e = np.random.uniform(0,1)
-        if e < eps:
-            chosen_action = int(np.random.choice([0,1,2,3,4,5], p = [0.2, 0.2, 0.2, 0.2, 0.1, 0.1]))
-            #print('step', self.game_state['step'], 'random: ', action[chosen_action])
-        else:
-            chosen_action = int(np.argmax(q_value))
-        
-        self.q_data = np.append(self.q_data, [np.array([chosen_action, q_value[chosen_action], *features])], axis=0)
-        self.all_data = np.append(self.all_data, [np.array([chosen_action, q_value[chosen_action], *features])], axis=0)
-        
-        self.next_action = action[chosen_action]
-        #print(action[chosen_action])
-        #print('q_values: ', q_value)
-        #print(30*'-')
-        # print(features[27:31])
-        # print(features[31])
-        #print(features[18:22])
-    except Exception as e:
-        print('Exception as e:')
-        print('line: ', sys.exc_info()[2].tb_lineno)
-        print(type(e), e) 
-        print('Traceback:')
-        traceback.print_tb(sys.exc_info()[2], file = sys.stdout)
-        print('end of traceback.')
-    return None
+def act(self):
+    self.next_action = ['LEFT', 'RIGHT', 'UP', 'DOWN', 'WAIT', 'BOMB'][int(np.argmax(q_function(self.theta, build_features(self))))]
+    return None        
 
 def reward_update(self):
-    try:
-        reward_update_(self)
-    except Exception as e:
-        print('Exception as e:')
-        print('line: ', sys.exc_info()[2].tb_lineno)
-        print(type(e), e) 
-        print('Traceback:')
-        traceback.print_tb(sys.exc_info()[2], file = sys.stdout)
-        print('end of traceback.')
-        
-
-def reward_update_(self):
+    return None
     global moves, round_number
     last_event = self.q_data[-1]
     f = last_event[2:]
@@ -374,6 +369,7 @@ def reward_update_(self):
 
 
 def end_of_episode(self):
+    return None
     try:
         global moves, round_number, path, crate_counter
         alpha = 0.04        
