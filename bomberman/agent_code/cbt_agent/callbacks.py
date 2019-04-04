@@ -7,7 +7,7 @@ import random
 import copy
 
 moves = np.array([[]])
-path = '' #'./agent_code/cbt_agent/'
+path = './agent_code/cbt_agent/'
 crate_counter = 0
 round_number = 1
 
@@ -250,7 +250,21 @@ def build_features (self):
 
 
 
+
+
 def setup(self):
+    try:
+        setup_(self)
+    except Exception as e:
+        print('Exception as e:')
+        print('line: ', sys.exc_info()[2].tb_lineno)
+        print(type(e), e) 
+        print('Traceback:')
+        traceback.print_tb(sys.exc_info()[2], file = sys.stdout)
+        print('end of traceback.') 
+    pass
+    
+def setup_(self):
     self.last_coords = [0, 0]
     self.theta = np.load('{}thetas/theta_q.npy'.format(path))
     self.q_data = np.load('{}q_data/q_data.npy'.format(path))
@@ -270,7 +284,6 @@ def act(self):
         features = build_features(self)
 
         action = {0:'LEFT', 1:'RIGHT', 2:'UP', 3:'DOWN', 4:'WAIT', 5:'BOMB'}
-
         q_value = q_function(self.theta, features)
 
         eps = 0.05
